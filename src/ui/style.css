@@ -148,3 +148,5 @@ button:focus-visible{outline:2px solid #408666;outline-offset:2px}
 .text-prompt label{display:flex;flex-direction:column;gap:10px;font-size:13px;font-weight:600;color:#263b32}
 .text-prompt input{padding:9px 11px;border:1px solid #dde5d4;border-radius:7px;font-size:14px;font-weight:400}
 .text-prompt .modal-footer{justify-content:flex-end;gap:8px}
+
+.demo-notice{margin:0;padding:8px 16px;background:#fff5d9;color:#483713;text-align:center;font-size:13px;flex-shrink:0}

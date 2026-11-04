@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: helix
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: 'HELIX_PUBLIC_URL="$RENDER_EXTERNAL_URL" npm run server'
+    healthCheckPath: /api/health
+    envVars:
+      - key: FIGURE_DATA_DIR
+        value: /tmp/helix-demo
+      - key: HELIX_SESSION_SECRET
+        generateValue: true
+      - key: VITE_HELIX_DEMO
+        value: '1'
+      - key: ELECTRON_SKIP_BINARY_DOWNLOAD
+        value: '1'
