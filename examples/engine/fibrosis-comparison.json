@@ -1,0 +1,14 @@
+{
+  "type": "comparison",
+  "title": "Healthy versus fibrotic liver",
+  "columns": [
+    {"title": "Healthy", "subtitle": "Quiescent stellate cells", "color": "teal"},
+    {"title": "Fibrosis", "subtitle": "Chronic injury", "color": "red"}
+  ],
+  "transition": "Chronic injury",
+  "rows": [
+    {"label": "Organ", "cells": [{"visual": "liver", "label": "Normal liver"}, {"visual": "fibrotic liver", "label": "Fibrotic liver", "detail": "Collagen scarring"}]},
+    {"label": "Cells", "cells": [{"visual": {"glyph": "cell", "color": "peach"}, "label": "Quiescent HSC", "detail": "Vitamin A droplets"}, {"visual": {"glyph": "cell", "variant": "fibroblast", "color": "coral"}, "label": "Myofibroblast", "detail": "α-SMA⁺, collagen I"}]},
+    {"label": "Readout", "cells": [{"visual": "histology", "label": "H&E"}, {"visual": {"glyph": "bar chart"}, "label": "Col1a1 expression"}]}
+  ]
+}

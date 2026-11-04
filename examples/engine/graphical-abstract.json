@@ -1,0 +1,58 @@
+{
+  "type": "panels",
+  "title": "Lipid nanoparticle delivery of a base editor to hepatocytes",
+  "subtitle": "Schematic study design, molecular mechanism and read-outs",
+  "columns": 2,
+  "panels": [
+    {
+      "type": "workflow",
+      "title": "Study design",
+      "numbered": true,
+      "steps": [
+        {"label": "LNP formulation", "detail": "Editor mRNA + sgRNA", "visual": "lipid nanoparticle", "action": "i.v. injection"},
+        {"label": "Mouse model", "visual": "lab mouse", "action": "Day 7"},
+        {"label": "Liver harvest", "visual": "liver", "action": "Sequencing"},
+        {"label": "Editing analysis", "visual": "sequence"}
+      ]
+    },
+    {
+      "type": "pathway",
+      "title": "Mechanism in the hepatocyte",
+      "nodes": [
+        {"id": "lnp", "label": "LNP", "kind": "vesicle", "location": "extracellular", "color": "teal"},
+        {"id": "ldlr", "label": "LDLR", "kind": "receptor", "color": "blue"},
+        {"id": "mrna", "label": "Editor mRNA", "kind": "mrna", "color": "red"},
+        {"id": "editor", "label": "Base editor", "kind": "complex", "color": "sky"},
+        {"id": "pcsk9", "label": "*Pcsk9*", "kind": "gene", "location": "nucleus"}
+      ],
+      "edges": [
+        {"from": "lnp", "to": "ldlr", "type": "binds"},
+        {"from": "ldlr", "to": "mrna", "label": "Endosomal escape", "type": "translocates"},
+        {"from": "mrna", "to": "editor", "type": "produces"},
+        {"from": "editor", "to": "pcsk9", "label": "C→T edit", "type": "inhibits"}
+      ],
+      "outputs": ["Lower LDL-C"]
+    },
+    {
+      "type": "comparison",
+      "title": "Read-outs",
+      "columns": [
+        {"title": "Control", "color": "gray"},
+        {"title": "Base editor", "color": "teal"}
+      ],
+      "rows": [
+        {"label": "Serum PCSK9", "cells": [{"visual": {"glyph": "bar chart", "color": "gray"}}, {"visual": {"glyph": "bar chart", "color": "teal", "seed": 4}}]}
+      ]
+    },
+    {
+      "type": "zoom",
+      "title": "Edited locus",
+      "levels": [
+        {"visual": "liver", "label": "Liver", "focus": [0.45, 0.5]},
+        {"visual": "hepatocyte", "label": "Hepatocyte", "focus": [0.5, 0.45]},
+        {"visual": {"glyph": "dna", "count": 2}, "label": "*Pcsk9* exon 1"}
+      ]
+    }
+  ],
+  "footnote": "Schematic; not to scale. Illustrative example, not experimental data."
+}

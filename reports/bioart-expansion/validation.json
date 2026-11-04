@@ -1,0 +1,88 @@
+{
+  "unitIntegrationMcpRegression": {
+    "testFiles": 10,
+    "passed": 75,
+    "failed": 0
+  },
+  "mcpSmoke": {
+    "passed": true,
+    "tools": 28
+  },
+  "isolatedAssetBrowserSmoke": {
+    "passed": true
+  },
+  "authenticAssetCases": {
+    "temporaryDataDirectory": "/var/folders/64/m8vsmynn7sn89thpw449kqtc0000gn/T/helix-authentic-bioart-sEwSdh",
+    "passed": 2,
+    "failed": 0,
+    "incrementalImport": true,
+    "cases": [
+      {
+        "title": "Generic Immune Cell",
+        "sourceUrl": "https://bioart.niaid.nih.gov/bioart/173",
+        "license": "Public Domain",
+        "editableElements": 6,
+        "atomicEdit": true,
+        "independentFillAndStroke": true,
+        "persistence": true,
+        "geometryPreserved": true,
+        "export": true,
+        "unrelatedElementsUnchanged": true,
+        "undoRedo": true,
+        "sourceUnchanged": true
+      },
+      {
+        "title": "Chorionic Terminal Villus",
+        "sourceUrl": "https://bioart.niaid.nih.gov/bioart/702",
+        "license": "CC BY 4.0",
+        "editableElements": 1138,
+        "atomicEdit": true,
+        "independentFillAndStroke": true,
+        "persistence": true,
+        "geometryPreserved": true,
+        "export": true,
+        "unrelatedElementsUnchanged": true,
+        "undoRedo": true,
+        "sourceUnchanged": true
+      }
+    ]
+  },
+  "liveLibraryUI": {
+    "providerFiltering": true,
+    "pagination": true,
+    "pageSize": 30,
+    "metadataDetails": true,
+    "thumbnailDecode": true,
+    "thumbnailCaching304": true,
+    "browserErrors": [],
+    "documentMutations": []
+  },
+  "geometry": {
+    "checkedSources": 4140,
+    "distinctAssets": 4127,
+    "notImportedSources": 608,
+    "failures": [],
+    "readOnly": true
+  },
+  "productionBuild": {
+    "passed": true,
+    "nonblockingDependencyAnnotationWarnings": 2
+  },
+  "integrity": {
+    "checkedFiles": 1600,
+    "changedOrMissing": [
+      "data/documents/5805698f-3c3d-4e15-b27d-1b3982429408.json"
+    ],
+    "newDocuments": []
+  },
+  "concurrentDocumentChange": {
+    "observedAt": "2026-11-02T22:53:48.223Z",
+    "documentId": "5805698f-3c3d-4e15-b27d-1b3982429408",
+    "baselineRevision": 9,
+    "observedRevision": 25,
+    "baselineRecordRecoverableUnchangedFromHistory": true,
+    "baselineHash": "d4e0f36b6ca8078a0a10d235750804f19de4a30db2a5b99c019e2ce04979721a",
+    "historyReconstructionHash": "d4e0f36b6ca8078a0a10d235750804f19de4a30db2a5b99c019e2ce04979721a",
+    "scope": "No document mutations were issued by expansion/audit scripts. Live UI verification explicitly blocked mutation requests. Concurrent edits were left untouched."
+  }
+}

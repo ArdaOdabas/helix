@@ -1,0 +1,34 @@
+{
+  "type": "pathway",
+  "title": "β-adrenergic receptor signalling",
+  "subtitle": "Gs-coupled receptor activation raises cAMP and opens a calcium channel",
+  "nodes": [
+    {"id": "iso", "label": "Isoprenaline", "kind": "ligand", "color": "orange"},
+    {"id": "b2ar", "label": "β2-AR", "kind": "gpcr", "color": "purple"},
+    {"id": "cav", "label": "Ca_v_1.2", "kind": "channel", "color": "green", "accent": "yellow"},
+    {"id": "gs", "label": "Gs", "kind": "gprotein"},
+    {"id": "ac", "label": "Adenylyl cyclase", "color": "sky"},
+    {"id": "camp", "label": "cAMP", "kind": "messenger", "color": "gold"},
+    {"id": "pka", "label": "PKA", "kind": "kinase", "color": "coral"},
+    {"id": "creb", "label": "CREB", "kind": "tf", "location": "nucleus", "color": "indigo", "mods": ["P"]},
+    {"id": "target", "label": "cAMP-responsive genes", "kind": "gene", "location": "nucleus"},
+    {"id": "prop", "label": "Propranolol", "kind": "drug"}
+  ],
+  "edges": [
+    {"from": "iso", "to": "b2ar", "type": "binds"},
+    {"from": "prop", "to": "b2ar", "type": "inhibits"},
+    {"from": "b2ar", "to": "gs"},
+    {"from": "gs", "to": "ac"},
+    {"from": "ac", "to": "camp", "type": "produces"},
+    {"from": "camp", "to": "pka"},
+    {"from": "pka", "to": "cav", "label": "P"},
+    {"from": "pka", "to": "creb", "type": "translocates"},
+    {"from": "creb", "to": "target", "type": "transcription"}
+  ],
+  "outputs": ["Contractility", "Gene expression"],
+  "legend": [
+    {"label": "Activation", "line": "activate"},
+    {"label": "Inhibition", "line": "inhibit"},
+    {"label": "Translocation", "line": "translocate"}
+  ]
+}

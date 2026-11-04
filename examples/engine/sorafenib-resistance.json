@@ -1,0 +1,233 @@
+{
+  "type": "panels",
+  "title": "MET-driven bypass signalling underlies sorafenib resistance in hepatocellular carcinoma",
+  "subtitle": "Sorafenib blocks RAF, but HGF–MET activation restores proliferative and angiogenic output",
+  "columns": 2,
+  "panels": [
+    {
+      "type": "pathway",
+      "title": "Bypass mechanism",
+      "nodes": [
+        {
+          "id": "hgf",
+          "label": "HGF",
+          "kind": "ligand",
+          "color": "orange"
+        },
+        {
+          "id": "met",
+          "label": "MET",
+          "kind": "rtk",
+          "color": "teal",
+          "mods": [
+            "P",
+            "P"
+          ]
+        },
+        {
+          "id": "sora",
+          "label": "Sorafenib",
+          "kind": "drug"
+        },
+        {
+          "id": "raf",
+          "label": "RAF",
+          "kind": "kinase",
+          "color": "orange"
+        },
+        {
+          "id": "mek",
+          "label": "MEK",
+          "kind": "kinase",
+          "color": "coral"
+        },
+        {
+          "id": "erk",
+          "label": "ERK",
+          "kind": "kinase",
+          "color": "red",
+          "mods": [
+            "P"
+          ]
+        },
+        {
+          "id": "pi3k",
+          "label": "PI3K",
+          "color": "sky"
+        },
+        {
+          "id": "akt",
+          "label": "AKT",
+          "kind": "kinase",
+          "color": "indigo",
+          "mods": [
+            "P"
+          ]
+        },
+        {
+          "id": "hif",
+          "label": "HIF-1α",
+          "kind": "tf",
+          "location": "nucleus",
+          "color": "purple"
+        },
+        {
+          "id": "vegfa",
+          "label": "*VEGFA*",
+          "kind": "gene",
+          "location": "nucleus"
+        }
+      ],
+      "edges": [
+        {
+          "from": "hgf",
+          "to": "met",
+          "type": "binds"
+        },
+        {
+          "from": "met",
+          "to": "raf"
+        },
+        {
+          "from": "met",
+          "to": "pi3k",
+          "label": "Bypass"
+        },
+        {
+          "from": "sora",
+          "to": "raf",
+          "type": "inhibits"
+        },
+        {
+          "from": "raf",
+          "to": "mek",
+          "label": "P"
+        },
+        {
+          "from": "mek",
+          "to": "erk",
+          "label": "P"
+        },
+        {
+          "from": "pi3k",
+          "to": "akt",
+          "label": "P"
+        },
+        {
+          "from": "akt",
+          "to": "hif",
+          "type": "translocates"
+        },
+        {
+          "from": "erk",
+          "to": "hif",
+          "type": "translocates"
+        },
+        {
+          "from": "hif",
+          "to": "vegfa",
+          "type": "transcription"
+        }
+      ],
+      "outputs": [
+        "Proliferation",
+        "Angiogenesis"
+      ],
+      "legend": [
+        {
+          "label": "Activation",
+          "line": "activate"
+        },
+        {
+          "label": "Drug inhibition",
+          "line": "inhibit"
+        },
+        {
+          "label": "Nuclear translocation",
+          "line": "translocate"
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Sensitive versus resistant tumours",
+      "columns": [
+        {
+          "title": "Sorafenib-sensitive",
+          "subtitle": "Low MET activity",
+          "color": "teal"
+        },
+        {
+          "title": "Sorafenib-resistant",
+          "subtitle": "MET amplification",
+          "color": "red"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Tumour",
+          "cells": [
+            {
+              "visual": {
+                "search": "tumor",
+                "hue": "teal"
+              },
+              "label": "Growth arrest"
+            },
+            {
+              "visual": {
+                "search": "tumor",
+                "hue": "red"
+              },
+              "label": "Continued growth"
+            }
+          ]
+        },
+        {
+          "label": "p-ERK / p-AKT",
+          "cells": [
+            {
+              "visual": {
+                "glyph": "western blot",
+                "variant": "weak"
+              },
+              "label": "Signal suppressed"
+            },
+            {
+              "visual": {
+                "glyph": "western blot",
+                "variant": "strong",
+                "seed": 7
+              },
+              "label": "Signal restored"
+            }
+          ]
+        },
+        {
+          "label": "Outcome",
+          "cells": [
+            {
+              "visual": {
+                "glyph": "survival curve",
+                "color": "teal",
+                "accent": "red"
+              },
+              "label": "Longer PFS",
+              "detail": "Median 10.7 months"
+            },
+            {
+              "visual": {
+                "glyph": "survival curve",
+                "color": "red",
+                "accent": "gray"
+              },
+              "label": "Early progression",
+              "detail": "Median 3.4 months"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footnote": "Schematic illustration of a published resistance mechanism; not experimental data from this work. Sorafenib is a multi-kinase inhibitor, only its RAF target is drawn. Not to scale."
+}

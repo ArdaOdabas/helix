@@ -1,0 +1,10 @@
+{
+  "observedAt": "2026-11-02T22:53:48.223Z",
+  "documentId": "5805698f-3c3d-4e15-b27d-1b3982429408",
+  "baselineRevision": 9,
+  "observedRevision": 25,
+  "baselineRecordRecoverableUnchangedFromHistory": true,
+  "baselineHash": "d4e0f36b6ca8078a0a10d235750804f19de4a30db2a5b99c019e2ce04979721a",
+  "historyReconstructionHash": "d4e0f36b6ca8078a0a10d235750804f19de4a30db2a5b99c019e2ce04979721a",
+  "scope": "No document mutations were issued by expansion/audit scripts. Live UI verification explicitly blocked mutation requests. Concurrent edits were left untouched."
+}

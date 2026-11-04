@@ -1,0 +1,38 @@
+{
+  "at": "2026-11-03T00:32:59.817Z",
+  "vitest": {
+    "files": 13,
+    "passed": 87,
+    "failed": 0
+  },
+  "browserSmoke": true,
+  "assetBrowserSmoke": true,
+  "liveLibraryReadOnlyBrowser": true,
+  "mcpTools": 28,
+  "realProviderMcp": {
+    "passed": 6,
+    "failed": 0
+  },
+  "realNihCases": 2,
+  "geometry": {
+    "sourceFiles": 17986,
+    "verified": 17986,
+    "canonicalRepresentativesChecked": 17810,
+    "geometryAliasesChecked": 176,
+    "distinctAssets": 17783,
+    "failures": [],
+    "readOnly": true
+  },
+  "productionBuild": "passed",
+  "buildWarnings": [
+    "Two third-party Zod comment annotations"
+  ],
+  "integrity": {
+    "existingFiles": 5724,
+    "changedFiles": [],
+    "changedAssetRows": [],
+    "changedDetailsRows": []
+  },
+  "claudeDesktopPicker": "Unverified; requires full quit/reopen or reconnect",
+  "sciDraw": "Access review required; acquisition paused"
+}

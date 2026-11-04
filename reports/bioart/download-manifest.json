@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "filename": "173-GenericImmuneCell0001.svg",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/173",
+      "title": "Generic Immune Cell",
+      "description": "Generic Immune Cell",
+      "license": "Public Domain",
+      "licenseReference": "https://bioart.niaid.nih.gov/bioart/173",
+      "creator": "Ryan Kissinger",
+      "credit": "Courtesy of NIAID",
+      "citation": "NIAID Visual & Medical Arts. (10/7/2024). Generic Immune Cell. NIAID NIH BIOART Source. bioart.niaid.nih.gov/bioart/173",
+      "collection": "NIAID Visual & Medical Arts",
+      "categories": [
+        "Cells and Organelles"
+      ],
+      "subcategories": [
+        "Cells",
+        "Immune Cells"
+      ],
+      "keywords": [
+        "cell",
+        "Cells and Organelles",
+        "immune",
+        "immune cell",
+        "white blood cells that fight disease and infection"
+      ],
+      "creationDate": "2024-09-18T13:27:52-06:00",
+      "submissionDate": "10/7/2024",
+      "modificationDate": "2/4/2025",
+      "sha256": "05403718eb334d31838be78de98c6ba562f28f88f5ac9ed3e467704d5a8b4e43"
+    },
+    {
+      "filename": "519-HumanAnatomy0001.svg",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/519",
+      "title": "Human Anatomy",
+      "description": "Human anatomy, sex neutral, non-sexual anatomical diagram. Includes: Stomach, Liver, Colon, Trachea, Bones, Lungs, Eye, Brain, Lymphatic System, Circulatory System, Intestines",
+      "license": "Public Domain",
+      "licenseReference": "https://bioart.niaid.nih.gov/bioart/519",
+      "creator": "Ryan Kissinger",
+      "credit": "Courtesy of NIAID",
+      "citation": "NIAID Visual & Medical Arts. (10/7/2024). Human Anatomy. NIAID NIH BIOART Source. bioart.niaid.nih.gov/bioart/519",
+      "collection": "NIAID Visual & Medical Arts",
+      "categories": [
+        "Anatomy",
+        "People"
+      ],
+      "subcategories": [
+        "Anatomical Regions",
+        "Anatomical Systems",
+        "Head",
+        "Respiratory System",
+        "Airways",
+        "Digestive System",
+        "Gastrointestinal Tract",
+        "Accessory Organs",
+        "Trachea",
+        "Stomach",
+        "Liver"
+      ],
+      "keywords": [
+        "bones",
+        "colon",
+        "human",
+        "intestines",
+        "Liver",
+        "Lungs",
+        "organs",
+        "skeleton",
+        "stomach",
+        "trachea"
+      ],
+      "submissionDate": "10/7/2024",
+      "modificationDate": "3/13/2025",
+      "sha256": "dca761bdf0511ad83eda23eef1563f07fba8a1f22068786208da07fe3c27a44d"
+    },
+    {
+      "title": "Mitochondria",
+      "description": "Truncated mitochondria",
+      "license": "Public Domain",
+      "creator": "Ryan Kissinger",
+      "credit": "Courtesy of NIAID",
+      "citation": "NIAID Visual & Medical Arts. (10/7/2024). Mitochondria. NIAID NIH BIOART Source. bioart.niaid.nih.gov/bioart/353",
+      "collection": "NIAID Visual & Medical Arts",
+      "categories": [
+        "Cells and Organelles"
+      ],
+      "subcategories": [
+        "Organelles",
+        "Mitochondria"
+      ],
+      "keywords": [
+        "cell anatomy",
+        "cristae",
+        "inner membrane",
+        "matrix",
+        "medicine",
+        "mitochondria",
+        "organelle",
+        "outer membrane",
+        "short",
+        "shortened"
+      ],
+      "submissionDate": "10/7/2024",
+      "modificationDate": "11/6/2024",
+      "filename": "353-MitochondriaShort0001.svg",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/353",
+      "licenseReference": "https://bioart.niaid.nih.gov/bioart/353",
+      "sha256": "a32ae143dfff512a97a44a33c7604122060745d09b8083d2511f2d5c463a33f4"
+    },
+    {
+      "title": "Cell Nucleus",
+      "description": "Cell nucleus",
+      "license": "Public Domain",
+      "creator": "Ryan Kissinger",
+      "credit": "Courtesy of NIAID",
+      "citation": "NIAID Visual & Medical Arts. (10/7/2024). Cell Nucleus. NIAID NIH BIOART Source. bioart.niaid.nih.gov/bioart/72",
+      "collection": "NIAID Visual & Medical Arts",
+      "categories": [
+        "Cells and Organelles"
+      ],
+      "subcategories": [
+        "Nucleus"
+      ],
+      "keywords": [
+        "cell activities",
+        "cell dna",
+        "Cell nucleus",
+        "Cells and Organelles",
+        "membrane-bound organelle",
+        "nucleus"
+      ],
+      "submissionDate": "10/7/2024",
+      "modificationDate": "10/7/2024",
+      "filename": "72-CellNucleus0001.svg",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/72",
+      "licenseReference": "https://bioart.niaid.nih.gov/bioart/72",
+      "creationDate": "2024-09-17T15:28:52-06:00",
+      "sha256": "cb7841637e8dda1d0020d25ac0992802fb7e665b599dc8fc6430b7b988413626"
+    },
+    {
+      "title": "Schematic Protein Shape Phosphorylated",
+      "description": "Schematic Protein Shape Phosphorylated",
+      "license": "Public Domain",
+      "creator": "Ryan Kissinger",
+      "credit": "Courtesy of NIAID",
+      "citation": "NIAID Visual & Medical Arts. (10/7/2024). Schematic Protein Shape Phosphorylated. NIAID NIH BIOART Source. bioart.niaid.nih.gov/bioart/483",
+      "collection": "NIAID Visual & Medical Arts",
+      "categories": [
+        "Proteins"
+      ],
+      "subcategories": [],
+      "keywords": [
+        "amino acids",
+        "Biege",
+        "kinase enzyme",
+        "Phosphorylated",
+        "Protein"
+      ],
+      "submissionDate": "10/7/2024",
+      "modificationDate": "1/30/2025",
+      "filename": "483-SchematicProteinShapePhosphorylated0001.svg",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/483",
+      "licenseReference": "https://bioart.niaid.nih.gov/bioart/483",
+      "creationDate": "2024-09-18T16:14:05-06:00",
+      "sha256": "8c2e64c3f1d5d1b7aa562d1991788e2d9abb60c112b01c2f7339045b23a389c5"
+    }
+  ]
+}

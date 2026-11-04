@@ -1,0 +1,81 @@
+{
+  "actualImportedProviderCases": 6,
+  "passed": 6,
+  "failed": 0,
+  "transport": "stdio MCP -> isolated HTTP service",
+  "temporaryDataDirectory": "/var/folders/64/m8vsmynn7sn89thpw449kqtc0000gn/T/helix-real-provider-mcp-3LEqqC",
+  "cases": [
+    {
+      "provider": "Reactome",
+      "assetId": "asset-002bcfb4fa7c049e30eca5b3fe2353ba60451eb47cc68a43217ea566114ccdd8",
+      "sourceUrl": "https://reactome.org/content/detail/R-ICO-014397",
+      "license": "CC-BY-4.0",
+      "search": true,
+      "metadata": true,
+      "insertion": true,
+      "subElements": true,
+      "recolor": true,
+      "vectorExport": true
+    },
+    {
+      "provider": "Togo Picture Gallery",
+      "assetId": "asset-0020914c55daebbd20b36a56b2a72b7074c8991c71d3ccd212154671a5de0932",
+      "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/togo-pic/image/202405_Aged_male_teacher_pointing_fingers.svg",
+      "license": "CC-BY-4.0",
+      "search": true,
+      "metadata": true,
+      "insertion": true,
+      "subElements": true,
+      "recolor": true,
+      "vectorExport": true
+    },
+    {
+      "provider": "PhyloPic",
+      "assetId": "asset-00024b725d9541880092c1be8e208e62a5168d7ab7afb7123300baeb4a8a29ef",
+      "sourceUrl": "https://api.phylopic.org/images/386db396-743f-49c6-a2fa-94dd07e3981a?build=562",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "search": true,
+      "metadata": true,
+      "insertion": true,
+      "subElements": true,
+      "recolor": true,
+      "vectorExport": true
+    },
+    {
+      "provider": "Health Icons",
+      "assetId": "asset-002d89ea6d41bd66ff0b553ff1ee148656fdfc96720a7ad1bc41ff2dd0634a45",
+      "sourceUrl": "https://github.com/resolvetosavelives/healthicons/blob/1f03f29e09320d6681b4770400c6d9c0b322baa1/public/icons/svg/outline/people/officer.svg",
+      "license": "CC0-1.0",
+      "search": true,
+      "metadata": true,
+      "insertion": true,
+      "subElements": true,
+      "recolor": true,
+      "vectorExport": true
+    },
+    {
+      "provider": "SciDraw",
+      "assetId": "asset-045f50981655746c6acc8f064198c6ba6e2d685ef2742f321f2ad9a8b2585d60",
+      "sourceUrl": "https://scidraw.io/drawing/spine-cord-988cb660",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "search": true,
+      "metadata": true,
+      "insertion": true,
+      "subElements": true,
+      "recolor": true,
+      "vectorExport": true
+    },
+    {
+      "provider": "SciSVG",
+      "assetId": "asset-048100e7dfa1c849fa6d88a2bfd9e2b549ab1f36a51ba81f728c627d10a83101",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/organelles/mitochondrion.svg",
+      "license": "CC-BY-4.0",
+      "search": true,
+      "metadata": true,
+      "insertion": true,
+      "subElements": true,
+      "recolor": true,
+      "vectorExport": true
+    }
+  ]
+}

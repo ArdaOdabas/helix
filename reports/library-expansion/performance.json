@@ -1,0 +1,45 @@
+{
+  "actual": {
+    "sqliteAssets": 23497,
+    "search": {
+      "iterations": 60,
+      "medianMs": 4.511,
+      "p95Ms": 6.012,
+      "maxMs": 6.265
+    },
+    "uniqueProviderSearch": {
+      "iterations": 60,
+      "medianMs": 55.908,
+      "p95Ms": 77.197,
+      "maxMs": 87.83
+    },
+    "taxonomy": {
+      "iterations": 60,
+      "medianMs": 0.004,
+      "p95Ms": 0.012,
+      "maxMs": 818.744
+    },
+    "providers": {
+      "iterations": 60,
+      "medianMs": 0.007,
+      "p95Ms": 0.018,
+      "maxMs": 256.949
+    }
+  },
+  "synthetic25000": {
+    "isolatedMetadataRows": 25000,
+    "fts": {
+      "iterations": 60,
+      "medianMs": 28.317,
+      "p95Ms": 33.173,
+      "maxMs": 33.267
+    },
+    "filteredUnique": {
+      "iterations": 60,
+      "medianMs": 60.928,
+      "p95Ms": 75.131,
+      "maxMs": 81.622
+    }
+  },
+  "note": "Synthetic rows exist only in a temporary benchmark database; none are counted or inserted into the real library."
+}

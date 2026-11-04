@@ -1,0 +1,1 @@
+export const scientificCategories=['Cell biology','Stem cells and development','Molecular biology','Proteins and receptors','Genetics and genomics','Immunology','Microbiology','Virology','Neuroscience','Anatomy and physiology','Laboratory equipment','Experimental methods','Organisms and taxonomy','Chemistry and compounds'] as const;

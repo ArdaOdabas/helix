@@ -1,0 +1,52 @@
+{
+  "name": "scientific-figure-editor",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "server": "node src/server/main.ts",
+    "mcp": "node src/mcp/main.ts",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "import:assets": "node src/assets/cli.ts",
+    "demo": "node scripts/seed.ts",
+    "test:mcp": "node scripts/mcp-smoke.ts",
+    "test:browser": "node scripts/browser-smoke.ts",
+    "test:offline": "node scripts/test-native.mjs",
+    "benchmark:assets": "node scripts/benchmark-assets.ts",
+    "test:mcp:metadata": "node scripts/mcp-smoke.ts --metadata-only",
+    "test:assets:browser": "node scripts/assets-browser-smoke.ts",
+    "test:elements:browser": "node scripts/test-element-mode.ts",
+    "test:feedback": "node scripts/test-figure-feedback.ts",
+    "test:feedback:v2": "node scripts/test-figure-feedback-v2.ts",
+    "test:resize:browser": "node scripts/test-resize-artboard.ts",
+    "desktop:build": "node scripts/build-desktop.mjs",
+    "desktop:dmg": "node scripts/build-desktop.mjs --dmg",
+    "desktop:dev": "node scripts/build-desktop.mjs --stage && node_modules/electron/dist/Electron.app/Contents/MacOS/Electron ${HELIX_BUILD_DIR:-$HOME/Developer/Helix/build}/app",
+    "test:desktop": "node scripts/test-desktop.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.3.1",
+    "@modelcontextprotocol/server": "2.3.1",
+    "@xmldom/xmldom": "0.9.12",
+    "playwright-core": "1.58.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.0",
+    "electron": "^45.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vitest": "^4.0.0"
+  }
+}

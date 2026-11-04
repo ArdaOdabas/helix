@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-03T19:41:53.305Z",
+  "documentId": "232f3352-59b6-4e14-a16b-4fc72cec52b5",
+  "title": "Disposable — Helix Arrow and Artboard v2",
+  "toolCount": 33,
+  "server": {
+    "name": "helix-scientific-editor",
+    "version": "0.5.1"
+  },
+  "original": {
+    "revision": 7,
+    "width": 550,
+    "height": 260
+  },
+  "final": {
+    "revision": 13,
+    "width": 750,
+    "height": 400
+  },
+  "synchronizationMs": 1058,
+  "passed": [
+    "configured stdio discovery",
+    "actual required/default schema",
+    "existing disposable ID retained",
+    "no document creation",
+    "default visible cropping rejected",
+    "explicit viewport cropping supported",
+    "all coordinates and relationships unchanged",
+    "one resize one revision",
+    "no-op has no revision",
+    "stale revision rejected",
+    "missing revision rejected",
+    "undo",
+    "redo",
+    "disk persistence",
+    "UI updates without refresh",
+    "SVG dimensions and vectors",
+    "native MCP PNG dimensions",
+    "reload persistence"
+  ],
+  "failed": [],
+  "browserErrors": [],
+  "createdDocuments": 0,
+  "validation": {
+    "unit": {
+      "passed": 117,
+      "failed": 0,
+      "files": 17
+    },
+    "liveResize": {
+      "passed": 18,
+      "failed": 0
+    },
+    "feedbackChecks": 16,
+    "feedbackV2Checks": 37,
+    "elementModeChecks": 28,
+    "browserSmoke": "passed",
+    "assetBrowserSmoke": "passed",
+    "mcpSmoke": "passed:33 tools",
+    "productionBuild": "passed",
+    "nonblockingBuildWarnings": 2,
+    "integrity": {
+      "checkedFiles": 23513,
+      "allowedDisposableChanges": [
+        "data/documents/232f3352-59b6-4e14-a16b-4fc72cec52b5.json"
+      ],
+      "unexpectedChanges": [],
+      "sqliteAssets": 23497
+    }
+  }
+}

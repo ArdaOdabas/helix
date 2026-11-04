@@ -1,0 +1,1125 @@
+{
+  "version": 1,
+  "provider": "SciSVG",
+  "license": "CC-BY-4.0",
+  "licenseReference": "https://github.com/SaveenaSolanki/SciSVG/blob/main/LICENSE-ASSETS",
+  "assets": {
+    "assets/bioinformatics/genomics/gene-structure.svg": {
+      "name": "Gene Structure",
+      "description": "Gene structure with promoter, untranslated regions, exons and introns.",
+      "category": "bioinformatics",
+      "subcategory": "genomics",
+      "officialCategories": [
+        "bioinformatics"
+      ],
+      "officialSubcategories": [
+        "genomics"
+      ],
+      "tags": [
+        "gene",
+        "structure"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/bioinformatics/genomics/gene-structure.svg",
+      "providerId": "bioinformatics-genomics-gene-structure",
+      "originalFilename": "gene-structure.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "bioinformatics-genomics-gene-structure",
+        "name": "Gene Structure",
+        "category": "bioinformatics",
+        "subcategory": "genomics",
+        "tags": [
+          "gene",
+          "structure"
+        ],
+        "description": "Gene structure with promoter, untranslated regions, exons and introns.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/bioinformatics/genomics/gene-structure.svg",
+        "filename": "gene-structure.svg",
+        "preview": "previews/bioinformatics/genomics/gene-structure.png"
+      }
+    },
+    "assets/bioinformatics/genomics/heatmap.svg": {
+      "name": "Heatmap",
+      "description": "Clustered heatmap with row and column dendrograms.",
+      "category": "bioinformatics",
+      "subcategory": "genomics",
+      "officialCategories": [
+        "bioinformatics"
+      ],
+      "officialSubcategories": [
+        "genomics"
+      ],
+      "tags": [
+        "heatmap"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/bioinformatics/genomics/heatmap.svg",
+      "providerId": "bioinformatics-genomics-heatmap",
+      "originalFilename": "heatmap.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "bioinformatics-genomics-heatmap",
+        "name": "Heatmap",
+        "category": "bioinformatics",
+        "subcategory": "genomics",
+        "tags": [
+          "heatmap"
+        ],
+        "description": "Clustered heatmap with row and column dendrograms.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/bioinformatics/genomics/heatmap.svg",
+        "filename": "heatmap.svg",
+        "preview": "previews/bioinformatics/genomics/heatmap.png"
+      }
+    },
+    "assets/bioinformatics/genomics/sequence-alignment.svg": {
+      "name": "Sequence Alignment",
+      "description": "Pairwise sequence alignment with matches, mismatches and gaps.",
+      "category": "bioinformatics",
+      "subcategory": "genomics",
+      "officialCategories": [
+        "bioinformatics"
+      ],
+      "officialSubcategories": [
+        "genomics"
+      ],
+      "tags": [
+        "sequence",
+        "alignment"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/bioinformatics/genomics/sequence-alignment.svg",
+      "providerId": "bioinformatics-genomics-sequence-alignment",
+      "originalFilename": "sequence-alignment.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "bioinformatics-genomics-sequence-alignment",
+        "name": "Sequence Alignment",
+        "category": "bioinformatics",
+        "subcategory": "genomics",
+        "tags": [
+          "sequence",
+          "alignment"
+        ],
+        "description": "Pairwise sequence alignment with matches, mismatches and gaps.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/bioinformatics/genomics/sequence-alignment.svg",
+        "filename": "sequence-alignment.svg",
+        "preview": "previews/bioinformatics/genomics/sequence-alignment.png"
+      }
+    },
+    "assets/bioinformatics/genomics/sequencing-reads.svg": {
+      "name": "Sequencing Reads",
+      "description": "Short sequencing reads aligned to a reference with variant markers.",
+      "category": "bioinformatics",
+      "subcategory": "genomics",
+      "officialCategories": [
+        "bioinformatics"
+      ],
+      "officialSubcategories": [
+        "genomics"
+      ],
+      "tags": [
+        "sequencing",
+        "reads"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/bioinformatics/genomics/sequencing-reads.svg",
+      "providerId": "bioinformatics-genomics-sequencing-reads",
+      "originalFilename": "sequencing-reads.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "bioinformatics-genomics-sequencing-reads",
+        "name": "Sequencing Reads",
+        "category": "bioinformatics",
+        "subcategory": "genomics",
+        "tags": [
+          "sequencing",
+          "reads"
+        ],
+        "description": "Short sequencing reads aligned to a reference with variant markers.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/bioinformatics/genomics/sequencing-reads.svg",
+        "filename": "sequencing-reads.svg",
+        "preview": "previews/bioinformatics/genomics/sequencing-reads.png"
+      }
+    },
+    "assets/bioinformatics/machine-learning/neural-network.svg": {
+      "name": "Neural Network",
+      "description": "Feedforward neural network with input, hidden and output layers.",
+      "category": "bioinformatics",
+      "subcategory": "machine-learning",
+      "officialCategories": [
+        "bioinformatics"
+      ],
+      "officialSubcategories": [
+        "machine-learning"
+      ],
+      "tags": [
+        "neural",
+        "network"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/bioinformatics/machine-learning/neural-network.svg",
+      "providerId": "bioinformatics-machine-learning-neural-network",
+      "originalFilename": "neural-network.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "bioinformatics-machine-learning-neural-network",
+        "name": "Neural Network",
+        "category": "bioinformatics",
+        "subcategory": "machine-learning",
+        "tags": [
+          "neural",
+          "network"
+        ],
+        "description": "Feedforward neural network with input, hidden and output layers.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/bioinformatics/machine-learning/neural-network.svg",
+        "filename": "neural-network.svg",
+        "preview": "previews/bioinformatics/machine-learning/neural-network.png"
+      }
+    },
+    "assets/bioinformatics/networks/phylogenetic-tree.svg": {
+      "name": "Phylogenetic Tree",
+      "description": "Phylogenetic tree with five terminal branches and labeled branch points.",
+      "category": "bioinformatics",
+      "subcategory": "networks",
+      "officialCategories": [
+        "bioinformatics"
+      ],
+      "officialSubcategories": [
+        "networks"
+      ],
+      "tags": [
+        "phylogenetic",
+        "tree"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/bioinformatics/networks/phylogenetic-tree.svg",
+      "providerId": "bioinformatics-networks-phylogenetic-tree",
+      "originalFilename": "phylogenetic-tree.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "bioinformatics-networks-phylogenetic-tree",
+        "name": "Phylogenetic Tree",
+        "category": "bioinformatics",
+        "subcategory": "networks",
+        "tags": [
+          "phylogenetic",
+          "tree"
+        ],
+        "description": "Phylogenetic tree with five terminal branches and labeled branch points.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/bioinformatics/networks/phylogenetic-tree.svg",
+        "filename": "phylogenetic-tree.svg",
+        "preview": "previews/bioinformatics/networks/phylogenetic-tree.png"
+      }
+    },
+    "assets/bioinformatics/workflows/workflow-pipeline.svg": {
+      "name": "Workflow Pipeline",
+      "description": "Bioinformatics workflow pipeline with file input, filtering, DNA analysis and quality control steps.",
+      "category": "bioinformatics",
+      "subcategory": "workflows",
+      "officialCategories": [
+        "bioinformatics"
+      ],
+      "officialSubcategories": [
+        "workflows"
+      ],
+      "tags": [
+        "workflow",
+        "pipeline"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/bioinformatics/workflows/workflow-pipeline.svg",
+      "providerId": "bioinformatics-workflows-workflow-pipeline",
+      "originalFilename": "workflow-pipeline.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "bioinformatics-workflows-workflow-pipeline",
+        "name": "Workflow Pipeline",
+        "category": "bioinformatics",
+        "subcategory": "workflows",
+        "tags": [
+          "workflow",
+          "pipeline"
+        ],
+        "description": "Bioinformatics workflow pipeline with file input, filtering, DNA analysis and quality control steps.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/bioinformatics/workflows/workflow-pipeline.svg",
+        "filename": "workflow-pipeline.svg",
+        "preview": "previews/bioinformatics/workflows/workflow-pipeline.png"
+      }
+    },
+    "assets/biology/cells/animal-cell.svg": {
+      "name": "Animal Cell",
+      "description": "Eukaryotic animal cell with nucleus, rough ER, Golgi apparatus, mitochondria and vacuole.",
+      "category": "biology",
+      "subcategory": "cells",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "cells"
+      ],
+      "tags": [
+        "animal",
+        "cell"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/cells/animal-cell.svg",
+      "providerId": "biology-cells-animal-cell",
+      "originalFilename": "animal-cell.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-cells-animal-cell",
+        "name": "Animal Cell",
+        "category": "biology",
+        "subcategory": "cells",
+        "tags": [
+          "animal",
+          "cell"
+        ],
+        "description": "Eukaryotic animal cell with nucleus, rough ER, Golgi apparatus, mitochondria and vacuole.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/cells/animal-cell.svg",
+        "filename": "animal-cell.svg",
+        "preview": "previews/biology/cells/animal-cell.png"
+      }
+    },
+    "assets/biology/cells/cell-membrane.svg": {
+      "name": "Cell Membrane",
+      "description": "Phospholipid bilayer with embedded proteins and cholesterol, cross-section.",
+      "category": "biology",
+      "subcategory": "cells",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "cells"
+      ],
+      "tags": [
+        "cell",
+        "membrane"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/cells/cell-membrane.svg",
+      "providerId": "biology-cells-cell-membrane",
+      "originalFilename": "cell-membrane.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-cells-cell-membrane",
+        "name": "Cell Membrane",
+        "category": "biology",
+        "subcategory": "cells",
+        "tags": [
+          "cell",
+          "membrane"
+        ],
+        "description": "Phospholipid bilayer with embedded proteins and cholesterol, cross-section.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/cells/cell-membrane.svg",
+        "filename": "cell-membrane.svg",
+        "preview": "previews/biology/cells/cell-membrane.png"
+      }
+    },
+    "assets/biology/cells/neuron.svg": {
+      "name": "Neuron",
+      "description": "Neuron with dendrites, soma, myelinated axon and synaptic terminals.",
+      "category": "biology",
+      "subcategory": "cells",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "cells"
+      ],
+      "tags": [
+        "neuron"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/cells/neuron.svg",
+      "providerId": "biology-cells-neuron",
+      "originalFilename": "neuron.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-cells-neuron",
+        "name": "Neuron",
+        "category": "biology",
+        "subcategory": "cells",
+        "tags": [
+          "neuron"
+        ],
+        "description": "Neuron with dendrites, soma, myelinated axon and synaptic terminals.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/cells/neuron.svg",
+        "filename": "neuron.svg",
+        "preview": "previews/biology/cells/neuron.png"
+      }
+    },
+    "assets/biology/dna-rna/chromosome.svg": {
+      "name": "Chromosome",
+      "description": "Chromosome with two sister chromatids joined at the centromere.",
+      "category": "biology",
+      "subcategory": "dna-rna",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "dna-rna"
+      ],
+      "tags": [
+        "chromosome"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/dna-rna/chromosome.svg",
+      "providerId": "biology-dna-rna-chromosome",
+      "originalFilename": "chromosome.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-dna-rna-chromosome",
+        "name": "Chromosome",
+        "category": "biology",
+        "subcategory": "dna-rna",
+        "tags": [
+          "chromosome"
+        ],
+        "description": "Chromosome with two sister chromatids joined at the centromere.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/dna-rna/chromosome.svg",
+        "filename": "chromosome.svg",
+        "preview": "previews/biology/dna-rna/chromosome.png"
+      }
+    },
+    "assets/biology/dna-rna/dna-double-helix.svg": {
+      "name": "DNA Double Helix",
+      "description": "Double-stranded DNA helix with two-tone base pairs.",
+      "category": "biology",
+      "subcategory": "dna-rna",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "dna-rna"
+      ],
+      "tags": [
+        "dna",
+        "double",
+        "helix"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/dna-rna/dna-double-helix.svg",
+      "providerId": "biology-dna-rna-dna-double-helix",
+      "originalFilename": "dna-double-helix.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-dna-rna-dna-double-helix",
+        "name": "DNA Double Helix",
+        "category": "biology",
+        "subcategory": "dna-rna",
+        "tags": [
+          "dna",
+          "double",
+          "helix"
+        ],
+        "description": "Double-stranded DNA helix with two-tone base pairs.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/dna-rna/dna-double-helix.svg",
+        "filename": "dna-double-helix.svg",
+        "preview": "previews/biology/dna-rna/dna-double-helix.png"
+      }
+    },
+    "assets/biology/dna-rna/plasmid.svg": {
+      "name": "Plasmid",
+      "description": "Circular plasmid DNA with genes, origin of replication and a direction arrow.",
+      "category": "biology",
+      "subcategory": "dna-rna",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "dna-rna"
+      ],
+      "tags": [
+        "plasmid"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/dna-rna/plasmid.svg",
+      "providerId": "biology-dna-rna-plasmid",
+      "originalFilename": "plasmid.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-dna-rna-plasmid",
+        "name": "Plasmid",
+        "category": "biology",
+        "subcategory": "dna-rna",
+        "tags": [
+          "plasmid"
+        ],
+        "description": "Circular plasmid DNA with genes, origin of replication and a direction arrow.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/dna-rna/plasmid.svg",
+        "filename": "plasmid.svg",
+        "preview": "previews/biology/dna-rna/plasmid.png"
+      }
+    },
+    "assets/biology/organelles/mitochondrion.svg": {
+      "name": "Mitochondrion",
+      "description": "Mitochondrion with inner membrane folds (cristae) and matrix, cross-section.",
+      "category": "biology",
+      "subcategory": "organelles",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "organelles"
+      ],
+      "tags": [
+        "mitochondrion"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/organelles/mitochondrion.svg",
+      "providerId": "biology-organelles-mitochondrion",
+      "originalFilename": "mitochondrion.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-organelles-mitochondrion",
+        "name": "Mitochondrion",
+        "category": "biology",
+        "subcategory": "organelles",
+        "tags": [
+          "mitochondrion"
+        ],
+        "description": "Mitochondrion with inner membrane folds (cristae) and matrix, cross-section.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/organelles/mitochondrion.svg",
+        "filename": "mitochondrion.svg",
+        "preview": "previews/biology/organelles/mitochondrion.png"
+      }
+    },
+    "assets/biology/organelles/ribosome.svg": {
+      "name": "Ribosome",
+      "description": "Ribosome with mRNA, transfer RNAs and a nascent polypeptide chain.",
+      "category": "biology",
+      "subcategory": "organelles",
+      "officialCategories": [
+        "biology"
+      ],
+      "officialSubcategories": [
+        "organelles"
+      ],
+      "tags": [
+        "ribosome"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/biology/organelles/ribosome.svg",
+      "providerId": "biology-organelles-ribosome",
+      "originalFilename": "ribosome.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "biology-organelles-ribosome",
+        "name": "Ribosome",
+        "category": "biology",
+        "subcategory": "organelles",
+        "tags": [
+          "ribosome"
+        ],
+        "description": "Ribosome with mRNA, transfer RNAs and a nascent polypeptide chain.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/biology/organelles/ribosome.svg",
+        "filename": "ribosome.svg",
+        "preview": "previews/biology/organelles/ribosome.png"
+      }
+    },
+    "assets/chemistry/glassware/erlenmeyer-flask.svg": {
+      "name": "Erlenmeyer Flask",
+      "description": "Erlenmeyer flask with colored liquid, bubbles and graduation marks.",
+      "category": "chemistry",
+      "subcategory": "glassware",
+      "officialCategories": [
+        "chemistry"
+      ],
+      "officialSubcategories": [
+        "glassware"
+      ],
+      "tags": [
+        "erlenmeyer",
+        "flask"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/chemistry/glassware/erlenmeyer-flask.svg",
+      "providerId": "chemistry-glassware-erlenmeyer-flask",
+      "originalFilename": "erlenmeyer-flask.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "chemistry-glassware-erlenmeyer-flask",
+        "name": "Erlenmeyer Flask",
+        "category": "chemistry",
+        "subcategory": "glassware",
+        "tags": [
+          "erlenmeyer",
+          "flask"
+        ],
+        "description": "Erlenmeyer flask with colored liquid, bubbles and graduation marks.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/chemistry/glassware/erlenmeyer-flask.svg",
+        "filename": "erlenmeyer-flask.svg",
+        "preview": "previews/chemistry/glassware/erlenmeyer-flask.png"
+      }
+    },
+    "assets/chemistry/molecules/benzene-ring.svg": {
+      "name": "Benzene Ring",
+      "description": "Aromatic benzene ring, hexagon with inner circle.",
+      "category": "chemistry",
+      "subcategory": "molecules",
+      "officialCategories": [
+        "chemistry"
+      ],
+      "officialSubcategories": [
+        "molecules"
+      ],
+      "tags": [
+        "benzene",
+        "ring"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/chemistry/molecules/benzene-ring.svg",
+      "providerId": "chemistry-molecules-benzene-ring",
+      "originalFilename": "benzene-ring.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "chemistry-molecules-benzene-ring",
+        "name": "Benzene Ring",
+        "category": "chemistry",
+        "subcategory": "molecules",
+        "tags": [
+          "benzene",
+          "ring"
+        ],
+        "description": "Aromatic benzene ring, hexagon with inner circle.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/chemistry/molecules/benzene-ring.svg",
+        "filename": "benzene-ring.svg",
+        "preview": "previews/chemistry/molecules/benzene-ring.png"
+      }
+    },
+    "assets/chemistry/molecules/peptide-bond.svg": {
+      "name": "Peptide Bond",
+      "description": "Two amino acids joined by a highlighted peptide bond with atom-style coloring.",
+      "category": "chemistry",
+      "subcategory": "molecules",
+      "officialCategories": [
+        "chemistry"
+      ],
+      "officialSubcategories": [
+        "molecules"
+      ],
+      "tags": [
+        "peptide",
+        "bond"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/chemistry/molecules/peptide-bond.svg",
+      "providerId": "chemistry-molecules-peptide-bond",
+      "originalFilename": "peptide-bond.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "chemistry-molecules-peptide-bond",
+        "name": "Peptide Bond",
+        "category": "chemistry",
+        "subcategory": "molecules",
+        "tags": [
+          "peptide",
+          "bond"
+        ],
+        "description": "Two amino acids joined by a highlighted peptide bond with atom-style coloring.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/chemistry/molecules/peptide-bond.svg",
+        "filename": "peptide-bond.svg",
+        "preview": "previews/chemistry/molecules/peptide-bond.png"
+      }
+    },
+    "assets/chemistry/molecules/protein-ligand-binding.svg": {
+      "name": "Protein-Ligand Binding",
+      "description": "Protein binding pocket with a small molecule ligand and dashed hydrogen-bond lines.",
+      "category": "chemistry",
+      "subcategory": "molecules",
+      "officialCategories": [
+        "chemistry"
+      ],
+      "officialSubcategories": [
+        "molecules"
+      ],
+      "tags": [
+        "protein",
+        "ligand",
+        "binding"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/chemistry/molecules/protein-ligand-binding.svg",
+      "providerId": "chemistry-molecules-protein-ligand-binding",
+      "originalFilename": "protein-ligand-binding.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "chemistry-molecules-protein-ligand-binding",
+        "name": "Protein-Ligand Binding",
+        "category": "chemistry",
+        "subcategory": "molecules",
+        "tags": [
+          "protein",
+          "ligand",
+          "binding"
+        ],
+        "description": "Protein binding pocket with a small molecule ligand and dashed hydrogen-bond lines.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/chemistry/molecules/protein-ligand-binding.svg",
+        "filename": "protein-ligand-binding.svg",
+        "preview": "previews/chemistry/molecules/protein-ligand-binding.png"
+      }
+    },
+    "assets/chemistry/reactions/reaction-arrow.svg": {
+      "name": "Reaction Arrow",
+      "description": "Chemical reaction scheme arrow with reactants A + B, product C and a heat symbol.",
+      "category": "chemistry",
+      "subcategory": "reactions",
+      "officialCategories": [
+        "chemistry"
+      ],
+      "officialSubcategories": [
+        "reactions"
+      ],
+      "tags": [
+        "reaction",
+        "arrow"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/chemistry/reactions/reaction-arrow.svg",
+      "providerId": "chemistry-reactions-reaction-arrow",
+      "originalFilename": "reaction-arrow.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "chemistry-reactions-reaction-arrow",
+        "name": "Reaction Arrow",
+        "category": "chemistry",
+        "subcategory": "reactions",
+        "tags": [
+          "reaction",
+          "arrow"
+        ],
+        "description": "Chemical reaction scheme arrow with reactants A + B, product C and a heat symbol.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/chemistry/reactions/reaction-arrow.svg",
+        "filename": "reaction-arrow.svg",
+        "preview": "previews/chemistry/reactions/reaction-arrow.png"
+      }
+    },
+    "assets/laboratory/consumables/96-well-plate.svg": {
+      "name": "96-Well Plate",
+      "description": "96-well microplate with colored sample wells.",
+      "category": "laboratory",
+      "subcategory": "consumables",
+      "officialCategories": [
+        "laboratory"
+      ],
+      "officialSubcategories": [
+        "consumables"
+      ],
+      "tags": [
+        "96",
+        "well",
+        "plate"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/laboratory/consumables/96-well-plate.svg",
+      "providerId": "laboratory-consumables-96-well-plate",
+      "originalFilename": "96-well-plate.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "laboratory-consumables-96-well-plate",
+        "name": "96-Well Plate",
+        "category": "laboratory",
+        "subcategory": "consumables",
+        "tags": [
+          "96",
+          "well",
+          "plate"
+        ],
+        "description": "96-well microplate with colored sample wells.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/laboratory/consumables/96-well-plate.svg",
+        "filename": "96-well-plate.svg",
+        "preview": "previews/laboratory/consumables/96-well-plate.png"
+      }
+    },
+    "assets/laboratory/consumables/petri-dish.svg": {
+      "name": "Petri Dish",
+      "description": "Petri dish with agar and bacterial colonies.",
+      "category": "laboratory",
+      "subcategory": "consumables",
+      "officialCategories": [
+        "laboratory"
+      ],
+      "officialSubcategories": [
+        "consumables"
+      ],
+      "tags": [
+        "petri",
+        "dish"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/laboratory/consumables/petri-dish.svg",
+      "providerId": "laboratory-consumables-petri-dish",
+      "originalFilename": "petri-dish.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "laboratory-consumables-petri-dish",
+        "name": "Petri Dish",
+        "category": "laboratory",
+        "subcategory": "consumables",
+        "tags": [
+          "petri",
+          "dish"
+        ],
+        "description": "Petri dish with agar and bacterial colonies.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/laboratory/consumables/petri-dish.svg",
+        "filename": "petri-dish.svg",
+        "preview": "previews/laboratory/consumables/petri-dish.png"
+      }
+    },
+    "assets/laboratory/equipment/micropipette.svg": {
+      "name": "Micropipette",
+      "description": "Micropipette with tip ejector, volume window and a droplet.",
+      "category": "laboratory",
+      "subcategory": "equipment",
+      "officialCategories": [
+        "laboratory"
+      ],
+      "officialSubcategories": [
+        "equipment"
+      ],
+      "tags": [
+        "micropipette"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/laboratory/equipment/micropipette.svg",
+      "providerId": "laboratory-equipment-micropipette",
+      "originalFilename": "micropipette.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "laboratory-equipment-micropipette",
+        "name": "Micropipette",
+        "category": "laboratory",
+        "subcategory": "equipment",
+        "tags": [
+          "micropipette"
+        ],
+        "description": "Micropipette with tip ejector, volume window and a droplet.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/laboratory/equipment/micropipette.svg",
+        "filename": "micropipette.svg",
+        "preview": "previews/laboratory/equipment/micropipette.png"
+      }
+    },
+    "assets/laboratory/equipment/microscope.svg": {
+      "name": "Microscope",
+      "description": "Laboratory microscope with eyepiece, objective, stage and focus knob.",
+      "category": "laboratory",
+      "subcategory": "equipment",
+      "officialCategories": [
+        "laboratory"
+      ],
+      "officialSubcategories": [
+        "equipment"
+      ],
+      "tags": [
+        "microscope"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/laboratory/equipment/microscope.svg",
+      "providerId": "laboratory-equipment-microscope",
+      "originalFilename": "microscope.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "laboratory-equipment-microscope",
+        "name": "Microscope",
+        "category": "laboratory",
+        "subcategory": "equipment",
+        "tags": [
+          "microscope"
+        ],
+        "description": "Laboratory microscope with eyepiece, objective, stage and focus knob.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/laboratory/equipment/microscope.svg",
+        "filename": "microscope.svg",
+        "preview": "previews/laboratory/equipment/microscope.png"
+      }
+    },
+    "assets/laboratory/equipment/test-tube-rack.svg": {
+      "name": "Test Tube Rack",
+      "description": "Test tubes with colored liquids in a laboratory rack.",
+      "category": "laboratory",
+      "subcategory": "equipment",
+      "officialCategories": [
+        "laboratory"
+      ],
+      "officialSubcategories": [
+        "equipment"
+      ],
+      "tags": [
+        "test",
+        "tube",
+        "rack"
+      ],
+      "author": "Saveena Solanki",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/SaveenaSolanki/SciSVG/blob/b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b/assets/laboratory/equipment/test-tube-rack.svg",
+      "providerId": "laboratory-equipment-test-tube-rack",
+      "originalFilename": "test-tube-rack.svg",
+      "attribution": "SciSVG — Saveena Solanki, CC-BY-4.0, https://github.com/SaveenaSolanki/SciSVG",
+      "repositoryRevision": "b8a2b60a3a5b2d9b717b1065fbcb8de9f1faf72b",
+      "providerMetadata": {
+        "id": "laboratory-equipment-test-tube-rack",
+        "name": "Test Tube Rack",
+        "category": "laboratory",
+        "subcategory": "equipment",
+        "tags": [
+          "test",
+          "tube",
+          "rack"
+        ],
+        "description": "Test tubes with colored liquids in a laboratory rack.",
+        "contributor": "Saveena Solanki",
+        "orcid": "",
+        "license": "CC-BY-4.0",
+        "version": "1.0.0",
+        "scientifically_reviewed": false,
+        "editable": true,
+        "vector_only": true,
+        "safe_svg": true,
+        "path": "assets/laboratory/equipment/test-tube-rack.svg",
+        "filename": "test-tube-rack.svg",
+        "preview": "previews/laboratory/equipment/test-tube-rack.png"
+      }
+    }
+  }
+}

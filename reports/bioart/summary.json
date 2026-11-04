@@ -1,0 +1,212 @@
+{
+  "status": "Verified local-download BioArt integration; not a full BioArt collection import",
+  "scope": {
+    "officialEntryDownloads": 5,
+    "localSvgFiles": 6,
+    "imported": 4,
+    "skippedUnmanifestedDuplicate": 1,
+    "rejected": 1,
+    "reimportSkipped": 4
+  },
+  "rootCause": "Instance overrides/rendering/persistence already existed. The attached client advertised a stale 18-tool inventory while the service supported 24; ID-based and atomic operations were missing. Empty modifications were generated export metadata, not an editable document API.",
+  "mitochondrion": {
+    "documentId": "22e4ffb0-cc28-4226-b024-2056d9916923",
+    "objectId": "62bc9dd2-9dc1-4238-b0ed-82e56154e59a",
+    "revisionBefore": 10,
+    "revisionAfter": 12,
+    "atomicRevision": true,
+    "liveSync": true,
+    "pageRefresh": true,
+    "undo": true,
+    "redo": true,
+    "export": true,
+    "unrelatedElementsUnchanged": true,
+    "assetHashUnchanged": true
+  },
+  "bioart": {
+    "documentId": "2af8a07e-af3c-455c-971e-1c8cd3e32896",
+    "title": "NIH BioArt SVG Integration Test",
+    "revision": 28,
+    "cases": [
+      {
+        "assetId": "asset-c57d0bdb1dda767089f0f21daf556309d575239ebf992366b0b0a0035fbaf4b4",
+        "name": "Cell Nucleus",
+        "instanceId": "883d4f8d-6aba-4303-9324-2bca6b497601",
+        "targets": [
+          {
+            "elementKey": "1/0/0/0",
+            "fill": "#4389C7"
+          },
+          {
+            "elementKey": "1/0/0/1/0",
+            "fill": "#E89B43"
+          }
+        ],
+        "assetHash": "c57d0bdb1dda767089f0f21daf556309d575239ebf992366b0b0a0035fbaf4b4",
+        "totalElements": 21
+      },
+      {
+        "assetId": "asset-25f3bf93780c770da8b19629c84b2fc8993205b23469ba8f53c4fdcf695c8bce",
+        "name": "Generic Immune Cell",
+        "instanceId": "dea22070-951f-43f3-ad90-c838afd4cf18",
+        "targets": [
+          {
+            "elementKey": "1/0/0/0/0",
+            "fill": "#4389C7"
+          },
+          {
+            "elementKey": "1/0/0/1",
+            "fill": "#E89B43"
+          }
+        ],
+        "assetHash": "25f3bf93780c770da8b19629c84b2fc8993205b23469ba8f53c4fdcf695c8bce",
+        "totalElements": 6
+      },
+      {
+        "assetId": "asset-6664ae4b2839044757aa38fe048dbc6db5acb27bff8abbfba4ddded4ff515272",
+        "name": "Mitochondria",
+        "instanceId": "a845c1c2-a95b-4d17-9d13-0927e764917d",
+        "targets": [
+          {
+            "elementKey": "1",
+            "fill": "#4389C7"
+          },
+          {
+            "elementKey": "2",
+            "fill": "#E89B43"
+          }
+        ],
+        "assetHash": "6664ae4b2839044757aa38fe048dbc6db5acb27bff8abbfba4ddded4ff515272",
+        "totalElements": 5
+      },
+      {
+        "assetId": "asset-f294f4a451391a27ee30d73846d01629286630a272456fb5eb7e17040b6ad83a",
+        "name": "Schematic Protein Shape Phosphorylated",
+        "instanceId": "74ddf68c-ac2b-4536-90b2-a47a2fa7a12c",
+        "targets": [
+          {
+            "elementKey": "1/0/0/1",
+            "fill": "#4389C7"
+          },
+          {
+            "elementKey": "1/0/1",
+            "fill": "#E89B43"
+          }
+        ],
+        "assetHash": "f294f4a451391a27ee30d73846d01629286630a272456fb5eb7e17040b6ad83a",
+        "totalElements": 6
+      }
+    ],
+    "providerFilter": true,
+    "categoryFilter": true,
+    "search": true,
+    "thumbnailCaching": true,
+    "pageRefresh": true,
+    "geometryPreserved": true,
+    "export": true,
+    "assetHashesUnchanged": true
+  },
+  "licensing": [
+    {
+      "license": "Public Domain",
+      "count": 4
+    }
+  ],
+  "categories": [
+    {
+      "category": "Cells and Organelles",
+      "count": 3,
+      "subcategories": [
+        "Cells",
+        "Immune Cells",
+        "Mitochondria",
+        "Nucleus",
+        "Organelles"
+      ]
+    },
+    {
+      "category": "Proteins",
+      "count": 1,
+      "subcategories": []
+    }
+  ],
+  "performance": {
+    "actual": {
+      "catalogIcons": 1601,
+      "providerAssets": 4,
+      "providerSearch": {
+        "iterations": 300,
+        "medianMs": 0.13262500000000443,
+        "p95Ms": 0.3150410000000079,
+        "maxMs": 1.2716669999999937
+      },
+      "allProviderSearch": {
+        "iterations": 300,
+        "medianMs": 0.34337499999998045,
+        "p95Ms": 0.579166999999984,
+        "maxMs": 0.8924590000000023
+      }
+    },
+    "synthetic": {
+      "metadataRows": 20000,
+      "note": "Isolated metadata/FTS search benchmark; no official assets or documents created.",
+      "queries": {
+        "iterations": 200,
+        "medianMs": 14.827334000000008,
+        "p95Ms": 21.59820899999977,
+        "maxMs": 22.061124999999947
+      }
+    }
+  },
+  "integrity": {
+    "preservedDocuments": 3,
+    "preservedAssets": 1591,
+    "authorizedChangedDocument": "22e4ffb0-cc28-4226-b024-2056d9916923",
+    "prbjnUnchanged": true,
+    "bioiconsNotReimported": true,
+    "rawGeometryVerified": 4,
+    "licenses": [
+      {
+        "license": "Public Domain",
+        "count": 4
+      }
+    ],
+    "categories": [
+      {
+        "category": "Cells and Organelles",
+        "count": 3,
+        "subcategories": [
+          "Cells",
+          "Immune Cells",
+          "Mitochondria",
+          "Nucleus",
+          "Organelles"
+        ]
+      },
+      {
+        "category": "Proteins",
+        "count": 1,
+        "subcategories": []
+      }
+    ]
+  },
+  "tests": {
+    "files": 9,
+    "passed": 65,
+    "failed": 0,
+    "officialMcpTools": 28,
+    "liveBrowser": "passed",
+    "isolatedBrowser": "passed",
+    "productionBuild": "passed",
+    "warnings": [
+      "Two non-blocking Zod/Rollup annotation warnings"
+    ]
+  },
+  "remaining": [
+    "Reconnect existing MCP clients to load the current tools; actual Claude Desktop UI reconnection is not automated or verified.",
+    "No published official bulk download/API/archive verified; only five explicitly selected official entry pages were acquired.",
+    "General CSS, filters, embedded images, DTDs and advanced SVG features remain unsupported.",
+    "UI transfer resume is at completed-file checkpoints; incomplete files restart through the normal website download control.",
+    "Retry/access-denial behavior is regression-tested with simulated HTTP failures; no live rate-limit or access-denial bypass was attempted."
+  ]
+}

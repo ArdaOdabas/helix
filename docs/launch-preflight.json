@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-02T20:21:10Z",
+  "project": "/Users/ardaodabas/Desktop/scientific-figure-editor",
+  "node": {"executable": "/opt/homebrew/opt/node@24/bin/node", "version": "v24.22.2", "selectedForChecks": true},
+  "npm": {"version": "11.19.1", "registryPing": "failed", "error": "ENOTFOUND registry.npmjs.org"},
+  "loopback": {"bind": "failed", "host": "127.0.0.1", "error": "EPERM"},
+  "sandboxEscalation": {"requested": true, "result": "automatically rejected", "reason": "sandbox_approval is false under the session's granular approval policy"},
+  "dependencyInstallation": "not attempted after failed preflight",
+  "vitest": "not run in this verification attempt",
+  "productionBuild": "not run in this verification attempt",
+  "liveMcpIntegration": "not run in this verification attempt",
+  "browserAcceptance": "not run in this verification attempt",
+  "applicationStarted": false,
+  "workingUrl": null,
+  "bioRenderAssetsDownloaded": false
+}

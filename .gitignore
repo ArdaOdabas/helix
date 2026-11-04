@@ -1,0 +1,13 @@
+node_modules/
+dist/
+data/
+*.log
+.DS_Store
+
+vendor/
+build/
+build.nosync/
+
+# Generated provenance manifests too large for GitHub (phylopic-manifest.json is
+# 284 MB; GitHub rejects files over 100 MB). Regenerate with the import scripts.
+reports/library-expansion/phylopic-manifest.json

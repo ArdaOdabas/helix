@@ -1,0 +1,11 @@
+{
+  "provider": true,
+  "scientificCategory": true,
+  "quality": true,
+  "boundedPagination": true,
+  "uniqueGeometryPages": true,
+  "lazyThumbnails": true,
+  "licenseDetails": true,
+  "browserErrors": [],
+  "documentMutations": []
+}

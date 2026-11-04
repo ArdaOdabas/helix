@@ -1,0 +1,64 @@
+{
+  "documentId": "232f3352-59b6-4e14-a16b-4fc72cec52b5",
+  "revision": 7,
+  "server": {
+    "name": "helix-scientific-editor",
+    "version": "0.5.0"
+  },
+  "toolCount": 32,
+  "initialIssues": 3,
+  "correctionPasses": [
+    {
+      "beforeRevision": 4,
+      "afterRevision": 5,
+      "operations": [
+        {
+          "type": "update",
+          "id": "f709e9cb-e9f7-4cc6-8b92-ba5553b90849",
+          "patch": {
+            "transform": [
+              1,
+              0,
+              0,
+              1,
+              200,
+              183
+            ]
+          }
+        }
+      ],
+      "beforeIssues": 3,
+      "afterIssues": 2
+    },
+    {
+      "beforeRevision": 5,
+      "afterRevision": 6,
+      "operations": [
+        {
+          "type": "update",
+          "id": "0518f6f1-32fe-475c-8444-cdf1ccf3dbc5",
+          "patch": {
+            "width": 281,
+            "transform": [
+              1,
+              0,
+              0,
+              1,
+              130,
+              155
+            ]
+          }
+        }
+      ],
+      "beforeIssues": 2,
+      "afterIssues": 0
+    }
+  ],
+  "finalIssues": 0,
+  "width": 550,
+  "height": 260,
+  "nativeMcpImage": true,
+  "browserReadOnly": true,
+  "browserErrors": [],
+  "finalReadOnlyVerified": true
+}

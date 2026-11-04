@@ -1,0 +1,10 @@
+{
+  "providerFiltering": true,
+  "pagination": true,
+  "pageSize": 30,
+  "metadataDetails": true,
+  "thumbnailDecode": true,
+  "thumbnailCaching304": true,
+  "browserErrors": [],
+  "documentMutations": []
+}

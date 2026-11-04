@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "provider": "Helix original test collection",
+  "license": "CC0-1.0",
+  "licenseReference": "Original vector illustrations authored locally for Helix test collection, 2026-11-02",
+  "attribution": "Helix local scientific illustration test collection",
+  "defaults": {
+    "category": "Helix original test collection"
+  },
+  "assets": {
+    "mammalian-cell.svg": {
+      "name": "Mammalian cell",
+      "subcategory": "Cells",
+      "keywords": [
+        "mammalian",
+        "eukaryote",
+        "cytoplasm",
+        "cell",
+        "helix-original-test",
+        "mammalian-cell"
+      ],
+      "providerId": "helix-test-mammalian-cell",
+      "description": "Schematic mammalian cell with nucleus, mitochondria and internal membranes."
+    },
+    "cell-nucleus.svg": {
+      "name": "Cell nucleus",
+      "subcategory": "Organelles",
+      "keywords": [
+        "nucleus",
+        "nuclear",
+        "chromatin",
+        "nucleolus",
+        "helix-original-test",
+        "cell-nucleus"
+      ],
+      "providerId": "helix-test-cell-nucleus",
+      "description": "Nuclear envelope, pores, chromatin fibers and nucleolus."
+    },
+    "mitochondrion.svg": {
+      "name": "Mitochondrion",
+      "subcategory": "Organelles",
+      "keywords": [
+        "mitochondria",
+        "ATP",
+        "cristae",
+        "energy",
+        "helix-original-test",
+        "mitochondrion"
+      ],
+      "providerId": "helix-test-mitochondrion",
+      "description": "Illustrative cross-section showing mitochondrial membranes and cristae."
+    },
+    "endoplasmic-reticulum.svg": {
+      "name": "Endoplasmic reticulum",
+      "subcategory": "Organelles",
+      "keywords": [
+        "ER",
+        "rough",
+        "ribosome",
+        "reticulum",
+        "helix-original-test",
+        "endoplasmic-reticulum"
+      ],
+      "providerId": "helix-test-endoplasmic-reticulum",
+      "description": "Folded rough endoplasmic reticulum with ribosome dots."
+    },
+    "golgi-apparatus.svg": {
+      "name": "Golgi apparatus",
+      "subcategory": "Organelles",
+      "keywords": [
+        "golgi",
+        "cisternae",
+        "trafficking",
+        "secretion",
+        "helix-original-test",
+        "golgi-apparatus"
+      ],
+      "providerId": "helix-test-golgi-apparatus",
+      "description": "Stacked Golgi cisternae and transport vesicles."
+    },
+    "plasma-membrane.svg": {
+      "name": "Plasma membrane",
+      "subcategory": "Membranes",
+      "keywords": [
+        "bilayer",
+        "phospholipid",
+        "plasma",
+        "membrane",
+        "helix-original-test",
+        "plasma-membrane"
+      ],
+      "providerId": "helix-test-plasma-membrane",
+      "description": "Phospholipid bilayer with polar heads, tails and a membrane protein."
+    },
+    "dna-double-helix.svg": {
+      "name": "DNA double helix",
+      "subcategory": "Molecules",
+      "keywords": [
+        "DNA",
+        "helix",
+        "nucleic",
+        "base",
+        "genome",
+        "helix-original-test",
+        "dna-double-helix"
+      ],
+      "providerId": "helix-test-dna-double-helix",
+      "description": "Two stylized DNA backbones and base-pair rungs; not an atomic model."
+    },
+    "protein-complex.svg": {
+      "name": "Protein complex",
+      "subcategory": "Molecules",
+      "keywords": [
+        "protein",
+        "complex",
+        "subunit",
+        "assembly",
+        "binding",
+        "helix-original-test",
+        "protein-complex"
+      ],
+      "providerId": "helix-test-protein-complex",
+      "description": "Illustrative multimeric complex with independently colored subunits."
+    },
+    "cell-surface-receptor.svg": {
+      "name": "Cell surface receptor",
+      "subcategory": "Membranes",
+      "keywords": [
+        "receptor",
+        "ligand",
+        "signaling",
+        "surface",
+        "transmembrane",
+        "helix-original-test",
+        "cell-surface-receptor"
+      ],
+      "providerId": "helix-test-cell-surface-receptor",
+      "description": "Ligand-binding receptor with membrane span and intracellular domain."
+    },
+    "lipid-vesicle.svg": {
+      "name": "Lipid vesicle",
+      "subcategory": "Membranes",
+      "keywords": [
+        "vesicle",
+        "lipid",
+        "cargo",
+        "transport",
+        "bilayer",
+        "helix-original-test",
+        "lipid-vesicle"
+      ],
+      "providerId": "helix-test-lipid-vesicle",
+      "description": "Vesicle cross-section with a bilayer shell and luminal cargo."
+    }
+  }
+}

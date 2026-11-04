@@ -1,0 +1,2764 @@
+{
+  "runs": [
+    {
+      "at": "2026-11-03T00:20:36.005Z",
+      "newSqliteAssets": 0,
+      "scanned": 870,
+      "skipped": 0,
+      "failed": 0
+    },
+    {
+      "at": "2026-11-03T00:30:55.249Z",
+      "newSqliteAssets": 0,
+      "scanned": 870,
+      "skipped": 870,
+      "failed": 0
+    }
+  ],
+  "provider": "Health Icons",
+  "discovered": 1552,
+  "eligibleDownloaded": 870,
+  "newSqliteAssets": 0,
+  "report": {
+    "scanned": 870,
+    "imported": 0,
+    "updated": 0,
+    "skipped": 870,
+    "failed": 0,
+    "duplicates": 870,
+    "rejected": 0,
+    "failures": []
+  },
+  "skipped": [
+    {
+      "file": "filled/vehicles/war.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/war.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/vespa-motorcycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/vespa-motorcycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/small-plane.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/small-plane.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/mobile-clinic.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/mobile-clinic.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/machinery.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/machinery.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/helicopter.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/helicopter.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/cross-country_motorcycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/cross-country_motorcycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/bike.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/bike.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/basic-motorcycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/basic-motorcycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/ambulance.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/ambulance.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/4x4.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/4x4.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/vehicles/drone.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/vehicles/drone.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/triangle-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/triangle-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/triangle-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/triangle-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/triangle-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/triangle-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/star-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/star-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/star-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/star-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/star-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/star-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/square-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/square-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/square-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/square-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/square-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/square-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/information-campaign.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/information-campaign.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/circle-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/circle-small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/circle-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/circle-medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/circle-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/circle-large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/market-stall.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/market-stall.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/hospital.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/hospital.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/home-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/home-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/forest.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/forest.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/forest-persons.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/forest-persons.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/city.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/city.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/church.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/church.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/virus.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/virus.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/money-bag.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/money-bag.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/coins.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/coins.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/bills.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/bills.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/smoking-cessation.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/smoking-cessation.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/smoking.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/smoking.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/rx.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/rx.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/running-water_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/running-water_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/question-triangle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/question-triangle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/question-circle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/question-circle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/question.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/question.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/provider-fst.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/provider-fst.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/prescription-document.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/prescription-document.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/positive.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/positive.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/polygon.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/polygon.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/poison.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/poison.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/peace.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/peace.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/paved-road_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/paved-road_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/paved-road.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/paved-road.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/outbreak.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/outbreak.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/no.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/no.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/negative.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/negative.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/megaphone.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/megaphone.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/medium-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/medium-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/medical-advice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/medical-advice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/magnifying-glass.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/magnifying-glass.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/low-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/low-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/info.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/info.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/imm.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/imm.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/i-exam_qualification.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/i-exam_qualification.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/i-documents_denied.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/i-documents_denied.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/i-documents_accepted.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/i-documents_accepted.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/hospital-symbol.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/hospital-symbol.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/high-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/high-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/heart-cardiogram.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/heart-cardiogram.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/heart.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/heart.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/health-data_sync.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/health-data_sync.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/health-data_security.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/health-data_security.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/hazardous.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/hazardous.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/geo-location.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/geo-location.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/electricity.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/electricity.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/eco-care.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/eco-care.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/diabetes-blood-sample.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/diabetes-blood-sample.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/dhis2-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/dhis2-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/death-alt2.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/death-alt2.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/death-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/death-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/death.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/death.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/community-meeting.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/community-meeting.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/communication.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/communication.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/clinical-fe.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/clinical-fe.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/clinical-f.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/clinical-f.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/cholera.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/cholera.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/cardiogram-e.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/cardiogram-e.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/cardiogram.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/cardiogram.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/cannabis.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/cannabis.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/calendar.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/calendar.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/book.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/book.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/award-trophy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/award-trophy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/award-ribbon.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/award-ribbon.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/alert-triangle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/alert-triangle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/alert-circle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/alert-circle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/alert.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/alert.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/forum.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/forum.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/spreadsheets.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/spreadsheets.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/desktop-app.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/desktop-app.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/village.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/village.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/ministry-of_health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/ministry-of_health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/home.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/home.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/A.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/A.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/B.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/B.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/C.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/C.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/D.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/D.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/E.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/E.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/F.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/F.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/G.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/G.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/H.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/H.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/I.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/I.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/J.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/J.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/K.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/K.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/L.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/L.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/M.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/M.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/N.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/N.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/O.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/O.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/P.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/P.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/Q.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/Q.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/R.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/R.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/S.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/S.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/T.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/T.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/U.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/U.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/V.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/V.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/W.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/W.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/X.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/X.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/Y.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/Y.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/Z.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/Z.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/!.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/!.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/question-mark.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/question-mark.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/dollar.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/dollar.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/ghana.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/ghana.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/yen.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/yen.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/rupee.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/rupee.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/0.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/0.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/1.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/1.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/2.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/2.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/3.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/3.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/4.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/4.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/5.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/5.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/6.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/6.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/7.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/7.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/8.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/8.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/9.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/9.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/entry.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/entry.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/health-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/health-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/health-literacy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/health-literacy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/register-book.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/register-book.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/palm-branches_roof.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/palm-branches_roof.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/proper-roof.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/proper-roof.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/letrina.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/letrina.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/letrina-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/letrina-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/temple.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/temple.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/temple-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/temple-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/mosque.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/mosque.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/emergency-post.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/emergency-post.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/rural-post.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/rural-post.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/ambulatory-clinic.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/ambulatory-clinic.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/contact-support.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/contact-support.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/i-note_action.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/i-note_action.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/i-certificate_paper.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/i-certificate_paper.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/breeding-sites.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/breeding-sites.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/health-worker_form.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/health-worker_form.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/sexual-reproductive_health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/sexual-reproductive_health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/default.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/default.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/i-exam_multiple_choice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/i-exam_multiple_choice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/i-schedule_school_date_time.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/i-schedule_school_date_time.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/justice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/justice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/phone.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/phone.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/credit-card.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/credit-card.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/construction.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/construction.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/running-water.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/running-water.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-expectorate.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-expectorate.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-fever.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-fever.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-sad.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-sad.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-measles.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-measles.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-ok.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-ok.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-angry.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-angry.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-confused.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-confused.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-crying.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-crying.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-nauseous.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-nauseous.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-loudly-crying.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-loudly-crying.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-not-ok.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-not-ok.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-neutral.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-neutral.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-happy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-happy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-coughing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-coughing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-vomiting.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-vomiting.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-masked.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-masked.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-eyeglasses.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-eyeglasses.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-bandaged.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-bandaged.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-dizzy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-dizzy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-tongue.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-tongue.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-woozy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-woozy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-sweating.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-sweating.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-nervous.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-nervous.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-sleepy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-sleepy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/face-calm.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/face-calm.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/cleaning.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/cleaning.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/rural-post_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/rural-post_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/umbrella.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/umbrella.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/bandage-adhesive.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/bandage-adhesive.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/rdt-result_out_stock.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/rdt-result_out_stock.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/stock-out.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/stock-out.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/i-utensils.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/i-utensils.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/insecticide-resistance.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/insecticide-resistance.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/referral.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/referral.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/virus-research.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/virus-research.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/virus-research_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/virus-research_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/low-income-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/low-income-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-bar.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-bar.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-bar_stacked.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-bar_stacked.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-line.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-line.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-line_stacked.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-line_stacked.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-pie.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-pie.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-cured-decreasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-cured-decreasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-cured-increasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-cured-increasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-death-rate-increasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-death-rate-increasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-death-rate-decreasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-death-rate-decreasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-death-rate-stable.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-death-rate-stable.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-infected-decreasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-infected-decreasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-infected-increasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-infected-increasing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/graphs/chart-infected-stable.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/graphs/chart-infected-stable.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/exercise/swim.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/exercise/swim.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/exercise/walking.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/exercise/walking.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/exercise/running.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/exercise/running.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/exercise/weights.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/exercise/weights.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/exercise/walk-supported.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/exercise/walk-supported.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/exercise/exercise-bicycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/exercise/exercise-bicycle.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/exercise/exercise.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/exercise/exercise.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/places/emergency-operations_center.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/places/emergency-operations_center.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/insurance-card.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/insurance-card.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/objects/laptop.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/objects/laptop.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/yes.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/yes.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/un-paved_road.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/un-paved_road.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/tally.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/tally.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/stop.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/stop.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/excel-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/excel-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/openMRS-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/openMRS-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/water-treatment.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/water-treatment.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/social-distancing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/social-distancing.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/discharge.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/discharge.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/pharmacy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/pharmacy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/pharmacy-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/pharmacy-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/simple-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/simple-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/transgender.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/transgender.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/assembly-point.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/assembly-point.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/guide-dog.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/guide-dog.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-zoom_in.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-zoom_in.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-zoom_out.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-zoom_out.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-zoom.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-zoom.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-settings.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-settings.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-secure.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-secure.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-preferences.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-preferences.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-folder_family.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-folder_family.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-folder.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-folder.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-menu.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-menu.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-menu_grid.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-menu_grid.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/database.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/database.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ui-user_profile.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ui-user_profile.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/network-5g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/network-5g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/network-4g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/network-4g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/medium-bars.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/medium-bars.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/low-bars.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/low-bars.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/high-bars.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/high-bars.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/3g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/3g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/2g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/2g.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/home-quarantine.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/home-quarantine.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/calendar-quarantine.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/calendar-quarantine.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/social-distancing_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/social-distancing_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/virus-shield.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/virus-shield.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/virus-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/virus-alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/virus-patient.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/virus-patient.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/global-pandemic.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/global-pandemic.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/globe.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/globe.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/virus-mutation.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/virus-mutation.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/fingerprint.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/fingerprint.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/palliative-care.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/palliative-care.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/hospice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/hospice.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/FHIR-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/FHIR-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/interoperability.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/interoperability.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/medical-search.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/medical-search.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/lab-search.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/lab-search.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/secure-communication.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/secure-communication.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/smoking-cessation_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/smoking-cessation_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/cancel.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/cancel.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/telemedicine.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/telemedicine.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/heartbeat.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/heartbeat.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/qr-code.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/qr-code.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/icd.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/icd.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/icd-11.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/icd-11.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/icd-10.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/icd-10.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/icd-9.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/icd-9.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/height.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/height.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/waist-circumference.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/waist-circumference.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/head-circumference.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/head-circumference.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/arm-circumference.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/arm-circumference.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/healthcare-it.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/healthcare-it.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/body-mass_index.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/body-mass_index.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/loinc.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/loinc.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/bio-pharma.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/bio-pharma.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/female.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/female.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/male.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/male.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/artificial-intelligence.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/artificial-intelligence.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/magic-wand.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/magic-wand.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/triangle-inverted_small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/triangle-inverted_small.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/triangle-inverted_medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/triangle-inverted_medium.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/shapes/triangle-inverted_large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/shapes/triangle-inverted_large.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/life-science.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/life-science.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/biomarker.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/biomarker.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/lactation.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/lactation.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/mental-health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/mental-health.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/integrated-data_and_research.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/integrated-data_and_research.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/risk-analysis.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/risk-analysis.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/health-vulnerability_through_social_determinants.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/health-vulnerability_through_social_determinants.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/resilient-and_migration_sensitive_health_system.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/resilient-and_migration_sensitive_health_system.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/close-policy_gaps.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/close-policy_gaps.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/close-policy_gaps_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/close-policy_gaps_alt.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/job-status-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/job-status-level.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/diagnostics.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/diagnostics.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/blood-transfusion.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/blood-transfusion.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/HL7v2-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/HL7v2-logo.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/ear-nose-throat.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/ear-nose-throat.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/nappy-diaper.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/nappy-diaper.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/video.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/video.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/american-sign-language.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/american-sign-language.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/pound.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/pound.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/euro.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/euro.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/ruble.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/ruble.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/won.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/won.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/naira.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/naira.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/typography/peso.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/typography/peso.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/heat-therapy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/heat-therapy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/skin-layers.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/skin-layers.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/camera.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/camera.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/emotions/happy-sleepy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/emotions/happy-sleepy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/mental-health-therapy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/mental-health-therapy.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/acupuncture-1.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/acupuncture-1.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/acupuncture-4.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/acupuncture-4.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/acupuncture-2.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/acupuncture-2.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/acupuncture-3.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/acupuncture-3.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/egg-cell.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/egg-cell.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "filled/symbols/mammogram.svg",
+      "reason": "Generic/non-priority health UI category"
+    },
+    {
+      "file": "outline/symbols/mammogram.svg",
+      "reason": "Generic/non-priority health UI category"
+    }
+  ],
+  "elapsedMs": 224,
+  "license": "CC0-1.0"
+}

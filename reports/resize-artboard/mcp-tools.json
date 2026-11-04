@@ -1,0 +1,3175 @@
+{
+  "tools": [
+    {
+      "name": "resize_artboard",
+      "description": "Resize THIS existing document artboard in place; never creates a replacement. Required documentId, width/height (100–10000), expectedRevision from get_document. preserveContent defaults true: reject cropping visible scientific content, labels or attribution using existing measured bounds. false explicitly permits viewport clipping; all objects, coordinates and relationships remain stored. Uses existing undo/redo and live React sync. Full-bleed unlocked decorative backgrounds adapt to the new dimensions. Protected nonempty figures require installed Chromium. Call render_figure afterward to inspect PNG dimensions.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "width": {
+            "type": "number",
+            "minimum": 100,
+            "maximum": 10000
+          },
+          "height": {
+            "type": "number",
+            "minimum": 100,
+            "maximum": 10000
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "preserveContent": {
+            "default": true,
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "documentId",
+          "width",
+          "height",
+          "expectedRevision"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "render_figure",
+      "description": "Render an immutable saved document revision to PNG image content visible to Claude/Codex. Uses the existing vector exporter and installed Chromium; no UI overlays. Inspect the image, then analyze_figure_layout and apply_operations for visual refinement. Read-only. Returns requestedScale, actualScale, actualWidth/actualHeight, maxDimension and warnings when capped at 2048px; strictScale=true rejects capped/fractional requests. Use resize_artboard to change document dimensions, not scale.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "scale": {
+            "default": 1,
+            "type": "number",
+            "minimum": 0.1,
+            "maximum": 3
+          },
+          "strictScale": {
+            "default": false,
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "analyze_figure_layout",
+      "description": "Read-only browser-measured layout inspection: transformed arrow collisions/clearance, explicit versus ambiguous arrow labels, whitespace/artboard suggestions, glyph overflow, canvas margins, overlap and contrast. Returns diagnostics, safe proposed commands and a PNG for visual reasoning. Whitespace may be intentional. Call resize_artboard explicitly to apply chosen dimensions. Not a scientific/semantic image judgment; no mutations.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "strictScale": {
+            "default": false,
+            "type": "boolean"
+          },
+          "clearance": {
+            "default": 8,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 40
+          },
+          "scale": {
+            "default": 1,
+            "type": "number",
+            "minimum": 0.1,
+            "maximum": 3
+          },
+          "margin": {
+            "default": 12,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "minFontSize": {
+            "default": 12,
+            "type": "number",
+            "minimum": 6,
+            "maximum": 24
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "refine_figure_layout",
+      "description": "Bounded render-inspect-correct loop through the shared undoable command engine. Default inspection-only; apply=true requires expectedRevision. Fit text, translate fitting roots, move proven unrelated labels and trim explicitly linked arrow endpoints. For an explicit artboard change, prefer the discoverable resize_artboard tool. The legacy resizeArtboard parameter remains supported with apply=true and expectedRevision and never crops content. Ambiguous relationships/complex intersections remain warnings; biological content is never inferred. Each pass is one undo step; returns remaining issues and PNG.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "strictScale": {
+            "default": false,
+            "type": "boolean"
+          },
+          "clearance": {
+            "default": 8,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 40
+          },
+          "scale": {
+            "default": 1,
+            "type": "number",
+            "minimum": 0.1,
+            "maximum": 3
+          },
+          "margin": {
+            "default": 12,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "minFontSize": {
+            "default": 12,
+            "type": "number",
+            "minimum": 6,
+            "maximum": 24
+          },
+          "resizeArtboard": {
+            "type": "object",
+            "properties": {
+              "width": {
+                "type": "number",
+                "minimum": 100,
+                "maximum": 10000
+              },
+              "height": {
+                "type": "number",
+                "minimum": 100,
+                "maximum": 10000
+              }
+            },
+            "required": [
+              "width",
+              "height"
+            ],
+            "additionalProperties": false
+          },
+          "apply": {
+            "default": false,
+            "type": "boolean"
+          },
+          "maxIterations": {
+            "default": 2,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 3
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "compose_figure",
+      "description": "Compose a NEW editable document from the existing validated scientific figure-plan schema, render PNG, inspect and optionally correct conservative layout problems in at most 3 passes. Never replaces an existing figure. Use search_icons/get_asset first to choose licensed scientific icons. Claude supplies the scientific plan and interprets the returned image; no external AI API or scientific inference is performed.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "plan": {
+            "type": "object",
+            "properties": {
+              "version": {
+                "type": "number",
+                "const": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "panels": {
+                "minItems": 1,
+                "maxItems": 20,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "title": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "entities": {
+                "minItems": 1,
+                "maxItems": 100,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "panelId": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "label": {
+                      "type": "string",
+                      "maxLength": 300
+                    },
+                    "iconId": {
+                      "type": "string",
+                      "maxLength": 150
+                    },
+                    "count": {
+                      "default": 1,
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 8
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "panelId",
+                    "label",
+                    "iconId"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "relationships": {
+                "default": [],
+                "maxItems": 200,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "from": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "to": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "label": {
+                      "default": "",
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "from",
+                    "to"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "labels": {
+                "default": [],
+                "maxItems": 100,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "panelId": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "text": {
+                      "type": "string",
+                      "maxLength": 500
+                    }
+                  },
+                  "required": [
+                    "panelId",
+                    "text"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "layout": {
+                "default": {
+                  "direction": "vertical",
+                  "gap": 220,
+                  "padding": 70
+                },
+                "type": "object",
+                "properties": {
+                  "direction": {
+                    "default": "vertical",
+                    "type": "string",
+                    "enum": [
+                      "vertical",
+                      "horizontal"
+                    ]
+                  },
+                  "gap": {
+                    "default": 220,
+                    "type": "number",
+                    "minimum": 160,
+                    "maximum": 500
+                  },
+                  "padding": {
+                    "default": 70,
+                    "type": "number",
+                    "minimum": 40,
+                    "maximum": 200
+                  }
+                },
+                "additionalProperties": false
+              },
+              "style": {
+                "default": {},
+                "type": "object",
+                "properties": {
+                  "fill": {
+                    "default": "#d7e9e4",
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "stroke": {
+                    "default": "#35695e",
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "strokeWidth": {
+                    "default": 2,
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "opacity": {
+                    "default": 1,
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "fontSize": {
+                    "default": 20,
+                    "type": "number",
+                    "minimum": 6,
+                    "maximum": 200
+                  }
+                },
+                "additionalProperties": false
+              },
+              "caption": {
+                "type": "string",
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "version",
+              "title",
+              "panels",
+              "entities"
+            ],
+            "additionalProperties": false
+          },
+          "strictScale": {
+            "default": false,
+            "type": "boolean"
+          },
+          "clearance": {
+            "default": 8,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 40
+          },
+          "scale": {
+            "default": 1,
+            "type": "number",
+            "minimum": 0.1,
+            "maximum": 3
+          },
+          "margin": {
+            "default": 12,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "minFontSize": {
+            "default": 12,
+            "type": "number",
+            "minimum": 6,
+            "maximum": 24
+          },
+          "maxIterations": {
+            "default": 2,
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          }
+        },
+        "required": [
+          "title",
+          "plan"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "create_document",
+      "description": "Create a persistent editable scientific document. Optional plan lays out an entire figure without coordinates. No external AI API is used.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "width": {
+            "default": 1100,
+            "type": "number",
+            "minimum": 100,
+            "maximum": 10000
+          },
+          "height": {
+            "default": 800,
+            "type": "number",
+            "minimum": 100,
+            "maximum": 10000
+          },
+          "plan": {
+            "type": "object",
+            "properties": {
+              "version": {
+                "type": "number",
+                "const": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "panels": {
+                "minItems": 1,
+                "maxItems": 20,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "title": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "entities": {
+                "minItems": 1,
+                "maxItems": 100,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "panelId": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "label": {
+                      "type": "string",
+                      "maxLength": 300
+                    },
+                    "iconId": {
+                      "type": "string",
+                      "maxLength": 150
+                    },
+                    "count": {
+                      "default": 1,
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 8
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "panelId",
+                    "label",
+                    "iconId"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "relationships": {
+                "default": [],
+                "maxItems": 200,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "from": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "to": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "label": {
+                      "default": "",
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "from",
+                    "to"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "labels": {
+                "default": [],
+                "maxItems": 100,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "panelId": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "text": {
+                      "type": "string",
+                      "maxLength": 500
+                    }
+                  },
+                  "required": [
+                    "panelId",
+                    "text"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "layout": {
+                "default": {
+                  "direction": "vertical",
+                  "gap": 220,
+                  "padding": 70
+                },
+                "type": "object",
+                "properties": {
+                  "direction": {
+                    "default": "vertical",
+                    "type": "string",
+                    "enum": [
+                      "vertical",
+                      "horizontal"
+                    ]
+                  },
+                  "gap": {
+                    "default": 220,
+                    "type": "number",
+                    "minimum": 160,
+                    "maximum": 500
+                  },
+                  "padding": {
+                    "default": 70,
+                    "type": "number",
+                    "minimum": 40,
+                    "maximum": 200
+                  }
+                },
+                "additionalProperties": false
+              },
+              "style": {
+                "default": {},
+                "type": "object",
+                "properties": {
+                  "fill": {
+                    "default": "#d7e9e4",
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "stroke": {
+                    "default": "#35695e",
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "strokeWidth": {
+                    "default": 2,
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "opacity": {
+                    "default": 1,
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "fontSize": {
+                    "default": 20,
+                    "type": "number",
+                    "minimum": 6,
+                    "maximum": 200
+                  }
+                },
+                "additionalProperties": false
+              },
+              "caption": {
+                "type": "string",
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "version",
+              "title",
+              "panels",
+              "entities"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "title"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "get_document",
+      "description": "Read the versioned document and its complete editable scene graph.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "list_documents",
+      "description": "List locally stored documents with IDs and revisions.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "search_icons",
+      "description": "Semantic catalog search using scientific tags, taxonomy and curated synonyms plus full-text ranking. Returns paginated metadata; no assets downloaded from external providers.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "default": "",
+            "type": "string",
+            "maxLength": 300
+          },
+          "category": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "subcategory": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "provider": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "scientificCategory": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "quality": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "uniqueGeometry": {
+            "default": false,
+            "type": "boolean"
+          },
+          "limit": {
+            "default": 30,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "offset": {
+            "default": 0,
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "get_asset",
+      "description": "Inspect scientific asset metadata and provenance.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "iconId": {
+            "type": "string",
+            "maxLength": 150
+          }
+        },
+        "required": [
+          "iconId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "list_categories",
+      "description": "List scientific asset categories and subcategories.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "provider": {
+            "type": "string",
+            "maxLength": 300
+          }
+        },
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "list_providers",
+      "description": "List asset providers and distinct asset counts.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "list_imports",
+      "description": "Read recent local import progress and errors.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "list_icon_elements",
+      "description": "List editable SVG elements by original ID/key, fill, stroke, parent and transform. Read this before update_icon_element(s). Returns document revision and pagination.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "limit": {
+            "default": 100,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+          },
+          "offset": {
+            "default": 0,
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "update_icon_element",
+      "description": "Update one SVG element. Preferred: documentId, objectId, elementId from list_icon_elements, patch {fill,stroke,strokeWidth,opacity}, optional expectedRevision. Null resets an override. Legacy change input remains supported. Source SVG stays immutable; supports undo/redo.",
+      "inputSchema": {
+        "type": "object",
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "documentId": {
+                "type": "string",
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+              },
+              "expectedRevision": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "objectId": {
+                "type": "string",
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+              },
+              "elementId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              },
+              "patch": {
+                "type": "object",
+                "properties": {
+                  "fill": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "stroke": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "strokeWidth": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1000
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "opacity": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "documentId",
+              "objectId",
+              "elementId",
+              "patch"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "documentId": {
+                "type": "string",
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+              },
+              "expectedRevision": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "objectId": {
+                "type": "string",
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+              },
+              "change": {
+                "type": "object",
+                "properties": {
+                  "elementId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 500
+                  },
+                  "elementKey": {
+                    "type": "string",
+                    "maxLength": 300,
+                    "pattern": "^\\d+(?:\\/\\d+)*$"
+                  },
+                  "fill": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "stroke": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "strokeWidth": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1000
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "opacity": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "documentId",
+              "objectId",
+              "change"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "update_icon_elements",
+      "description": "Atomically update SVG elements using changes [{elementId,patch:{fill,stroke,strokeWidth,opacity}}]. Legacy flat changes remain supported. One revision and undo transaction; invalid IDs reject the entire batch.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "changes": {
+            "minItems": 1,
+            "maxItems": 1000,
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "elementId": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 500
+                    },
+                    "patch": {
+                      "type": "object",
+                      "properties": {
+                        "fill": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "stroke": {
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "strokeWidth": {
+                          "anyOf": [
+                            {
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 1000
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "opacity": {
+                          "anyOf": [
+                            {
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 1
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "elementId",
+                    "patch"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "elementId": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 500
+                    },
+                    "elementKey": {
+                      "type": "string",
+                      "maxLength": 300,
+                      "pattern": "^\\d+(?:\\/\\d+)*$"
+                    },
+                    "fill": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "stroke": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "strokeWidth": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 1000
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "opacity": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 1
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId",
+          "changes"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "list_svg_elements",
+      "description": "Inspect editable paths/groups on one SVG instance. Definition/use contents are excluded; keys are stable within the immutable asset.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "recolor_svg_element",
+      "description": "Set fill/stroke independently on an SVG path or group instance. Null removes that override. Preserves geometry; supports undo/redo.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "elementKey": {
+            "type": "string",
+            "maxLength": 300,
+            "pattern": "^\\d+(?:\\/\\d+)*$"
+          },
+          "style": {
+            "type": "object",
+            "properties": {
+              "fill": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "stroke": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId",
+          "elementKey",
+          "style"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "recolor_asset",
+      "description": "Recolor one SVG instance using exact palette values; library originals remain intact.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "colorMap": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "additionalProperties": {
+              "type": "string",
+              "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+            }
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId",
+          "colorMap"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "add_icon",
+      "description": "Insert a catalog SVG as an editable transformable icon instance. Use search_icons to obtain iconId.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "x": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "y": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "width": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "height": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "parentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "style": {
+            "type": "object",
+            "properties": {
+              "fill": {
+                "default": "#d7e9e4",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "stroke": {
+                "default": "#35695e",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "strokeWidth": {
+                "default": 2,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 30
+              },
+              "opacity": {
+                "default": 1,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "fontSize": {
+                "default": 20,
+                "type": "number",
+                "minimum": 6,
+                "maximum": 200
+              }
+            },
+            "additionalProperties": false
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "layoutRole": {
+            "type": "string",
+            "enum": [
+              "content",
+              "decoration"
+            ]
+          },
+          "iconId": {
+            "type": "string",
+            "maxLength": 150
+          }
+        },
+        "required": [
+          "documentId",
+          "iconId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "add_shape",
+      "description": "Add an editable rectangle, rounded rectangle or ellipse.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "x": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "y": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "width": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "height": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "parentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "style": {
+            "type": "object",
+            "properties": {
+              "fill": {
+                "default": "#d7e9e4",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "stroke": {
+                "default": "#35695e",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "strokeWidth": {
+                "default": 2,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 30
+              },
+              "opacity": {
+                "default": 1,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "fontSize": {
+                "default": 20,
+                "type": "number",
+                "minimum": 6,
+                "maximum": 200
+              }
+            },
+            "additionalProperties": false
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "layoutRole": {
+            "type": "string",
+            "enum": [
+              "content",
+              "decoration"
+            ]
+          },
+          "shape": {
+            "default": "rect",
+            "type": "string",
+            "enum": [
+              "rect",
+              "ellipse",
+              "roundrect"
+            ]
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "add_text",
+      "description": "Add editable text; newlines are preserved.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "x": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "y": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "width": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "height": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "parentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "style": {
+            "type": "object",
+            "properties": {
+              "fill": {
+                "default": "#d7e9e4",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "stroke": {
+                "default": "#35695e",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "strokeWidth": {
+                "default": 2,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 30
+              },
+              "opacity": {
+                "default": 1,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "fontSize": {
+                "default": 20,
+                "type": "number",
+                "minimum": 6,
+                "maximum": 200
+              }
+            },
+            "additionalProperties": false
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "layoutRole": {
+            "type": "string",
+            "enum": [
+              "content",
+              "decoration"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 10000
+          }
+        },
+        "required": [
+          "documentId",
+          "text"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "add_arrow",
+      "description": "Add an editable arrow. Optional relationship records sourceId, targetId and labelIds for safe layout correction; points along local +X.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "x": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "y": {
+            "default": 100,
+            "type": "number",
+            "minimum": -10000,
+            "maximum": 10000
+          },
+          "width": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "height": {
+            "default": 100,
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 10000
+          },
+          "parentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "style": {
+            "type": "object",
+            "properties": {
+              "fill": {
+                "default": "#d7e9e4",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "stroke": {
+                "default": "#35695e",
+                "type": "string",
+                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+              },
+              "strokeWidth": {
+                "default": 2,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 30
+              },
+              "opacity": {
+                "default": 1,
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "fontSize": {
+                "default": 20,
+                "type": "number",
+                "minimum": 6,
+                "maximum": 200
+              }
+            },
+            "additionalProperties": false
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "layoutRole": {
+            "type": "string",
+            "enum": [
+              "content",
+              "decoration"
+            ]
+          },
+          "relationship": {
+            "type": "object",
+            "properties": {
+              "sourceId": {
+                "type": "string",
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+              },
+              "targetId": {
+                "type": "string",
+                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+              },
+              "labelIds": {
+                "maxItems": 20,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                }
+              }
+            },
+            "required": [
+              "sourceId",
+              "targetId"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "update_object",
+      "description": "Update validated object properties or an invertible six-value affine transform; cannot change identity or parent. Style fields merge.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "patch": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 300
+              },
+              "transform": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number",
+                    "minimum": -100000,
+                    "maximum": 100000
+                  },
+                  {
+                    "type": "number",
+                    "minimum": -100000,
+                    "maximum": 100000
+                  },
+                  {
+                    "type": "number",
+                    "minimum": -100000,
+                    "maximum": 100000
+                  },
+                  {
+                    "type": "number",
+                    "minimum": -100000,
+                    "maximum": 100000
+                  },
+                  {
+                    "type": "number",
+                    "minimum": -100000,
+                    "maximum": 100000
+                  },
+                  {
+                    "type": "number",
+                    "minimum": -100000,
+                    "maximum": 100000
+                  }
+                ],
+                "items": false,
+                "minItems": 6,
+                "maxItems": 6
+              },
+              "width": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "height": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 10000
+              },
+              "visible": {
+                "type": "boolean"
+              },
+              "locked": {
+                "type": "boolean"
+              },
+              "style": {
+                "type": "object",
+                "properties": {
+                  "fill": {
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "stroke": {
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "strokeWidth": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "fontSize": {
+                    "type": "number",
+                    "minimum": 6,
+                    "maximum": 200
+                  }
+                },
+                "additionalProperties": false
+              },
+              "iconId": {
+                "type": "string",
+                "maxLength": 150
+              },
+              "text": {
+                "type": "string",
+                "maxLength": 10000
+              },
+              "shape": {
+                "type": "string",
+                "enum": [
+                  "rect",
+                  "ellipse",
+                  "roundrect"
+                ]
+              },
+              "elementStyles": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string",
+                  "maxLength": 300,
+                  "pattern": "^\\d+(?:\\/\\d+)*$"
+                },
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "fill": {
+                      "type": "string",
+                      "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                    },
+                    "stroke": {
+                      "type": "string",
+                      "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                    },
+                    "strokeWidth": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1000
+                    },
+                    "opacity": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "colorMap": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "additionalProperties": {
+                  "type": "string",
+                  "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                }
+              },
+              "semanticId": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "relationship": {
+                "type": "object",
+                "properties": {
+                  "sourceId": {
+                    "type": "string",
+                    "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                  },
+                  "targetId": {
+                    "type": "string",
+                    "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                  },
+                  "labelIds": {
+                    "maxItems": 20,
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    }
+                  }
+                },
+                "required": [
+                  "sourceId",
+                  "targetId"
+                ],
+                "additionalProperties": false
+              },
+              "layoutRole": {
+                "type": "string",
+                "enum": [
+                  "content",
+                  "decoration"
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId",
+          "patch"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "delete_object",
+      "description": "Delete an object and all descendants in a single undoable transaction.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "group_objects",
+      "description": "Group sibling objects, preserving their current world placement.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "objectIds": {
+            "minItems": 2,
+            "maxItems": 500,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+            }
+          },
+          "name": {
+            "default": "Group",
+            "type": "string",
+            "maxLength": 300
+          }
+        },
+        "required": [
+          "documentId",
+          "objectIds"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "ungroup_objects",
+      "description": "Remove a group, preserving child world transforms.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "objectId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          }
+        },
+        "required": [
+          "documentId",
+          "objectId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "list_objects",
+      "description": "List a bounded page of objects, including hierarchy, transform, and style.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "limit": {
+            "default": 100,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500
+          },
+          "offset": {
+            "default": 0,
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "export_svg",
+      "description": "Return standalone vector SVG for the saved document revision. Does not write an external file.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "apply_operations",
+      "description": "Apply an atomic batch through the shared document engine; useful for layout, multiple transforms and layer reordering.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "operations": {
+            "minItems": 1,
+            "maxItems": 5000,
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "add"
+                    },
+                    "node": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "icon",
+                            "shape",
+                            "text",
+                            "arrow",
+                            "group"
+                          ]
+                        },
+                        "name": {
+                          "type": "string",
+                          "maxLength": 300
+                        },
+                        "parentId": {
+                          "default": null,
+                          "anyOf": [
+                            {
+                              "type": "string",
+                              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "children": {
+                          "default": [],
+                          "maxItems": 5000,
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                          }
+                        },
+                        "transform": {
+                          "default": [
+                            1,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0
+                          ],
+                          "type": "array",
+                          "prefixItems": [
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            }
+                          ],
+                          "items": false,
+                          "minItems": 6,
+                          "maxItems": 6
+                        },
+                        "width": {
+                          "default": 100,
+                          "type": "number",
+                          "exclusiveMinimum": 0,
+                          "maximum": 10000
+                        },
+                        "height": {
+                          "default": 100,
+                          "type": "number",
+                          "exclusiveMinimum": 0,
+                          "maximum": 10000
+                        },
+                        "visible": {
+                          "default": true,
+                          "type": "boolean"
+                        },
+                        "locked": {
+                          "default": false,
+                          "type": "boolean"
+                        },
+                        "style": {
+                          "default": {
+                            "fill": "#d7e9e4",
+                            "stroke": "#35695e",
+                            "strokeWidth": 2,
+                            "opacity": 1,
+                            "fontSize": 20
+                          },
+                          "type": "object",
+                          "properties": {
+                            "fill": {
+                              "default": "#d7e9e4",
+                              "type": "string",
+                              "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                            },
+                            "stroke": {
+                              "default": "#35695e",
+                              "type": "string",
+                              "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                            },
+                            "strokeWidth": {
+                              "default": 2,
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 30
+                            },
+                            "opacity": {
+                              "default": 1,
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 1
+                            },
+                            "fontSize": {
+                              "default": 20,
+                              "type": "number",
+                              "minimum": 6,
+                              "maximum": 200
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "iconId": {
+                          "type": "string",
+                          "maxLength": 150
+                        },
+                        "text": {
+                          "type": "string",
+                          "maxLength": 10000
+                        },
+                        "shape": {
+                          "type": "string",
+                          "enum": [
+                            "rect",
+                            "ellipse",
+                            "roundrect"
+                          ]
+                        },
+                        "elementStyles": {
+                          "type": "object",
+                          "propertyNames": {
+                            "type": "string",
+                            "maxLength": 300,
+                            "pattern": "^\\d+(?:\\/\\d+)*$"
+                          },
+                          "additionalProperties": {
+                            "type": "object",
+                            "properties": {
+                              "fill": {
+                                "type": "string",
+                                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                              },
+                              "stroke": {
+                                "type": "string",
+                                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                              },
+                              "strokeWidth": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1000
+                              },
+                              "opacity": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                              }
+                            },
+                            "additionalProperties": false
+                          }
+                        },
+                        "colorMap": {
+                          "type": "object",
+                          "propertyNames": {
+                            "type": "string",
+                            "maxLength": 100
+                          },
+                          "additionalProperties": {
+                            "type": "string",
+                            "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                          }
+                        },
+                        "semanticId": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "relationship": {
+                          "type": "object",
+                          "properties": {
+                            "sourceId": {
+                              "type": "string",
+                              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                            },
+                            "targetId": {
+                              "type": "string",
+                              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                            },
+                            "labelIds": {
+                              "maxItems": 20,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                              }
+                            }
+                          },
+                          "required": [
+                            "sourceId",
+                            "targetId"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "layoutRole": {
+                          "type": "string",
+                          "enum": [
+                            "content",
+                            "decoration"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "type",
+                        "name"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "node"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "update"
+                    },
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "patch": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "maxLength": 300
+                        },
+                        "transform": {
+                          "type": "array",
+                          "prefixItems": [
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            },
+                            {
+                              "type": "number",
+                              "minimum": -100000,
+                              "maximum": 100000
+                            }
+                          ],
+                          "items": false,
+                          "minItems": 6,
+                          "maxItems": 6
+                        },
+                        "width": {
+                          "type": "number",
+                          "exclusiveMinimum": 0,
+                          "maximum": 10000
+                        },
+                        "height": {
+                          "type": "number",
+                          "exclusiveMinimum": 0,
+                          "maximum": 10000
+                        },
+                        "visible": {
+                          "type": "boolean"
+                        },
+                        "locked": {
+                          "type": "boolean"
+                        },
+                        "style": {
+                          "type": "object",
+                          "properties": {
+                            "fill": {
+                              "type": "string",
+                              "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                            },
+                            "stroke": {
+                              "type": "string",
+                              "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                            },
+                            "strokeWidth": {
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 30
+                            },
+                            "opacity": {
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 1
+                            },
+                            "fontSize": {
+                              "type": "number",
+                              "minimum": 6,
+                              "maximum": 200
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "iconId": {
+                          "type": "string",
+                          "maxLength": 150
+                        },
+                        "text": {
+                          "type": "string",
+                          "maxLength": 10000
+                        },
+                        "shape": {
+                          "type": "string",
+                          "enum": [
+                            "rect",
+                            "ellipse",
+                            "roundrect"
+                          ]
+                        },
+                        "elementStyles": {
+                          "type": "object",
+                          "propertyNames": {
+                            "type": "string",
+                            "maxLength": 300,
+                            "pattern": "^\\d+(?:\\/\\d+)*$"
+                          },
+                          "additionalProperties": {
+                            "type": "object",
+                            "properties": {
+                              "fill": {
+                                "type": "string",
+                                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                              },
+                              "stroke": {
+                                "type": "string",
+                                "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                              },
+                              "strokeWidth": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1000
+                              },
+                              "opacity": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                              }
+                            },
+                            "additionalProperties": false
+                          }
+                        },
+                        "colorMap": {
+                          "type": "object",
+                          "propertyNames": {
+                            "type": "string",
+                            "maxLength": 100
+                          },
+                          "additionalProperties": {
+                            "type": "string",
+                            "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                          }
+                        },
+                        "semanticId": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "relationship": {
+                          "type": "object",
+                          "properties": {
+                            "sourceId": {
+                              "type": "string",
+                              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                            },
+                            "targetId": {
+                              "type": "string",
+                              "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                            },
+                            "labelIds": {
+                              "maxItems": 20,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                              }
+                            }
+                          },
+                          "required": [
+                            "sourceId",
+                            "targetId"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "layoutRole": {
+                          "type": "string",
+                          "enum": [
+                            "content",
+                            "decoration"
+                          ]
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "patch"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "delete"
+                    },
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "group"
+                    },
+                    "ids": {
+                      "minItems": 2,
+                      "maxItems": 500,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                      }
+                    },
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "name": {
+                      "default": "Group",
+                      "type": "string",
+                      "maxLength": 300
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "ids",
+                    "id"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "ungroup"
+                    },
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "reorder"
+                    },
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "index": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "index"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "documentId",
+          "operations"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "apply_figure_plan",
+      "description": "Replace document content from a structured scientific plan; deterministic topological layout needs no pixel coordinates. One undoable transaction.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "plan": {
+            "type": "object",
+            "properties": {
+              "version": {
+                "type": "number",
+                "const": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "panels": {
+                "minItems": 1,
+                "maxItems": 20,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "title": {
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "entities": {
+                "minItems": 1,
+                "maxItems": 100,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "panelId": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "label": {
+                      "type": "string",
+                      "maxLength": 300
+                    },
+                    "iconId": {
+                      "type": "string",
+                      "maxLength": 150
+                    },
+                    "count": {
+                      "default": 1,
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 8
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "panelId",
+                    "label",
+                    "iconId"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "relationships": {
+                "default": [],
+                "maxItems": 200,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "from": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "to": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "label": {
+                      "default": "",
+                      "type": "string",
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "from",
+                    "to"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "labels": {
+                "default": [],
+                "maxItems": 100,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "panelId": {
+                      "type": "string",
+                      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+                    },
+                    "text": {
+                      "type": "string",
+                      "maxLength": 500
+                    }
+                  },
+                  "required": [
+                    "panelId",
+                    "text"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "layout": {
+                "default": {
+                  "direction": "vertical",
+                  "gap": 220,
+                  "padding": 70
+                },
+                "type": "object",
+                "properties": {
+                  "direction": {
+                    "default": "vertical",
+                    "type": "string",
+                    "enum": [
+                      "vertical",
+                      "horizontal"
+                    ]
+                  },
+                  "gap": {
+                    "default": 220,
+                    "type": "number",
+                    "minimum": 160,
+                    "maximum": 500
+                  },
+                  "padding": {
+                    "default": 70,
+                    "type": "number",
+                    "minimum": 40,
+                    "maximum": 200
+                  }
+                },
+                "additionalProperties": false
+              },
+              "style": {
+                "default": {},
+                "type": "object",
+                "properties": {
+                  "fill": {
+                    "default": "#d7e9e4",
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "stroke": {
+                    "default": "#35695e",
+                    "type": "string",
+                    "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+                  },
+                  "strokeWidth": {
+                    "default": 2,
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "opacity": {
+                    "default": 1,
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "fontSize": {
+                    "default": 20,
+                    "type": "number",
+                    "minimum": 6,
+                    "maximum": 200
+                  }
+                },
+                "additionalProperties": false
+              },
+              "caption": {
+                "type": "string",
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "version",
+              "title",
+              "panels",
+              "entities"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "documentId",
+          "plan"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "undo",
+      "description": "Undo the last document transaction, including edits made by MCP or the UI.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "redo",
+      "description": "Redo the last undone transaction.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "required": [
+          "documentId"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "openWorldHint": false
+      }
+    }
+  ]
+}

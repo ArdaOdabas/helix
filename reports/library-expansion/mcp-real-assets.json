@@ -1,0 +1,65 @@
+{
+  "actualMcpTransport": "Configured Claude Desktop stdio command -> running Helix HTTP service",
+  "toolsDiscovered": 28,
+  "documentId": "3b0298d8-e7ee-4beb-bf70-bb9485ce8d98",
+  "revision": 12,
+  "cases": [
+    {
+      "assetId": "asset-45371acc4fa9453c1c6058a71b50850d24002ae35480c43a211ffb832f73322f",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/352",
+      "role": "Mitochondrial outer and folded inner membrane outlines",
+      "objectId": "df4d8c1d-ecd0-402f-b921-0ffc28a9cd84",
+      "targets": [
+        {
+          "elementId": "@svg:2",
+          "key": "2",
+          "fill": "#4389C7"
+        },
+        {
+          "elementId": "@svg:1/3",
+          "key": "1/3",
+          "fill": "#E89B43"
+        }
+      ],
+      "renderedPixels": {
+        "blue": 2491,
+        "orange": 2910
+      },
+      "undoRedo": true,
+      "persistenceReload": true,
+      "liveBrowser": true,
+      "unrelatedElementsUnchanged": true,
+      "geometryPreserved": true,
+      "originalAssetUnchanged": true
+    },
+    {
+      "assetId": "asset-c57d0bdb1dda767089f0f21daf556309d575239ebf992366b0b0a0035fbaf4b4",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/72",
+      "role": "Two independent nucleus vector regions",
+      "objectId": "9c79c23a-3a00-4d92-b145-830c52069581",
+      "targets": [
+        {
+          "elementId": "@svg:1/0/0/0",
+          "key": "1/0/0/0",
+          "fill": "#4389C7"
+        },
+        {
+          "elementId": "@svg:1/0/0/1/0",
+          "key": "1/0/0/1/0",
+          "fill": "#E89B43"
+        }
+      ],
+      "renderedPixels": {
+        "blue": 51717,
+        "orange": 645
+      },
+      "undoRedo": true,
+      "persistenceReload": true,
+      "liveBrowser": true,
+      "unrelatedElementsUnchanged": true,
+      "geometryPreserved": true,
+      "originalAssetUnchanged": true
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,20 @@
+{
+  "type": "workflow",
+  "title": "Autologous CAR-T cell manufacturing",
+  "subtitle": "Patient T cells are engineered ex vivo to express a CD19-targeting chimeric antigen receptor",
+  "numbered": true,
+  "stages": [
+    {"label": "Clinic", "from": 0, "to": 1, "color": "blue"},
+    {"label": "GMP facility", "from": 2, "to": 4, "color": "teal"},
+    {"label": "Clinic", "from": 5, "to": 5, "color": "blue"}
+  ],
+  "steps": [
+    {"label": "Patient", "detail": "Relapsed B-cell lymphoma", "visual": "patient", "action": "Leukapheresis"},
+    {"label": "PBMC isolation", "detail": "Density-gradient separation", "visual": {"glyph": "falcon tube", "count": 3}, "action": "CD3/CD28 beads"},
+    {"label": "T cell activation", "visual": "t cell", "action": "Lentiviral vector"},
+    {"label": "CAR transduction", "detail": "anti-CD19 scFv–4-1BB–CD3ζ", "visuals": ["lentivirus", {"glyph":"t cell","color":"teal"}], "action": "7–10 days"},
+    {"label": "Expansion", "detail": "Bioreactor, IL-2", "visual": "culture flask", "action": "QC release"},
+    {"label": "Infusion", "detail": "Lymphodepletion, then CAR-T", "visual": "syringe"}
+  ],
+  "footnote": "Schematic; not to scale."
+}

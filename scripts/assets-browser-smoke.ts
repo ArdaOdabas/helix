@@ -1,0 +1,67 @@
+// Runs against a separate service and temporary data; never edits the user's figures.
+import {chromium} from 'playwright-core';
+import {spawn} from 'node:child_process';
+import {mkdtempSync,mkdirSync,writeFileSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import assert from 'node:assert/strict';
+import {Catalog} from '../src/assets/catalog.ts';
+import {importDirectory} from '../src/assets/importer.ts';
+const root=mkdtempSync(join(tmpdir(),'helix-browser-assets-'));
+const input=join(root,'input');mkdirSync(join(input,'Cells','Vesicles'),{recursive:true});
+const vector='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><title>Test vesicle</title><g id="membrane" transform="translate(2 3)"><path id="edge" d="M0 0L30 30" stroke="#123456"/></g></svg>';
+writeFileSync(join(input,'Cells','Vesicles','vesicle.svg'),vector);
+const catalog=new Catalog(root);await importDirectory(input,catalog);
+const port=process.env.FIGURE_ASSET_TEST_PORT || '14317';
+const service=spawn(process.execPath,['src/server/main.ts'],{env:{...process.env,FIGURE_DATA_DIR:root,FIGURE_PORT:port},stdio:['ignore','pipe','pipe']});
+let log='';service.stderr.on('data',d=>log+=d);service.stdout.on('data',d=>log+=d);
+let browser;
+try {
+ let ready=false;for(let i=0;i<100;i++){if(service.exitCode!==null)throw new Error(log);try{const r=await fetch(`http://127.0.0.1:${port}/api/health`);if(r.ok){ready=true;break;}}catch{}await new Promise(r=>setTimeout(r,100));}assert.ok(ready,log);
+ browser=await chromium.launch({executablePath:process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+ const page=await browser.newPage({viewport:{width:1500,height:1000}});const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(`http://127.0.0.1:${port}`);await page.getByTestId('artboard').waitFor();
+ await page.getByLabel('Asset category').selectOption('Cells');await page.getByLabel('Asset subcategory').selectOption('Vesicles');
+ await page.getByLabel('Search scientific icons').fill('vesicle');const card=page.getByTitle('Insert Test vesicle');await card.waitFor();
+ await page.getByRole('button',{name:'Details',exact:true}).click();await page.locator('.asset-detail').getByRole('heading',{name:'Test vesicle'}).waitFor();
+ assert.ok(await page.locator('.icon-preview img').evaluate((img:HTMLImageElement)=>img.complete && img.naturalWidth>0));
+ await card.click();await page.waitForFunction(()=>document.querySelector('.layer-name')?.textContent?.includes('Test vesicle'));
+ await page.locator('.layer-name').filter({hasText:'Test vesicle'}).click();
+ // Delay the API response to verify explicit busy-state synchronization; no native prompts.
+ await page.route('**/api/tools/recolor_asset',async route=>{await new Promise(resolve=>setTimeout(resolve,100));await route.continue();});
+ await page.getByRole('button',{name:'Recolor SVG palette',exact:true}).click();
+ await page.getByLabel('Palette color',{exact:true}).selectOption('#123456');
+ await page.getByLabel('Replacement color',{exact:true}).fill('#ff0000');
+ const recolorResponse=page.waitForResponse(r=>r.url().endsWith('/api/tools/recolor_asset'));
+ await page.getByRole('button',{name:'Apply palette color',exact:true}).click();
+ assert.ok(await page.getByRole('button',{name:'Apply palette color',exact:true}).isDisabled());
+ assert.ok((await recolorResponse).ok());
+ await page.waitForFunction(()=>!!document.querySelector('.canvas path[stroke="#ff0000"]'));
+ await page.getByLabel('SVG element',{exact:true}).selectOption({label:'path edge'});
+ await page.getByLabel('Element fill',{exact:true}).fill('#abcdef');
+ await page.getByRole('button',{name:'Apply element fill',exact:true}).click();
+ await page.waitForFunction(()=>!!document.querySelector('.canvas path[fill="#abcdef"][stroke="#ff0000"]'));
+ await page.getByLabel('Element stroke',{exact:true}).fill('#0000ff');
+ await page.getByRole('button',{name:'Apply element stroke',exact:true}).click();
+ await page.waitForFunction(()=>!!document.querySelector('.canvas path[fill="#abcdef"][stroke="#0000ff"]'));
+ await page.getByRole('button',{name:'Undo',exact:true}).click();
+ await page.waitForFunction(()=>!!document.querySelector('.canvas path[fill="#abcdef"][stroke="#ff0000"]'));
+ await page.getByRole('button',{name:'Redo',exact:true}).click();
+ await page.waitForFunction(()=>!!document.querySelector('.canvas path[fill="#abcdef"][stroke="#0000ff"]'));
+ await page.getByLabel('SVG element',{exact:true}).selectOption({label:'g membrane'});
+ await page.getByLabel('Element fill',{exact:true}).fill('#cdefab');
+ await page.getByRole('button',{name:'Apply element fill',exact:true}).click();
+ await page.waitForFunction(()=>!!document.querySelector('.canvas g[fill="#cdefab"][transform="translate(2 3)"]'));
+ // Direct selection uses annotations only on the interactive canvas.
+ await page.locator('.canvas path[data-svg-element-key][stroke="#0000ff"]').evaluate(el=>el.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,altKey:true,button:0})));
+ assert.equal(await page.getByLabel('SVG element',{exact:true}).inputValue(),'1/0');
+ writeFileSync(join(input,'Cells','Vesicles','new.svg'),vector.replace('Test vesicle','New vesicle').replace('L30 30','L40 40'));await importDirectory(input,catalog);
+ await page.getByTitle('Insert New vesicle').waitFor({timeout:10000});
+ const count=await page.locator('.canvas g[data-object-id]').count();
+ const transfer=await page.evaluateHandle(()=>new DataTransfer());
+ await card.dispatchEvent('dragstart',{dataTransfer:transfer});
+ const canvas=page.locator('svg.canvas'),rect=await canvas.boundingBox();assert.ok(rect);
+ await canvas.dispatchEvent('drop',{dataTransfer:transfer,clientX:rect.x+300,clientY:rect.y+300});
+ await page.waitForFunction(count=>document.querySelectorAll('.canvas g[data-object-id]').length===count+1,count);
+ assert.deepEqual(errors,[]);console.log('Asset browser smoke passed: filters, details, thumbnails, insertion, recolor, live import refresh, library drag/drop, path/group editing, undo/redo.');
+} finally {await browser?.close();service.kill('SIGTERM');catalog.close();}

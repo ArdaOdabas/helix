@@ -1,0 +1,292 @@
+{
+  "at": "2026-11-03T19:41:25.585Z",
+  "dataDirectory": "/var/folders/64/m8vsmynn7sn89thpw449kqtc0000gn/T/helix-figure-feedback-oqW2Oy",
+  "documentId": "0cfde66d-038b-4341-875e-b5071366e7a6",
+  "composedDocumentId": "1a23c70a-bce9-415e-be4c-ad89d7ebe92d",
+  "toolCount": 33,
+  "arrowDocumentId": "801da453-80da-49a5-8a25-55d07ceb9dd5",
+  "whitespaceDocumentId": "3d684fec-9c67-410e-848a-1dbaf45baf2c",
+  "arrowPasses": [
+    {
+      "beforeRevision": 4,
+      "afterRevision": 5,
+      "operations": [
+        {
+          "type": "update",
+          "id": "0ef1d2e5-bcaf-492d-bba3-a45aa2df1635",
+          "patch": {
+            "transform": [
+              1,
+              0,
+              0,
+              1,
+              200,
+              183
+            ]
+          }
+        }
+      ],
+      "beforeIssues": 3,
+      "afterIssues": 2
+    },
+    {
+      "beforeRevision": 5,
+      "afterRevision": 6,
+      "operations": [
+        {
+          "type": "update",
+          "id": "6c8e8af2-df53-4112-a07f-0ade0f055306",
+          "patch": {
+            "width": 281,
+            "transform": [
+              1,
+              0,
+              0,
+              1,
+              130,
+              155
+            ]
+          }
+        }
+      ],
+      "beforeIssues": 2,
+      "afterIssues": 0
+    }
+  ],
+  "arrowAnalysis": {
+    "documentId": "801da453-80da-49a5-8a25-55d07ceb9dd5",
+    "revision": 6,
+    "method": "Chromium glyph measurements plus document viewport geometry",
+    "measuredObjects": 4,
+    "visibleObjects": 4,
+    "whitespace": {
+      "contentBounds": {
+        "x": 50,
+        "y": 130,
+        "width": 430,
+        "height": 73.1796875
+      },
+      "unusedMargins": {
+        "left": 50,
+        "right": 140,
+        "top": 130,
+        "bottom": 196.8203125
+      },
+      "unusedCanvasPercentage": 87.31158644153226,
+      "suggestedArtboard": {
+        "width": 492,
+        "height": 216,
+        "origin": "unchanged; left/top whitespace retained",
+        "withinDocumentLimits": true
+      },
+      "excludedDecorations": [],
+      "whitespaceMayBeIntentional": true,
+      "estimate": "Area outside content bounding box, not a pixel occupancy measure."
+    },
+    "arrowCheckComplete": true,
+    "intentionalArrowLabels": [],
+    "issueCount": 0,
+    "issues": [],
+    "truncatedIssues": false,
+    "overlapCheckComplete": true,
+    "corrections": [],
+    "limitations": [
+      "Not a scientific or semantic image assessment.",
+      "Bounds are axis-aligned; intentional overlap, clipping and alpha can affect diagnostics.",
+      "Icon bounds use the preserved SVG viewport; internal SVG paths are not individually diagnosed.",
+      "Contrast compares opaque text hex colors with the document background only.",
+      "Arrow contacts use transformed shaft/head polygons and conservative object bounds; unknown relationships are not inferred.",
+      "Overlap comparisons are limited to 500 visible non-arrow leaves; diagnostics to 250 issues."
+    ]
+  },
+  "whitespaceBefore": {
+    "contentBounds": {
+      "x": 39,
+      "y": 40,
+      "width": 181.75,
+      "height": 158
+    },
+    "unusedMargins": {
+      "left": 39,
+      "right": 979.25,
+      "top": 40,
+      "bottom": 702
+    },
+    "unusedCanvasPercentage": 97.34106481481481,
+    "suggestedArtboard": {
+      "width": 233,
+      "height": 210,
+      "origin": "unchanged; left/top whitespace retained",
+      "withinDocumentLimits": true
+    },
+    "excludedDecorations": [
+      "c284d475-f847-4ff3-903b-6ee9f04b5698"
+    ],
+    "whitespaceMayBeIntentional": true,
+    "estimate": "Area outside content bounding box, not a pixel occupancy measure."
+  },
+  "whitespaceAfter": {
+    "contentBounds": {
+      "x": 39,
+      "y": 40,
+      "width": 181.75,
+      "height": 158
+    },
+    "unusedMargins": {
+      "left": 39,
+      "right": 99.25,
+      "top": 40,
+      "bottom": 52
+    },
+    "unusedCanvasPercentage": 64.104375,
+    "suggestedArtboard": {
+      "width": 233,
+      "height": 210,
+      "origin": "unchanged; left/top whitespace retained",
+      "withinDocumentLimits": true
+    },
+    "excludedDecorations": [
+      "c284d475-f847-4ff3-903b-6ee9f04b5698"
+    ],
+    "whitespaceMayBeIntentional": true,
+    "estimate": "Area outside content bounding box, not a pixel occupancy measure."
+  },
+  "pngScale": {
+    "documentId": "6096ce57-815c-43a4-bac7-ab755f01fb6f",
+    "revision": 1,
+    "width": 2048,
+    "height": 256,
+    "scale": 0.512,
+    "requestedScale": 2,
+    "actualScale": 0.512,
+    "actualWidth": 2048,
+    "actualHeight": 256,
+    "maxDimension": 2048,
+    "warnings": [
+      "PNG scale capped from 2 to 0.512 by maxDimension 2048."
+    ],
+    "svgSha256": "970eaf4fc38dc84e41f9d04536aa3e0dac9eae0ceabaedd9555c4868bbf5b404",
+    "snapshotCurrent": true
+  },
+  "passed": [
+    "native MCP PNG image content",
+    "PNG cache and PNG decode",
+    "revision-accurate readonly renders",
+    "measured glyph overflow and bounds",
+    "inspection-only default",
+    "apply requires revision",
+    "bounded automated corrections",
+    "text and vector content preserved",
+    "undo and redo",
+    "reload persistence",
+    "stale revision rejection",
+    "concurrent UI/MCP edit rejection",
+    "new-document plan composer",
+    "vector SVG export",
+    "browser display",
+    "original NIH asset intact",
+    "arrow stroke label collision detection",
+    "endpoint clearance detection",
+    "safe label movement and endpoint trim",
+    "relationship identity preserved",
+    "arrow batch undo/redo and persistence",
+    "intentional label not corrected",
+    "unrelated NIH icon contact uncertainty",
+    "unsafe rerouting refused",
+    "whitespace excludes explicit decoration",
+    "no implicit resize",
+    "crop and attribution protection",
+    "explicit resize atomic revision",
+    "resize undo redo persistence",
+    "resize revision protection",
+    "PNG cap metadata and decoded dimensions",
+    "strict scale rejection",
+    "exact scale dimensions",
+    "scale cache metadata isolation",
+    "arrowhead text occlusion",
+    "unrelated arrowhead contact",
+    "insufficient arrow clearance"
+  ],
+  "failed": [],
+  "passes": [
+    {
+      "beforeRevision": 2,
+      "afterRevision": 3,
+      "operations": [
+        {
+          "type": "update",
+          "id": "071b2672-d4eb-4ff0-912c-779a7352c207",
+          "patch": {
+            "style": {
+              "fontSize": 18.6
+            }
+          }
+        },
+        {
+          "type": "update",
+          "id": "cf4d81a7-1a23-4e6c-9a46-2d1034464a20",
+          "patch": {
+            "transform": [
+              1,
+              0,
+              0,
+              1,
+              12,
+              60
+            ]
+          }
+        }
+      ],
+      "beforeIssues": 2,
+      "afterIssues": 0
+    }
+  ],
+  "finalAnalysis": {
+    "documentId": "0cfde66d-038b-4341-875e-b5071366e7a6",
+    "revision": 3,
+    "method": "Chromium glyph measurements plus document viewport geometry",
+    "measuredObjects": 2,
+    "visibleObjects": 2,
+    "whitespace": {
+      "contentBounds": {
+        "x": 12,
+        "y": 60,
+        "width": 335.421875,
+        "height": 130
+      },
+      "unusedMargins": {
+        "left": 12,
+        "right": 252.578125,
+        "top": 60,
+        "bottom": 210
+      },
+      "unusedCanvasPercentage": 81.83131510416666,
+      "suggestedArtboard": {
+        "width": 360,
+        "height": 202,
+        "origin": "unchanged; left/top whitespace retained",
+        "withinDocumentLimits": true
+      },
+      "excludedDecorations": [],
+      "whitespaceMayBeIntentional": true,
+      "estimate": "Area outside content bounding box, not a pixel occupancy measure."
+    },
+    "arrowCheckComplete": true,
+    "intentionalArrowLabels": [],
+    "issueCount": 0,
+    "issues": [],
+    "truncatedIssues": false,
+    "overlapCheckComplete": true,
+    "corrections": [],
+    "limitations": [
+      "Not a scientific or semantic image assessment.",
+      "Bounds are axis-aligned; intentional overlap, clipping and alpha can affect diagnostics.",
+      "Icon bounds use the preserved SVG viewport; internal SVG paths are not individually diagnosed.",
+      "Contrast compares opaque text hex colors with the document background only.",
+      "Arrow contacts use transformed shaft/head polygons and conservative object bounds; unknown relationships are not inferred.",
+      "Overlap comparisons are limited to 500 visible non-arrow leaves; diagnostics to 250 issues."
+    ]
+  },
+  "renderedNonwhitePixels": 9187,
+  "browserErrors": []
+}

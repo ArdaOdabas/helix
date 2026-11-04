@@ -1,0 +1,107 @@
+{
+  "at": "2026-11-03T19:41:18.918Z",
+  "dataDirectory": "/var/folders/64/m8vsmynn7sn89thpw449kqtc0000gn/T/helix-figure-feedback-5Cyx4A",
+  "documentId": "6c523ecc-92ed-49ab-8c98-8a4752e78759",
+  "composedDocumentId": "8f2ca38e-b97a-4f13-99fb-3dfefea5cf5b",
+  "toolCount": 33,
+  "passed": [
+    "native MCP PNG image content",
+    "PNG cache and PNG decode",
+    "revision-accurate readonly renders",
+    "measured glyph overflow and bounds",
+    "inspection-only default",
+    "apply requires revision",
+    "bounded automated corrections",
+    "text and vector content preserved",
+    "undo and redo",
+    "reload persistence",
+    "stale revision rejection",
+    "concurrent UI/MCP edit rejection",
+    "new-document plan composer",
+    "vector SVG export",
+    "browser display",
+    "original NIH asset intact"
+  ],
+  "failed": [],
+  "passes": [
+    {
+      "beforeRevision": 2,
+      "afterRevision": 3,
+      "operations": [
+        {
+          "type": "update",
+          "id": "c1e96054-9b56-439c-9086-9e5397a211ef",
+          "patch": {
+            "style": {
+              "fontSize": 18.6
+            }
+          }
+        },
+        {
+          "type": "update",
+          "id": "dd2d48a1-bac9-43c0-8ba1-c4c3b62a622f",
+          "patch": {
+            "transform": [
+              1,
+              0,
+              0,
+              1,
+              12,
+              60
+            ]
+          }
+        }
+      ],
+      "beforeIssues": 2,
+      "afterIssues": 0
+    }
+  ],
+  "finalAnalysis": {
+    "documentId": "6c523ecc-92ed-49ab-8c98-8a4752e78759",
+    "revision": 3,
+    "method": "Chromium glyph measurements plus document viewport geometry",
+    "measuredObjects": 2,
+    "visibleObjects": 2,
+    "whitespace": {
+      "contentBounds": {
+        "x": 12,
+        "y": 60,
+        "width": 335.421875,
+        "height": 130
+      },
+      "unusedMargins": {
+        "left": 12,
+        "right": 252.578125,
+        "top": 60,
+        "bottom": 210
+      },
+      "unusedCanvasPercentage": 81.83131510416666,
+      "suggestedArtboard": {
+        "width": 360,
+        "height": 202,
+        "origin": "unchanged; left/top whitespace retained",
+        "withinDocumentLimits": true
+      },
+      "excludedDecorations": [],
+      "whitespaceMayBeIntentional": true,
+      "estimate": "Area outside content bounding box, not a pixel occupancy measure."
+    },
+    "arrowCheckComplete": true,
+    "intentionalArrowLabels": [],
+    "issueCount": 0,
+    "issues": [],
+    "truncatedIssues": false,
+    "overlapCheckComplete": true,
+    "corrections": [],
+    "limitations": [
+      "Not a scientific or semantic image assessment.",
+      "Bounds are axis-aligned; intentional overlap, clipping and alpha can affect diagnostics.",
+      "Icon bounds use the preserved SVG viewport; internal SVG paths are not individually diagnosed.",
+      "Contrast compares opaque text hex colors with the document background only.",
+      "Arrow contacts use transformed shaft/head polygons and conservative object bounds; unknown relationships are not inferred.",
+      "Overlap comparisons are limited to 500 visible non-arrow leaves; diagnostics to 250 issues."
+    ]
+  },
+  "renderedNonwhitePixels": 9187,
+  "browserErrors": []
+}

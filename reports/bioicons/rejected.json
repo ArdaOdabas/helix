@@ -1,0 +1,1042 @@
+[
+  {
+    "file": "bsd/Machine_Learning/Jupyter/Jupyter.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-0/Blood_Immunology/fang-fang-yang/血浆.drawio.svg",
+    "error": "Unsafe attribute value"
+  },
+  {
+    "file": "cc-0/Cell_culture/Marcel_Tisch/microporous-scaffold.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Cell_types/Xi-Chen/MII_Oocyte.svg",
+    "error": "Unsupported SVG element: color-profile"
+  },
+  {
+    "file": "cc-0/Chemo-_and_Bioinformatics/Babacar-Ndao/pbmc_markers.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "cc-0/Chemo-_and_Bioinformatics/Galaxy/galaxy.svg",
+    "error": "Unsupported SVG element: font"
+  },
+  {
+    "file": "cc-0/Computer_hardware/Simon_Dürr/cpu.svg",
+    "error": "Unsupported SVG element: flowRoot"
+  },
+  {
+    "file": "cc-0/Computer_hardware/Simon_Dürr/gpu-3d.svg",
+    "error": "Unresolved SVG reference: SVGID_7_"
+  },
+  {
+    "file": "cc-0/Computer_hardware/Simon_Dürr/gpu.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Computer_hardware/Simon_Dürr/nvidia-gpu.svg",
+    "error": "Unresolved SVG reference: SVGID_4_"
+  },
+  {
+    "file": "cc-0/Epigenetics/Xi-Chen/single_nucleosome.svg",
+    "error": "Unsupported SVG element: color-profile"
+  },
+  {
+    "file": "cc-0/Epigenetics/Xi-Chen/transcription_machinery.svg",
+    "error": "Unsupported SVG element: color-profile"
+  },
+  {
+    "file": "cc-0/Genetics/Ana-Viñuela/Generic_GWAS.svg",
+    "error": "SVG complexity limit exceeded"
+  },
+  {
+    "file": "cc-0/Genomics/Ana-Viñuela/LD_block.svg",
+    "error": "SVG complexity limit exceeded"
+  },
+  {
+    "file": "cc-0/Human_physiology/Fang-fang-yang-/metabolites.svg",
+    "error": "Unsafe attribute value"
+  },
+  {
+    "file": "cc-0/Human_physiology/Fang-fang-yang/gut_bacteria.drawio.svg",
+    "error": "Unsafe attribute value"
+  },
+  {
+    "file": "cc-0/Human_physiology/Jan-Clusmann/cirrhotic_liver.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-0/Human_physiology/Jan-Clusmann/liver_with_hcc.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-0/Human_physiology/fang-fangyang/gut_bacteria.svg",
+    "error": "Unsafe attribute value"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_ami.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_ami_five_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_ami_one_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_aura.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_aura_five_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_aura_one_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_aura_ten_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_lago.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_lago_five_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_lago_one_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Imaging/Spectral-Instruments/spectral_lago_ten_mouse.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Lab_apparatus/Erick-Hernández-López/tubo_de_recoleccion_de_sangre.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Lab_apparatus/KeHan/tecan-plate-reader.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Lab_apparatus/Marcel_Tisch/spinning_flask.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Lab_apparatus/OpenClipart/dewar-big.svg",
+    "error": "Unresolved SVG reference: id2"
+  },
+  {
+    "file": "cc-0/Lab_apparatus/Paulina-Betancur/CASA.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-0/Lab_apparatus/Simon_Dürr/aekta-pure.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-0/Machine_Learning/fang-fangyang/intelligence.svg",
+    "error": "Unsafe attribute value"
+  },
+  {
+    "file": "cc-0/Microbiology/Camila-Knecht/isolation.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-0/Microbiology/OpenClipart/agarose-gel.svg",
+    "error": "Unresolved SVG reference: linearGradient4103"
+  },
+  {
+    "file": "cc-0/Molecular_modelling/Gromacs/gromacs.svg",
+    "error": "Unsupported SVG element: flowRoot"
+  },
+  {
+    "file": "cc-0/Molecular_modelling/Simon_Dürr/forcefield.svg",
+    "error": "Unsupported SVG element: flowRoot"
+  },
+  {
+    "file": "cc-0/Molecular_modelling/Simon_Dürr/smiles.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "cc-0/Nanotechnology/Glauco-Nobrega/nanofluid.svg",
+    "error": "Unresolved SVG reference: clip-path"
+  },
+  {
+    "file": "cc-0/Nucleic_acids/Kumar/DNA.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-3.0/Human_physiology/Servier/vene-valve-inflamed-closed.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/African_clawed_frog.svg",
+    "error": "SVG CSS complexity limit exceeded"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Blue_bat_seastar.svg",
+    "error": "SVG CSS complexity limit exceeded"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Chambered_nautilus.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Culex_pipiens_mosquito.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Moon_jellyfish.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Pill_bug.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Planaria.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Slipper_animalcule.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Styela_clava.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Tadpole_shrimp.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Tobacco_hornworm.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/Xenopus_laevis.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Animals/DBCLS/green_Hydra_viridissima.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Animals/Lucien-Hinderling-and-Roman-Schwob/shark.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/B-cell_1.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/B-cell_2.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/B-cell_3.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/B-cell_4.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/B-cell_5.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/B-cell_cluster.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/bone_marrow.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/cancer_cell.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/germinal_center.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/plasma_cell.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Blood_Immunology/El-Jayawant/plasmablast.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_culture/DBCLS/4_cell_stage.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_culture/DBCLS/8_cell_stage.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_culture/DBCLS/Clean_bench_F_black.svg",
+    "error": "Unsupported SVG class without a resolved rule"
+  },
+  {
+    "file": "cc-by-4.0/Cell_culture/DBCLS/blastcyst.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_culture/DBCLS/gastrula.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_culture/DBCLS/sperm.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_culture/DBCLS/stem_cell.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_lines/DBCLS/cell-CHO.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_lines/DBCLS/cell-HEK293.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_lines/DBCLS/cell-HeLa.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_lines/DBCLS/cell-MDCK.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_lines/DBCLS/cell-S2.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_lines/DBCLS/cell-Sf9.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_lines/DBCLS/cell-Vero.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_membrane/El-Jayawant/barrel_stave.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_membrane/El-Jayawant/carpet_model.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_membrane/El-Jayawant/toroidal_pore.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Cell_types/DBCLS/Lymphocyte.svg",
+    "error": "Unresolved SVG reference: SVGID_00000168084901837000512630000016712094649074914216_"
+  },
+  {
+    "file": "cc-by-4.0/Chemo-_and_Bioinformatics/Lucas-Diedrich/differential_gene_expression.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "cc-by-4.0/Chemo-_and_Bioinformatics/Lucas-Diedrich/differential_gene_expression_sig_cutoff.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "cc-by-4.0/Chemo-_and_Bioinformatics/Maxime-U-Garcia/double_bam.svg",
+    "error": "Unsupported SVG element: flowRoot"
+  },
+  {
+    "file": "cc-by-4.0/Chemo-_and_Bioinformatics/Maxime-U-Garcia/double_fastq.svg",
+    "error": "Unsupported SVG element: flowRoot"
+  },
+  {
+    "file": "cc-by-4.0/Chemo-_and_Bioinformatics/Maxime-U-Garcia/multiple_vcf.svg",
+    "error": "Unsupported SVG element: flowRoot"
+  },
+  {
+    "file": "cc-by-4.0/Computer_hardware/DBCLS/serverroom.svg",
+    "error": "Only local fragment references are supported"
+  },
+  {
+    "file": "cc-by-4.0/Genetics/DBCLS/Chromosome.svg",
+    "error": "Unresolved SVG reference: SVGID_00000112629309867604569670000001334925093753671337_"
+  },
+  {
+    "file": "cc-by-4.0/Genomics/Bjoern-Usadel/Illumina_sequencing_colorcalling.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/Adenomatous_Polyposis_07_Metastasis.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/Anterior_view_of_ligaments_of_pelvis.svg",
+    "error": "Opening and ending tag mismatch: \"svg\" != \"i:aipgf\""
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/Motor_neuron.svg",
+    "error": "Unresolved SVG reference: SVGID_00000181807779951226450680000001415265607515426703_"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/Three_types_of_neurons.svg",
+    "error": "Unresolved SVG reference: SVGID_00000067228860057729996870000017222705047439430812_"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/Type1.svg",
+    "error": "Unresolved SVG reference: SVGID_00000109737555056705068710000003537957298489860267_"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/duct.svg",
+    "error": "Unresolved SVG reference: SVGID_00000155855143118615050250000003618426650492006530_"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/spinal-cord_anterior-horn-cells_motor-nerves_muscles.svg",
+    "error": "Unresolved SVG reference: SVGID_00000151523514517667506790000003975066548601172098_"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/DBCLS/vascularis.svg",
+    "error": "Unresolved SVG reference: SVGID_00000140720539429089872820000017444777173122164131_"
+  },
+  {
+    "file": "cc-by-4.0/Human_physiology/Rahel-Khdhr/White_Adipocyte.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Intracellular_components/DBCLS/Protein_primary_structure.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Intracellular_components/DBCLS/Protein_quaternary_structure.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Intracellular_components/DBCLS/Protein_secondary_structure.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Intracellular_components/DBCLS/Protein_tertiary_structure.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Intracellular_components/DBCLS/mitochondria-grey.svg",
+    "error": "Unresolved SVG reference: SVGID_00000165226258759219963150000006227710596001058705_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Child.svg",
+    "error": "Unresolved SVG reference: SVGID_00000039829402212019052120000015384947709281070524_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Colonoscopy.svg",
+    "error": "Unresolved SVG reference: SVGID_00000024715553870279117990000016629395792207063694_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Echocardiography.svg",
+    "error": "Unresolved SVG reference: SVGID_00000138568792296771295360000012496113176108565928_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Endoscopy_Female.svg",
+    "error": "Unresolved SVG reference: SVGID_00000166660376392004864060000013254334339773688499_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Endoscopy_Male.svg",
+    "error": "Unresolved SVG reference: SVGID_00000038404278749611758940000017568132111643364013_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Female.svg",
+    "error": "Unresolved SVG reference: SVGID_00000047752048130347961480000001455502278725459600_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Incubator_Female.svg",
+    "error": "Unresolved SVG reference: SVGID_00000165922543935392311250000000044306543310609331_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Incubator_Male.svg",
+    "error": "Unresolved SVG reference: SVGID_00000027583335949146067830000007185246803412927630_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Microarray_1x.svg",
+    "error": "Unresolved SVG reference: SVGID_00000034798318094167400290000013544839811559950771_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Microarray_2x.svg",
+    "error": "Unresolved SVG reference: SVGID_00000163058813294444921830000002192778747375087282_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/Microarray_4x.svg",
+    "error": "Unresolved SVG reference: SVGID_00000081646204115607337800000006400693576431128223_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/X-ray_Female.svg",
+    "error": "Unresolved SVG reference: SVGID_00000078045182764086731030000016819463768914616502_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/X-ray_Male.svg",
+    "error": "Unresolved SVG reference: SVGID_00000124155401443662712810000005479312883880129668_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/centrifuge-user.svg",
+    "error": "Unresolved SVG reference: SVGID_00000117669709612379212120000015439384649539117223_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/microscope-stereo.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/mortar-2.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/pipette-stand.svg",
+    "error": "Unresolved SVG reference: SVGID_00000023256529370501723710000000069458877508962465_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/plate-reader.svg",
+    "error": "Unresolved SVG reference: SVGID_00000106106866121510941570000005898814470524903314_"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/ring_tweezers.svg",
+    "error": "Only local fragment references are supported"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/tweezers_no5.svg",
+    "error": "Only local fragment references are supported"
+  },
+  {
+    "file": "cc-by-4.0/Lab_apparatus/DBCLS/tweezers_no5_45.svg",
+    "error": "Only local fragment references are supported"
+  },
+  {
+    "file": "cc-by-4.0/Machine_Learning/Noelia_Ferruz/Recurrent-Neural-Network.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/Andi-Wilson/Erlenmeyer_withlabels.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/Andi-Wilson/Erlenmeyer_withrectanglelabel.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/Andi-Wilson/Falcon_sorbitol_overlay.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/DBCLS/Negative_Bacteria.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/DBCLS/Positive_Bacteria.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Animal_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Apicomplexa_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Archaea_cells.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria1M_clubrod.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria1M_coccus.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria1M_filamentous.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria1M_rod.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria1Mplus_rod.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria2M_Nostoc.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria2M_coccus.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria2M_comma.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria2M_rod.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria2M_rodtococcus.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria2M_spiral.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Bacteria2M_trichormus.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Chlamydomona_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Cnidocyte_cell.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Egg_cell.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Epithelial_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Eukaryota_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Fungal_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Neuron_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Photoreceptor_cell.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Plant_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Pombe_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Trypanosoma.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Microbiology/SwissBioPics/Yeast_cells.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Neuroscience/Eric-R-Cole/rat_optogenetic_implant.svg",
+    "error": "Unsupported SVG class without a resolved rule"
+  },
+  {
+    "file": "cc-by-4.0/Nucleic_acids/DBCLS/Chromatin_structure.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Nucleic_acids/DBCLS/dna-earthcolor.svg",
+    "error": "Unresolved SVG reference: SVGID_00000096036666522648252590000006451558461809548941_"
+  },
+  {
+    "file": "cc-by-4.0/Nucleic_acids/DBCLS/nanopore_sequencing.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Oncology/DBCLS/Adenomatous_Polyposis_01_Normal_Colonic_Epithelium.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Oncology/DBCLS/Adenomatous_Polyposis_02_Small_Adenoma.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Oncology/DBCLS/Adenomatous_Polyposis_03_Large_Adenoma.svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-egress.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-invading-rbc.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-pvm-rupture-rounding.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-ring.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-schizont-nucleardivision.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-schizont-segmentation.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-segmented-schizont.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Parasites/Abhinay-Ramaprasad/plasmodium-trophozoite.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling01.svg",
+    "error": "Unresolved SVG reference: SVGID_00000023984328119658659770000016780865781853108905_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling02.svg",
+    "error": "Unresolved SVG reference: SVGID_00000124882298000573141580000007597274317636577209_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling03.svg",
+    "error": "Unresolved SVG reference: SVGID_00000023256011711082367040000002007072047175209878_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling04.svg",
+    "error": "Unresolved SVG reference: SVGID_00000065071250614484560820000004818906785099160752_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling05.svg",
+    "error": "Unresolved SVG reference: SVGID_00000107555290072148639220000005886394071166747793_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling06.svg",
+    "error": "Unresolved SVG reference: SVGID_00000031169071269675822040000004844308244501352102_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling07.svg",
+    "error": "Unresolved SVG reference: SVGID_00000021833818568795710320000007526773288870663095_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Genetic_Counseling08.svg",
+    "error": "Unresolved SVG reference: SVGID_00000063617948346151108540000006454275858396402843_"
+  },
+  {
+    "file": "cc-by-4.0/People-Other/DBCLS/Meeting.svg",
+    "error": "Unresolved SVG reference: SVGID_00000101102749495782269210000012637303122405082017_"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/Connor-Tansley/Nicotiana_benthamiana.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/DBCLS/Cyanobacteria.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/DBCLS/Fern_palm.svg",
+    "error": "SVG CSS complexity limit exceeded"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/DBCLS/volvox.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/Frédéric_Bouché/Arabidopsis_ flowering.svg",
+    "error": "Unresolved SVG reference: SVGID_1_"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/Frédéric_Bouché/Arabidopsis_Flower.svg",
+    "error": "Unresolved SVG reference: SVGID_1_"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/Frédéric_Bouché/Arabidopsis_Inflorescence.svg",
+    "error": "Unresolved SVG reference: SVGID_1_"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/Frédéric_Bouché/Arabidopsis_one_plant_in_soil.svg",
+    "error": "Unresolved SVG reference: SVGID_9_"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/Frédéric_Bouché/Arabidopsis_plant.svg",
+    "error": "Unresolved SVG reference: SVGID_1_"
+  },
+  {
+    "file": "cc-by-4.0/Plants_Algae/ggPlantmap/ggPm-Ms-root-crosssection.svg",
+    "error": "Invalid or duplicate SVG ID"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Anatomy_of_an_African_clawed_frog_circulatory_and_digestive_systems.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Anatomy_of_an_African_clawed_frog_female_urinary_and_reproductive_system.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Anatomy_of_an_African_clawed_frog_male_urinary_and_reproductive_system.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Before_dissection_of_African_clawed_frog.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Betta_Fish_Fighting_with_Its_Opponent.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Betta_Fish_Recognizing_Its_Opponent.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Elevated_Plus_Maze_Test_Mouse_Placed_in_the_Closed_Arm.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Elevated_Plus_Maze_Test_Mouse_Placed_in_the_Open_Arm.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Novel_Tank_Test_Higher_Anxiety_Level_in_Zebrafish.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Novel_Tank_Test_Lower_Anxiety_Level_in_Zebrafish.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Operant_Conditioning_Feeding_Reward.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Operant_Conditioning_No_Stimulation.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Operant_Conditioning_Response_to_Light_Stimulation.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Pull_Task_Before_Cooperation.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Pull_Task_Cooperation_Failure.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Pull_Task_Cooperation_Success.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/T_Maze_Test_Mouse_Placed_in_One_Arm_with_Food.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/T_Maze_Test_Mouse_Placed_in_the_Start_Arm.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Three_Chambers_Test_Sociability.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Three_Chambers_Test_Sociability_Sniffing.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Three_Chambers_Test_Social_Novelty.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/Three_Chambers_Test_Social_Novelty_Sniffing.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Procedures/DBCLS/light_dark_test.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-4.0/Viruses/DBCLS/Polyomaviridae.svg",
+    "error": "missing root element"
+  },
+  {
+    "file": "cc-by-4.0/Viruses/DBCLS/SARS-CoV-2.svg",
+    "error": "missing root element"
+  },
+  {
+    "file": "cc-by-4.0/Viruses/DBCLS/virus.svg",
+    "error": "missing root element"
+  },
+  {
+    "file": "cc-by-sa-3.0/Chemo-_and_Bioinformatics/Guillaume_Paumier/Sequencing_flow_cell_(4_colour).svg",
+    "error": "Unsupported SVG element: pattern"
+  },
+  {
+    "file": "cc-by-sa-4.0/Animals/Stefano-Vianello/Amphiprion_ocellaris_stage5.svg",
+    "error": "Unresolved SVG reference: linearGradient32744"
+  },
+  {
+    "file": "cc-by-sa-4.0/Animals/Stefano-Vianello/Amphiprion_ocellaris_stage6.svg",
+    "error": "Unresolved SVG reference: linearGradient413264"
+  },
+  {
+    "file": "cc-by-sa-4.0/General_items/Rahel-Khdhr/Light_Wave.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "cc-by-sa-4.0/Lab_apparatus/Dries-Delmotte/Incubator.svg",
+    "error": "SVG exceeds 6 MB limit"
+  },
+  {
+    "file": "cc-by-sa-4.0/Lab_apparatus/Elrond/three-neck-flask.svg",
+    "error": "Unsupported SVG element: image"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/area.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/bar-grouped.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/bar.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/box-whisker.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/bubble.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/calendar-heatmap.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/column-grouped.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/column-stacked-100.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/column-stacked.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/column.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/coxcomb.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/density-plot.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/donut.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/dot-multi-strip-jitter.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/dot-multi-strip.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/dot-strip.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/heatmap.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/histogram.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/line-dot.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/line.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/pie.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/population-pyramid.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/radar.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/scatter.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/stackedbar-100.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/stackedbar.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/theme-river.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/tree-map.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/violin.svg",
+    "error": "Unsupported SVG CSS selector"
+  },
+  {
+    "file": "mit/Scientific_graphs/dbs-sticky/waterfall.svg",
+    "error": "Unsupported SVG CSS selector"
+  }
+]

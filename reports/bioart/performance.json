@@ -1,0 +1,28 @@
+{
+  "actual": {
+    "catalogIcons": 1601,
+    "providerAssets": 4,
+    "providerSearch": {
+      "iterations": 300,
+      "medianMs": 0.13262500000000443,
+      "p95Ms": 0.3150410000000079,
+      "maxMs": 1.2716669999999937
+    },
+    "allProviderSearch": {
+      "iterations": 300,
+      "medianMs": 0.34337499999998045,
+      "p95Ms": 0.579166999999984,
+      "maxMs": 0.8924590000000023
+    }
+  },
+  "synthetic": {
+    "metadataRows": 20000,
+    "note": "Isolated metadata/FTS search benchmark; no official assets or documents created.",
+    "queries": {
+      "iterations": 200,
+      "medianMs": 14.827334000000008,
+      "p95Ms": 21.59820899999977,
+      "maxMs": 22.061124999999947
+    }
+  }
+}

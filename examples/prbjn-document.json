@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "id": "5805698f-3c3d-4e15-b27d-1b3982429408",
+  "title": "Naive pluripotency to an 8-cell-like state",
+  "revision": 1,
+  "width": 800,
+  "height": 900,
+  "background": "#ffffff",
+  "roots": [
+    "layout-0",
+    "naive",
+    "eight-cell",
+    "tprx1",
+    "layout-17",
+    "layout-18",
+    "layout-19",
+    "layout-20"
+  ],
+  "nodes": {
+    "layout-0": {
+      "id": "layout-0",
+      "type": "text",
+      "name": "Panel heading",
+      "parentId": null,
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        70,
+        38
+      ],
+      "width": 390,
+      "height": 35,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#718078",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 15
+      },
+      "text": "CELL STATE TRANSITION"
+    },
+    "naive": {
+      "id": "naive",
+      "type": "group",
+      "name": "Human naive pluripotent\nstem cells",
+      "parentId": null,
+      "children": [
+        "layout-2",
+        "layout-3"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "width": 100,
+      "height": 100,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#d7e9e4",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "semanticId": "naive"
+    },
+    "layout-2": {
+      "id": "layout-2",
+      "type": "icon",
+      "name": "Human naive pluripotent\nstem cells",
+      "parentId": "naive",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        205,
+        100
+      ],
+      "width": 95,
+      "height": 95,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-3": {
+      "id": "layout-3",
+      "type": "text",
+      "name": "Human naive pluripotent\nstem cells",
+      "parentId": "naive",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        105,
+        205
+      ],
+      "width": 300,
+      "height": 60,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#273d36",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 19
+      },
+      "text": "Human naive pluripotent\nstem cells"
+    },
+    "eight-cell": {
+      "id": "eight-cell",
+      "type": "group",
+      "name": "8-cell-like cells",
+      "parentId": null,
+      "children": [
+        "layout-5",
+        "layout-6",
+        "layout-7",
+        "layout-8",
+        "layout-9",
+        "layout-10",
+        "layout-11",
+        "layout-12",
+        "layout-13"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "width": 100,
+      "height": 100,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#d7e9e4",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "semanticId": "eight-cell"
+    },
+    "layout-5": {
+      "id": "layout-5",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        170,
+        327
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-6": {
+      "id": "layout-6",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        212,
+        327
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-7": {
+      "id": "layout-7",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        254,
+        327
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-8": {
+      "id": "layout-8",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        296,
+        327
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-9": {
+      "id": "layout-9",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        170,
+        371
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-10": {
+      "id": "layout-10",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        212,
+        371
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-11": {
+      "id": "layout-11",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        254,
+        371
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-12": {
+      "id": "layout-12",
+      "type": "icon",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        296,
+        371
+      ],
+      "width": 39,
+      "height": 39,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "mammalian-cell"
+    },
+    "layout-13": {
+      "id": "layout-13",
+      "type": "text",
+      "name": "8-cell-like cells",
+      "parentId": "eight-cell",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        105,
+        425
+      ],
+      "width": 300,
+      "height": 60,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#273d36",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 19
+      },
+      "text": "8-cell-like cells"
+    },
+    "tprx1": {
+      "id": "tprx1",
+      "type": "group",
+      "name": "TPRX1 expression",
+      "parentId": null,
+      "children": [
+        "layout-15",
+        "layout-16"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "width": 100,
+      "height": 100,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#d7e9e4",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "semanticId": "tprx1"
+    },
+    "layout-15": {
+      "id": "layout-15",
+      "type": "icon",
+      "name": "TPRX1 expression",
+      "parentId": "tprx1",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        205,
+        540
+      ],
+      "width": 95,
+      "height": 95,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#4e8d79",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      },
+      "iconId": "protein"
+    },
+    "layout-16": {
+      "id": "layout-16",
+      "type": "text",
+      "name": "TPRX1 expression",
+      "parentId": "tprx1",
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        105,
+        645
+      ],
+      "width": 300,
+      "height": 60,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#273d36",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 19
+      },
+      "text": "TPRX1 expression"
+    },
+    "layout-17": {
+      "id": "layout-17",
+      "type": "arrow",
+      "name": "PRBJN treatment",
+      "parentId": null,
+      "children": [],
+      "transform": [
+        0,
+        1,
+        -1,
+        0,
+        262,
+        255
+      ],
+      "width": 53,
+      "height": 20,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#d7e9e4",
+        "stroke": "#8b9f96",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      }
+    },
+    "layout-18": {
+      "id": "layout-18",
+      "type": "text",
+      "name": "PRBJN treatment",
+      "parentId": null,
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        270,
+        267.5
+      ],
+      "width": 240,
+      "height": 30,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#5a7065",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 16
+      },
+      "text": "PRBJN treatment"
+    },
+    "layout-19": {
+      "id": "layout-19",
+      "type": "arrow",
+      "name": "Relationship",
+      "parentId": null,
+      "children": [],
+      "transform": [
+        0,
+        1,
+        -1,
+        0,
+        262,
+        475
+      ],
+      "width": 53,
+      "height": 20,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#d7e9e4",
+        "stroke": "#8b9f96",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 20
+      }
+    },
+    "layout-20": {
+      "id": "layout-20",
+      "type": "text",
+      "name": "Annotation",
+      "parentId": null,
+      "children": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        70,
+        820
+      ],
+      "width": 360,
+      "height": 50,
+      "visible": true,
+      "locked": false,
+      "style": {
+        "fill": "#74867b",
+        "stroke": "#35695e",
+        "strokeWidth": 2,
+        "opacity": 1,
+        "fontSize": 14
+      },
+      "text": "Schematic cell-state model; not an embryo."
+    }
+  },
+  "updatedAt": "2026-11-02T20:08:05.095Z"
+}

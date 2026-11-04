@@ -1,0 +1,15 @@
+// Read-only checks of live scientific/quality filters; all document mutation requests are blocked.
+import {chromium} from 'playwright-core';
+import assert from 'node:assert/strict';
+import {writeFileSync} from 'node:fs';
+const browser=await chromium.launch({executablePath:process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+try{const p=await browser.newPage({viewport:{width:1600,height:1150}});p.setDefaultTimeout(20000);const errors:string[]=[],blocked:string[]=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.route('**/api/tools/*',async route=>{const name=route.request().url().split('/').pop()!;if(!['list_documents','get_document','search_icons','list_categories','list_providers','list_imports','get_asset'].includes(name)){blocked.push(name);await route.abort();}else await route.continue();});
+ await p.goto('http://127.0.0.1:5173');await p.getByTestId('artboard').waitFor();await p.getByLabel('Asset provider').locator('option[value="PhyloPic"]').waitFor({state:'attached'});
+ await p.getByLabel('Asset provider').selectOption('PhyloPic');await p.getByLabel('Scientific category').selectOption('Organisms and taxonomy');
+ const response=p.waitForResponse(r=>r.url().endsWith('/api/tools/search_icons')&&r.request().postDataJSON().quality==='C'&&r.request().postDataJSON().scientificCategory==='Organisms and taxonomy');await p.getByLabel('Asset quality').selectOption('C');const first=await(await response).json();assert.ok(first.items.length>0&&first.items.length<=30);assert.ok(first.items.every((i:any)=>i.provider==='PhyloPic'&&i.quality==='C'&&i.scientificCategory==='Organisms and taxonomy'));assert.ok(first.items.every((i:any)=>!Object.hasOwn(i,'providerMetadata')));
+ await p.locator('.icon-card img[src*="'+first.items[0].id+'"]').waitFor();assert.equal(await p.locator('.icon-card img').first().getAttribute('loading'),'lazy');await p.locator('.icon-card img').first().evaluate((img:HTMLImageElement)=>img.decode());
+ const nextResponse=p.waitForResponse(r=>r.url().endsWith('/api/tools/search_icons')&&r.request().postDataJSON().offset===30);await p.getByRole('button',{name:'Next icons',exact:true}).click();const next=await(await nextResponse).json();assert.ok(next.items.length<=30);assert.ok(!next.items.some((n:any)=>first.items.some((a:any)=>n.geometryHash===a.geometryHash)));await p.locator('.icon-card img[src*="'+next.items[0].id+'"]').waitFor();
+ await p.getByRole('button',{name:'Details',exact:true}).first().click();await p.locator('.asset-detail').waitFor();const details=await p.locator('.asset-detail').innerText();assert.ok(details.includes('PhyloPic'));assert.ok(details.includes('Quality C'));assert.ok(details.includes('creativecommons.org'));
+ assert.deepEqual(errors,[]);assert.deepEqual(blocked,[]);const result={provider:true,scientificCategory:true,quality:true,boundedPagination:true,uniqueGeometryPages:true,lazyThumbnails:true,licenseDetails:true,browserErrors:errors,documentMutations:blocked};writeFileSync('reports/library-expansion/browser.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}finally{await browser.close();}

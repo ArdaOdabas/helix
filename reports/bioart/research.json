@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-02T21:52:31.054Z",
+  "sources": [
+    {
+      "url": "https://bioart.niaid.nih.gov/",
+      "status": 200,
+      "sha256": "f23298e7b0ec20d7148d45b1db57c269192117513b812cae04bbe513d1abc303"
+    },
+    {
+      "url": "https://bioart.niaid.nih.gov/faqs",
+      "status": 200,
+      "sha256": "cceee305a39e910f4bbeb58553d680681454be7d0b04d6a49c74f258f029fced"
+    },
+    {
+      "url": "https://bioart.niaid.nih.gov/terms",
+      "status": 200,
+      "sha256": "c2b364a3493e445f3b266db84cb98267989ebac15e7d3c1d1bfd98dc957e978a"
+    },
+    {
+      "url": "https://bioart.niaid.nih.gov/release-notes",
+      "status": 200,
+      "sha256": "d317ed58c48f95aa9098ebbaeca08a92b9584bebcdd179520aaef67da5b72e46"
+    }
+  ],
+  "categories": [
+    "Viruses",
+    "Anatomy",
+    "Cells and Organelles",
+    "Equipment",
+    "Proteins",
+    "Animals",
+    "People",
+    "Arthropods",
+    "Bacteria",
+    "Cellular Processes",
+    "Molecules",
+    "Plants",
+    "Shapes",
+    "Brushes",
+    "Swatches",
+    "Templates"
+  ],
+  "formatsObserved": [
+    "SVG",
+    "AI",
+    "EPS",
+    "PNG"
+  ],
+  "bulk": "No published bulk download, dataset, repository or documented API verified in the reviewed official pages. No catalog-wide enumeration attempted.",
+  "licensing": "Per-entry Public Domain or other entry-specific license; no blanket license applied.",
+  "rateLimits": "No numeric rate limit found in reviewed public pages. UI acquisition is sequential; 401/403/CAPTCHA stop, transient responses have bounded exponential retries and Retry-After handling.",
+  "scope": "Five explicitly selected official entry pages, default SVG representation only; not the complete BioArt collection."
+}

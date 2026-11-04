@@ -1,0 +1,13 @@
+{
+  "type": "cycle",
+  "title": "Coronavirus replication cycle",
+  "center": {"visual": {"glyph": "cell", "color": "peach"}, "label": "Host cell"},
+  "stages": [
+    {"label": "Attachment", "detail": "Spike binds ACE2", "visual": "virus", "action": "TMPRSS2 priming"},
+    {"label": "Entry & uncoating", "visual": {"glyph": "vesicle", "color": "yellow", "accent": "red"}},
+    {"label": "Translation", "detail": "Polyproteins pp1a/pp1ab", "visual": {"glyph": "mrna", "color": "red"}},
+    {"label": "Replication", "detail": "RdRp complex", "visual": {"glyph": "protein", "variant": "complex"}},
+    {"label": "Assembly", "detail": "ER–Golgi compartment", "visual": "golgi"},
+    {"label": "Release", "detail": "Exocytosis", "visual": {"glyph": "virus", "seed": 3}}
+  ]
+}

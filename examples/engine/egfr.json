@@ -1,0 +1,33 @@
+{
+  "type": "pathway",
+  "title": "EGFR–RAS–MAPK signalling",
+  "subtitle": "Ligand-induced receptor dimerisation drives a kinase cascade that activates proliferative transcription",
+  "nodes": [
+    {"id": "egf", "label": "EGF", "kind": "ligand", "color": "orange"},
+    {"id": "egfr", "label": "EGFR", "kind": "rtk", "color": "teal", "mods": ["P", "P"]},
+    {"id": "grb2", "label": "GRB2", "color": "sky"},
+    {"id": "sos", "label": "SOS", "color": "lavender"},
+    {"id": "ras", "label": "RAS-GTP", "color": "green"},
+    {"id": "raf", "label": "RAF", "kind": "kinase", "color": "orange"},
+    {"id": "mek", "label": "MEK", "kind": "kinase", "color": "coral"},
+    {"id": "erk", "label": "ERK", "kind": "kinase", "color": "red", "mods": ["P"]},
+    {"id": "tram", "label": "Trametinib", "kind": "drug"},
+    {"id": "erkn", "label": "ERK", "kind": "kinase", "location": "nucleus", "color": "red", "mods": ["P"]},
+    {"id": "elk", "label": "ELK1", "kind": "tf", "location": "nucleus", "color": "purple"},
+    {"id": "fos", "label": "FOS / MYC", "kind": "gene", "location": "nucleus"}
+  ],
+  "edges": [
+    {"from": "egf", "to": "egfr", "type": "binds"},
+    {"from": "egfr", "to": "grb2"},
+    {"from": "grb2", "to": "sos"},
+    {"from": "sos", "to": "ras"},
+    {"from": "ras", "to": "raf"},
+    {"from": "raf", "to": "mek", "label": "P"},
+    {"from": "mek", "to": "erk", "label": "P"},
+    {"from": "tram", "to": "mek", "type": "inhibits"},
+    {"from": "erk", "to": "erkn", "type": "translocates"},
+    {"from": "erkn", "to": "elk", "type": "phosphorylates"},
+    {"from": "elk", "to": "fos", "type": "transcription"}
+  ],
+  "outputs": ["Proliferation", "Survival"]
+}

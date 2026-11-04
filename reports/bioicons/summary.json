@@ -1,0 +1,149 @@
+{
+  "repository": "https://github.com/duerrsimon/bioicons.git",
+  "revision": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+  "totals": {
+    "svgDiscovered": 2836,
+    "iconSvgs": 2830,
+    "nonIconSkipped": 6,
+    "metadataSkipped": 1,
+    "importedUnique": 1579,
+    "updated": 0,
+    "duplicateSkipped": 2,
+    "failed": 1248,
+    "successfulSourceFiles": 1581
+  },
+  "licenses": {
+    "discoveredIcons": {
+      "BSD-3-Clause": 3,
+      "CC0-1.0": 488,
+      "CC-BY-3.0": 1376,
+      "CC-BY-4.0": 885,
+      "CC-BY-SA-3.0": 4,
+      "CC-BY-SA-4.0": 35,
+      "MIT": 39
+    },
+    "importedUnique": {
+      "CC-BY-3.0": 1307,
+      "CC-BY-4.0": 116,
+      "BSD-3-Clause": 2,
+      "CC0-1.0": 145,
+      "CC-BY-SA-4.0": 5,
+      "CC-BY-SA-3.0": 2,
+      "MIT": 2
+    }
+  },
+  "initialImport": {
+    "scanned": 1581,
+    "imported": 1579,
+    "updated": 0,
+    "skipped": 2,
+    "failed": 0,
+    "duplicates": 2,
+    "rejected": 0,
+    "failures": []
+  },
+  "attributionFinalization": {
+    "scanned": 1581,
+    "imported": 0,
+    "updated": 1581,
+    "skipped": 0,
+    "failed": 0,
+    "duplicates": 0,
+    "rejected": 0,
+    "failures": []
+  },
+  "reimport": {
+    "scanned": 1581,
+    "imported": 0,
+    "updated": 0,
+    "skipped": 1581,
+    "failed": 0,
+    "duplicates": 1581,
+    "rejected": 0,
+    "failures": []
+  },
+  "performance": {
+    "firstImport": {
+      "preflightMs": 3638.422333,
+      "importMs": 2593.3999170000006,
+      "reimportMs": 280.35379099999955,
+      "importedPerSecond": 608.8532623331613,
+      "queries": 300,
+      "queryMedianMs": 0.288,
+      "queryP95Ms": 0.736,
+      "queryMaxMs": 0.94,
+      "queryRowsReturned": 5040,
+      "titleQueries": 1579,
+      "titleMatches": 1579,
+      "titleSweepMs": 574.9550839999993,
+      "catalogCount": 1597,
+      "initialCount": 18
+    },
+    "finalCatalogQueries": {
+      "preflightMs": 3990.583125,
+      "importMs": 2618.8838339999993,
+      "reimportMs": 311.1350419999999,
+      "importedPerSecond": 0,
+      "queries": 300,
+      "queryMedianMs": 0.333,
+      "queryP95Ms": 0.832,
+      "queryMaxMs": 1.166,
+      "queryRowsReturned": 5040,
+      "titleQueries": 1579,
+      "titleMatches": 1579,
+      "titleSweepMs": 617.235541,
+      "catalogCount": 1597,
+      "initialCount": 1597
+    },
+    "mcp": {
+      "queries": 60,
+      "medianMs": 1.0022920000000113,
+      "p95Ms": 1.817666000000031,
+      "maxMs": 2.717292000000043
+    }
+  },
+  "mcp": {
+    "documentId": "054e2a30-a943-4608-a67c-ae4f866fed79",
+    "revision": 44,
+    "examples": 14,
+    "licenses": [
+      "CC0-1.0",
+      "CC-BY-3.0",
+      "CC-BY-4.0",
+      "CC-BY-SA-3.0",
+      "CC-BY-SA-4.0",
+      "MIT",
+      "BSD-3-Clause"
+    ],
+    "failures": 0
+  },
+  "browser": {
+    "libraryPagination": [
+      30,
+      60
+    ],
+    "thumbnailsDecoded": 60,
+    "details": true,
+    "galleryRendered": true,
+    "pageErrors": []
+  },
+  "geometry": {
+    "sourceFilesChecked": 1581,
+    "importedGeometryPreserved": 1581,
+    "exportedInstancesChecked": 14,
+    "exportedGeometryPreserved": 14,
+    "failures": 0
+  },
+  "regressionTests": {
+    "passed": 53,
+    "failed": 0,
+    "files": 8,
+    "productionBuild": "passed",
+    "warnings": "Two non-blocking Zod annotation warnings"
+  },
+  "unchanged": {
+    "documents": 2,
+    "assets": 12,
+    "verifiedBy": "SHA-256 file bytes"
+  }
+}

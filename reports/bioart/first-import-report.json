@@ -1,0 +1,44 @@
+{
+  "provider": "NIH BioArt Source",
+  "discoveredLocalSvgs": 6,
+  "manifestEntries": 5,
+  "unmanifestedSkipped": [
+    "GenericImmuneCell0001.svg"
+  ],
+  "compatible": 4,
+  "rejected": [
+    {
+      "file": "519-HumanAnatomy0001.svg",
+      "error": "Unsupported SVG CSS declaration: filter"
+    }
+  ],
+  "import": {
+    "scanned": 4,
+    "imported": 4,
+    "updated": 0,
+    "skipped": 0,
+    "failed": 0,
+    "duplicates": 0,
+    "rejected": 0,
+    "failures": []
+  },
+  "sources": {
+    "173-GenericImmuneCell0001.svg": {
+      "sha256": "05403718eb334d31838be78de98c6ba562f28f88f5ac9ed3e467704d5a8b4e43",
+      "status": "imported"
+    },
+    "353-MitochondriaShort0001.svg": {
+      "sha256": "a32ae143dfff512a97a44a33c7604122060745d09b8083d2511f2d5c463a33f4",
+      "status": "imported"
+    },
+    "72-CellNucleus0001.svg": {
+      "sha256": "cb7841637e8dda1d0020d25ac0992802fb7e665b599dc8fc6430b7b988413626",
+      "status": "imported"
+    },
+    "483-SchematicProteinShapePhosphorylated0001.svg": {
+      "sha256": "8c2e64c3f1d5d1b7aa562d1991788e2d9abb60c112b01c2f7339045b23a389c5",
+      "status": "imported"
+    }
+  },
+  "elapsedMs": 29.100542000000004
+}

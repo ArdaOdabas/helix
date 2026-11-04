@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "number",
+      "const": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "panels": {
+      "minItems": 1,
+      "maxItems": 20,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 200
+          }
+        },
+        "required": [
+          "id",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "entities": {
+      "minItems": 1,
+      "maxItems": 100,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "panelId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "label": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "iconId": {
+            "type": "string",
+            "maxLength": 150
+          },
+          "count": {
+            "default": 1,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          }
+        },
+        "required": [
+          "id",
+          "panelId",
+          "label",
+          "iconId",
+          "count"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "relationships": {
+      "default": [],
+      "maxItems": 200,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "from": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "to": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "label": {
+            "default": "",
+            "type": "string",
+            "maxLength": 200
+          }
+        },
+        "required": [
+          "from",
+          "to",
+          "label"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "labels": {
+      "default": [],
+      "maxItems": 100,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "panelId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,99}$"
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "panelId",
+          "text"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "layout": {
+      "default": {
+        "direction": "vertical",
+        "gap": 220,
+        "padding": 70
+      },
+      "type": "object",
+      "properties": {
+        "direction": {
+          "default": "vertical",
+          "type": "string",
+          "enum": [
+            "vertical",
+            "horizontal"
+          ]
+        },
+        "gap": {
+          "default": 220,
+          "type": "number",
+          "minimum": 160,
+          "maximum": 500
+        },
+        "padding": {
+          "default": 70,
+          "type": "number",
+          "minimum": 40,
+          "maximum": 200
+        }
+      },
+      "required": [
+        "direction",
+        "gap",
+        "padding"
+      ],
+      "additionalProperties": false
+    },
+    "style": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "fill": {
+          "default": "#d7e9e4",
+          "type": "string",
+          "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+        },
+        "stroke": {
+          "default": "#35695e",
+          "type": "string",
+          "pattern": "^(#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
+        },
+        "strokeWidth": {
+          "default": 2,
+          "type": "number",
+          "minimum": 0,
+          "maximum": 30
+        },
+        "opacity": {
+          "default": 1,
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "fontSize": {
+          "default": 20,
+          "type": "number",
+          "minimum": 6,
+          "maximum": 200
+        }
+      },
+      "additionalProperties": false
+    },
+    "caption": {
+      "type": "string",
+      "maxLength": 2000
+    }
+  },
+  "required": [
+    "version",
+    "title",
+    "panels",
+    "entities",
+    "relationships",
+    "labels",
+    "layout",
+    "style"
+  ],
+  "additionalProperties": false
+}

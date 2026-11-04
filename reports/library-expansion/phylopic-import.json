@@ -1,0 +1,136 @@
+{
+  "runs": [
+    {
+      "at": "2026-11-02T23:30:17.124Z",
+      "newSqliteAssets": 7,
+      "scanned": 4500,
+      "skipped": 0,
+      "failed": 4493
+    },
+    {
+      "at": "2026-11-02T23:31:59.245Z",
+      "newSqliteAssets": 4988,
+      "scanned": 5000,
+      "skipped": 2,
+      "failed": 3
+    },
+    {
+      "at": "2026-11-02T23:41:08.036Z",
+      "newSqliteAssets": 3638,
+      "scanned": 8650,
+      "skipped": 5002,
+      "failed": 10
+    },
+    {
+      "at": "2026-11-02T23:53:23.178Z",
+      "newSqliteAssets": 4688,
+      "scanned": 13354,
+      "skipped": 8648,
+      "failed": 18
+    },
+    {
+      "at": "2026-11-03T00:20:24.974Z",
+      "newSqliteAssets": 0,
+      "scanned": 13354,
+      "skipped": 13336,
+      "failed": 18
+    },
+    {
+      "at": "2026-11-03T00:30:54.997Z",
+      "newSqliteAssets": 0,
+      "scanned": 13354,
+      "skipped": 13336,
+      "failed": 18
+    }
+  ],
+  "provider": "PhyloPic",
+  "discovered": 13354,
+  "eligibleDownloaded": 13354,
+  "newSqliteAssets": 0,
+  "report": {
+    "scanned": 13354,
+    "imported": 0,
+    "updated": 0,
+    "skipped": 13336,
+    "failed": 18,
+    "duplicates": 13336,
+    "rejected": 18,
+    "failures": [
+      {
+        "file": "7c7d0e48-81e8-45af-bef1-35ce083d8b2d.svg",
+        "error": "Unsupported inline style: -inkscape-stroke"
+      },
+      {
+        "file": "f3d1f60e-00ad-4391-8eb7-fdf18d983117.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "bf60d1f2-6fb6-419c-a4ee-4b82553e304e.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "38433185-7804-4c7e-8c0d-fa885001794e.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "8ddf3f37-2e1e-40d7-b7d6-0458e71f4b50.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "e479c9e9-0dce-4bf8-aa7a-7802d5e70cbf.svg",
+        "error": "Unsupported SVG stylesheet attribute"
+      },
+      {
+        "file": "fc4da606-a72f-4c5d-ba17-69caef99c53c.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "d739ba86-4b2a-4dc1-918e-76d0283c8089.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "43d01df1-8ab3-44e2-8467-a123e964ae15.svg",
+        "error": "Unsupported SVG stylesheet attribute"
+      },
+      {
+        "file": "9c1635ff-9fec-402b-82f2-100515286713.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "a32ae9a6-2f11-410f-821b-6c5230934644.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "b6cd83a5-845f-40c6-8a8c-0bd41ea7fa19.svg",
+        "error": "Unsupported SVG stylesheet attribute"
+      },
+      {
+        "file": "e4c0def8-3903-4665-b79a-816e9e6311b0.svg",
+        "error": "Unsupported SVG stylesheet attribute"
+      },
+      {
+        "file": "c219e634-002e-4da0-af23-f0ef916db93e.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "87ffd414-da20-4692-8e7b-2407e060904d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "8e0e4337-9ac0-47ef-95b2-fc0231312f19.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "51db048d-e8cc-42ac-a963-f4c07dac6016.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "631a96d6-3595-461a-9b13-ff937401dd85.svg",
+        "error": "Unsupported SVG attribute: class"
+      }
+    ]
+  },
+  "skipped": [],
+  "elapsedMs": 5572,
+  "license": "Per-image; see provenance"
+}

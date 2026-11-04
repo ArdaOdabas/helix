@@ -1,0 +1,1360 @@
+{
+  "runs": [
+    {
+      "at": "2026-11-02T23:38:31.669Z",
+      "newSqliteAssets": 91,
+      "scanned": 230,
+      "skipped": 0,
+      "failed": 139
+    },
+    {
+      "at": "2026-11-02T23:54:29.798Z",
+      "newSqliteAssets": 0,
+      "scanned": 230,
+      "skipped": 0,
+      "failed": 139
+    },
+    {
+      "at": "2026-11-03T00:20:36.697Z",
+      "newSqliteAssets": 0,
+      "scanned": 230,
+      "skipped": 91,
+      "failed": 139
+    },
+    {
+      "at": "2026-11-03T00:30:55.677Z",
+      "newSqliteAssets": 0,
+      "scanned": 230,
+      "skipped": 91,
+      "failed": 139
+    },
+    {
+      "at": "2026-11-04T16:47:14.003Z",
+      "newSqliteAssets": 59,
+      "scanned": 230,
+      "skipped": 94,
+      "failed": 77
+    },
+    {
+      "at": "2026-11-04T16:48:18.002Z",
+      "newSqliteAssets": 1,
+      "scanned": 230,
+      "skipped": 153,
+      "failed": 76
+    },
+    {
+      "at": "2026-11-04T17:59:28.990Z",
+      "newSqliteAssets": 214,
+      "scanned": 543,
+      "skipped": 168,
+      "failed": 161
+    }
+  ],
+  "provider": "SciDraw",
+  "discovered": 704,
+  "eligibleDownloaded": 543,
+  "newSqliteAssets": 214,
+  "report": {
+    "scanned": 543,
+    "imported": 214,
+    "updated": 0,
+    "skipped": 168,
+    "failed": 161,
+    "duplicates": 168,
+    "rejected": 161,
+    "failures": [
+      {
+        "file": "elisa-09815685.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "mouse-at-different-ages-34faa6e2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mobile-homecage-807624d7.svg",
+        "error": "Unresolved SVG reference: SVGID_00000024720586297544639450000014166493751535616131_"
+      },
+      {
+        "file": "large-intestine-956ebd1a.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "beakers-ba8583ed.svg",
+        "error": "Invalid or duplicate SVG ID"
+      },
+      {
+        "file": "patch-clamp-d0701240.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "bengalese-finch-ddfdfc44.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "calcium-store-open-6658c5b2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "thermometer-056cfc16.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "lungs-2d9124e1.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "gtp-battery-f2f899e5.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "microtubule-4a7cf443.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "spermatozoa-sperm-cell-fe6316b4.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "pill-capsule-medicine-7ee92768.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "adipocyte-d3c9113d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "pancreas-e72bdd0a.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "dna-8709d1cf.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "obese-mouse-lever-330f132d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-brain-sagittal-view-white-f13da5ce.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "falcon-tube-7ed6ce51.svg",
+        "error": "Unsupported SVG element: namedview"
+      },
+      {
+        "file": "early-embryo-dorsal-view-7ae7a968.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "glucose-transporter-04f0a8f0.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "erythrocyte-0e714d8d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "obese-mouse-eating-74b59690.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "receptor-unbound-off-110bf5f9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "reef-fish-retina-e44ac4f6.svg",
+        "error": "Error constructing the DOM: HierarchyRequestError: Only one element can be added and only after doctype"
+      },
+      {
+        "file": "coffee-6b76c747.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "rat-grooming-5a137f21.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "atp-battery-7e628897.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "human-brain-with-colorful-neurons-e1a22d61.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "kinesin-on-microtubule-dca2c46f.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "c57bl6-mouse-with-headcap-and-fibers-1bb168e6.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "presynaptic-site-2ae4c3f7.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "heart-d090dc66.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "snake-silhouette-49452eba.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "mitochondrion-8783da75.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "triacylglyceride-a04655a6.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mobile-homecage-with-rat-d108e3fb.svg",
+        "error": "Unresolved SVG reference: SVGID_00000171715655120910376290000004293406112913290911_"
+      },
+      {
+        "file": "ovum-3ca40a81.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "stomach-77fb3676.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "deapsea-fish-retina-e9cd7d57.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "rat-acute-recodings-6340a7e0.svg",
+        "error": "Unresolved SVG reference: SVGID_20_"
+      },
+      {
+        "file": "fructose-0ed7761d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "hepatocyte-195592d9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "shark-silhouette-04fd56c4.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "sucrose-69b83a18.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-eating-fibre-69c8751e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "pyramidal-neuron-2-1c3b09dd.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "schwann-cell-6d53eb93.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "adrenal-gland-9999e96a.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "enterocyte-f515a7aa.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "monkey-2e5cb1f8.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "hand-reaching-an-object-2e141984.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "phospholipids-lipisome-micelle-72b2b940.svg",
+        "error": "DTD, entities, and processing instructions are not supported"
+      },
+      {
+        "file": "atp-19030083.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "ion-channel-open-57a6cedc.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "sleep_eeg_emg-f9e5048f.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "silhouette-cns-b9e0991e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "neural-probe-b409acce.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "eye-1dcceee0.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "optic-nerve-and-chiasm-83cac469.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-lever-634b1bea.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "monkey-arm-movement-b071ded9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mast-cell-1d6464d4.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "lipid-droplet-56f9d09e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "urea-7cf9cf4b.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "zebrafish-63b13fb2.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "smoking-cigarette-c9b71e2f.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "lipid-droplet-no-receptors-cdd8c485.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-on-a-running-wheel-d982027d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "human-brain-basal-ganglia-c39936a4.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "receptor-bound-on-21ca2866.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "spleen-41bb1b59.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "obese-mouse-lever-7a1de28e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mute-swan-6b9943a2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-running-f0cbd966.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "rat-tetrode-recording-37b1f73d.svg",
+        "error": "Unresolved SVG reference: SVGID_28_"
+      },
+      {
+        "file": "liver-036050e0.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "fly-ba926ee5.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "fructose-transporter-a1074be6.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "lipid-bilayer-6ed7e490.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "gall-bladder-cc22091f.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "gentoo-penguin-9ff4db48.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "embryo-lateral-view-67d83273.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "microglia-resting-08d0e119.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "eagle-674d8643.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "neuron-55af4954.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "eosinophil-39088bfc.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "cholesterol-fd32f2b9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "sleeping-p20-rat-775b032b.svg",
+        "error": "Unresolved SVG reference: SVGID_00000135685115289991106690000002285177511273606537_"
+      },
+      {
+        "file": "tube-of-blood-76992905.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "platelet-10a29e69.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "radial-glia-46b4880e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "kinesin-fe237cd5.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "neuron-c8da9cd1.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "granule-cell-694de370.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-quiet-73696ee8.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "silhouette-brain-20a710c9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "ion-channel-closed-d8b6fe15.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "microglia-reactive-fadcc7d3.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "elisa-2ae4fc35.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "neolamprologus-pulcher-41b0c3ee.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "pyramidal-neuron-1-f7a01ec8.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "ganglioside-e514c743.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "enzyme-substrate-69945887.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "cpp-box-252b1023.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "flower-82737dab.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "silhouette-a4bb8da4.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "electromyography-emg-02afbffe.svg",
+        "error": "Unresolved SVG reference: SVGID_00000059285200408943560200000004809336776356994688_"
+      },
+      {
+        "file": "receptor-unbound-on-26543083.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "shark-retina-af03f37d.svg",
+        "error": "Error constructing the DOM: HierarchyRequestError: Only one element can be added and only after doctype"
+      },
+      {
+        "file": "camp-7b6cd68c.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "adenosine-3546c6bf.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "neutrophil-3d89c362.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "cgmp-ef24de0b.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "european-starling-operant-conditioning-5d319913.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "asthma-inhaler-1ccbda7e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-cage-with-bedding-ff271f8d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "bacterium-d43254f8.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "megakaryocyte-37a59ff1.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "receptor-bound-off-b3083058.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-with-rnn-brain-8333dc1d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "sagittal-brain-with-emphasis-on-hippocampus-9ca8c333.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "dna-strand-2cf19285.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "silhouette-cns-muscle-c085401b.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "coronavirus-5c6f3d43.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "bacteria-3f348ca8.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "maltose-45216637.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "glucose-8ea12831.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "calcium-store-closed-dbdccc82.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "fly-with-rnn-nervous-system-93d2c8ce.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-lever-e99fc405.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "adult-mouse-284dd297.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "eppendorf-tube-closed-b856d092.svg",
+        "error": "Unsupported SVG element: namedview"
+      },
+      {
+        "file": "mouth-taste-3e7177f9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "lactose-0975acdd.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "palmitic-acid-08cc5399.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "kinesin-with-cargo-ed49b7a6.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "basophil-e36e2e92.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "astrocyte-4ec4a622.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "coronavirus-3d-e760e7c9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "monkey-face-cartoon-a7d53fc7.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "water-650093e3.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "myocyte-0f130c6e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "obese-mouse-lever-b6a78ae8.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "caffeine-bad266e2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "tube-of-blood-f45de288.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "ependymal-cell-fdb5fd5e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "macrophage-a2629091.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "red-blood-cells-9e39266e.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "hepatocyte-99eee670.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "epithelial-layer-a3a2a6fe.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "fish-hiding-6f53368c.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "silhouette-muscle-9faeccb4.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "drosophila-fluorescent-mushroom-bodies-cff72f36.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "alpha-linolenic-acid-omega-3-214647b2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "mouse-lever-8c8fd60d.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "finger-touch-111783cf.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "brain-789b2bf4.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "haem-f3467a67.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "kidney-ce328e3f.svg",
+        "error": "Unsupported SVG element: image"
+      }
+    ]
+  },
+  "skipped": [
+    {
+      "file": "dna-feca6e8d",
+      "reason": "no-svg"
+    },
+    {
+      "file": "dna-84b2d6ca",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mitochondria-c74e2336",
+      "reason": "no-svg"
+    },
+    {
+      "file": "gold-nanoparticle-0034ade9",
+      "reason": "no-svg"
+    },
+    {
+      "file": "docetaexl-resistant-b1583e22",
+      "reason": "no-svg"
+    },
+    {
+      "file": "triple-negative-breast-cancer-and-natural-killer-cells-e9f5e3fd",
+      "reason": "no-svg"
+    },
+    {
+      "file": "syringe-pump-4350a7eb",
+      "reason": "no-svg"
+    },
+    {
+      "file": "rat-26172d2d",
+      "reason": "no-svg"
+    },
+    {
+      "file": "tumor-microenvironment-drawing-5006efa5",
+      "reason": "no-svg"
+    },
+    {
+      "file": "animal-cell-drawing-10b51f68",
+      "reason": "no-svg"
+    },
+    {
+      "file": "sheep-8071b88f",
+      "reason": "no-svg"
+    },
+    {
+      "file": "red-blood-cell-df4f18c7",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mouse-pup-brain-27fc3f16",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mouse-embryos-in-utero-72c46fda",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mouse-sleeping-d9227d94",
+      "reason": "no-svg"
+    },
+    {
+      "file": "heart-green-drawing-6383f6e5",
+      "reason": "no-svg"
+    },
+    {
+      "file": "docetaexl-resistant-44044fec",
+      "reason": "no-svg"
+    },
+    {
+      "file": "neuron-47c5880b",
+      "reason": "no-svg"
+    },
+    {
+      "file": "syringe-aae02381",
+      "reason": "no-svg"
+    },
+    {
+      "file": "neurone-basic-drawing-7c9f744b",
+      "reason": "no-svg"
+    },
+    {
+      "file": "olfactory-bulb-circuit-e21939a7",
+      "reason": "no-svg"
+    },
+    {
+      "file": "conditioned-place-preference-cpp-rat-c8021671",
+      "reason": "no-svg"
+    },
+    {
+      "file": "balbc-5c0cac8c",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mouse-head-brain-fd44b544",
+      "reason": "no-svg"
+    },
+    {
+      "file": "rotarod-7fadfbbd",
+      "reason": "no-svg"
+    },
+    {
+      "file": "triple-negative-breast-cancer-and-natural-killer-cells-07c82cd4",
+      "reason": "no-svg"
+    },
+    {
+      "file": "placenta-d5568c00",
+      "reason": "stopped"
+    },
+    {
+      "file": "retina-circuit-adb56c47",
+      "reason": "no-svg"
+    },
+    {
+      "file": "operant-chamber-9cf85b7c",
+      "reason": "no-svg"
+    },
+    {
+      "file": "soaps-45688adc",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mouse-brain-sagittal-da6cc0f9",
+      "reason": "no-svg"
+    },
+    {
+      "file": "monkey-pushes-the-button-7307b8eb",
+      "reason": "no-svg"
+    },
+    {
+      "file": "matting-pattern-of-mosquitoes-flowchart-7b7115ff",
+      "reason": "no-svg"
+    },
+    {
+      "file": "cerebellar-cortex-scheme-52567171",
+      "reason": "no-svg"
+    },
+    {
+      "file": "ratatouille-inspired-mouse-a96ddbfe",
+      "reason": "no-svg"
+    },
+    {
+      "file": "two-connected-neurons-75907e2a",
+      "reason": "no-svg"
+    },
+    {
+      "file": "nerve-response-e8d6c644",
+      "reason": "no-svg"
+    },
+    {
+      "file": "car-t-cell-therapy-bb443059",
+      "reason": "no-svg"
+    },
+    {
+      "file": "drawing-3733524d",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mice-drawings-8eb3a507",
+      "reason": "no-svg"
+    },
+    {
+      "file": "americancockroach-331806e2",
+      "reason": "no-svg"
+    },
+    {
+      "file": "neural-network-57cbb625",
+      "reason": "no-svg"
+    },
+    {
+      "file": "motor-cortex-circuit-scheme-5e086cb6",
+      "reason": "no-svg"
+    },
+    {
+      "file": "tumor-microenvironment-drawing-7c90bd33",
+      "reason": "no-svg"
+    },
+    {
+      "file": "human-cns-e7ed9506",
+      "reason": "no-svg"
+    },
+    {
+      "file": "chicken-9cebde98",
+      "reason": "no-svg"
+    },
+    {
+      "file": "structure-of-a-synapse-77806f85",
+      "reason": "no-svg"
+    },
+    {
+      "file": "americancockroacholfactorysensillum_pbasswa-1df5c9ae",
+      "reason": "no-svg"
+    },
+    {
+      "file": "social-vs-drug-operant-box-skinner-278c2601",
+      "reason": "no-svg"
+    },
+    {
+      "file": "postbiotic-655265e2",
+      "reason": "no-svg"
+    },
+    {
+      "file": "dorsal-hippocampus-61984da6",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mousestep-b7ba0dff",
+      "reason": "no-svg"
+    },
+    {
+      "file": "sheep-brain-dorsal-view-5c918dd8",
+      "reason": "no-svg"
+    },
+    {
+      "file": "wakingup-af4cb623",
+      "reason": "no-svg"
+    },
+    {
+      "file": "drosophila-figure-6c22bf4a",
+      "reason": "no-svg"
+    },
+    {
+      "file": "infection-pattern-and-growth-rate-4f52cd4c",
+      "reason": "no-svg"
+    },
+    {
+      "file": "seagrass-897be193",
+      "reason": "no-svg"
+    },
+    {
+      "file": "sitobion-miscanthi-be7ea9e8",
+      "reason": "no-svg"
+    },
+    {
+      "file": "seagrass-ee7607d3",
+      "reason": "no-svg"
+    },
+    {
+      "file": "walkingup-fb8e7dd2",
+      "reason": "no-svg"
+    },
+    {
+      "file": "zebrafish-larva-optic-tectum-91acc14d",
+      "reason": "no-svg"
+    },
+    {
+      "file": "pericyte-9253587a",
+      "reason": "no-svg"
+    },
+    {
+      "file": "openingfridge-8b88ea83",
+      "reason": "no-svg"
+    },
+    {
+      "file": "sheep-brain-lateral-view-28036951",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mouseonsensor-6b522e6a",
+      "reason": "no-svg"
+    },
+    {
+      "file": "lipid-raft-b8a95b55",
+      "reason": "no-svg"
+    },
+    {
+      "file": "standing_rat-99683ece",
+      "reason": "no-svg"
+    },
+    {
+      "file": "standing_rat_2-2771f6cb",
+      "reason": "no-svg"
+    },
+    {
+      "file": "drosophila-cns-a201e09f",
+      "reason": "no-svg"
+    },
+    {
+      "file": "cat-brain-bcfc2a4f",
+      "reason": "no-svg"
+    },
+    {
+      "file": "retina-triad-0d35ca9a",
+      "reason": "no-svg"
+    },
+    {
+      "file": "cyber-criminal-triangle-modal-6688b840",
+      "reason": "no-svg"
+    },
+    {
+      "file": "escherichia-coli-3a579799",
+      "reason": "failed"
+    },
+    {
+      "file": "tablet-e081faab",
+      "reason": "no-svg"
+    },
+    {
+      "file": "yellow-spotted-monitor-varanus-panoptes-85fe90ac",
+      "reason": "no-svg"
+    },
+    {
+      "file": "sleeping_rat-8f7fa932",
+      "reason": "no-svg"
+    },
+    {
+      "file": "grooming_rat-ade630cb",
+      "reason": "no-svg"
+    },
+    {
+      "file": "nebulizer-bc01bc04",
+      "reason": "no-svg"
+    },
+    {
+      "file": "cannabidiol-28d8d7c0",
+      "reason": "no-svg"
+    },
+    {
+      "file": "polysome-fractionation-a49305ab",
+      "reason": "no-svg"
+    },
+    {
+      "file": "rattus-norvegicus-a0b41255",
+      "reason": "failed"
+    },
+    {
+      "file": "walking_rat-59ce3cd0",
+      "reason": "no-svg"
+    },
+    {
+      "file": "mus-musculus-d61ef112",
+      "reason": "failed"
+    },
+    {
+      "file": "woma-python-aspidites-ramsayi-77d7ba26",
+      "reason": "no-svg"
+    },
+    {
+      "file": "javan-spitting-cobra-naja-sputatrix-59ba77c8",
+      "reason": "no-svg"
+    },
+    {
+      "file": "fuhong-wang-80d107b4",
+      "reason": "no-svg"
+    },
+    {
+      "file": "sucrose-gradient-18c35755",
+      "reason": "no-svg"
+    },
+    {
+      "file": "gut-and-cns-d0576395",
+      "reason": "no-svg"
+    },
+    {
+      "file": "influenza-virus-6883e674",
+      "reason": "failed"
+    },
+    {
+      "file": "candida-albicans-92599215",
+      "reason": "no-svg"
+    },
+    {
+      "file": "drawing-8caf3226",
+      "reason": "no-svg"
+    },
+    {
+      "file": "rattus-norvegicus-d59fb5b4",
+      "reason": "no-svg"
+    },
+    {
+      "file": "escherichia-coli-eba582d4",
+      "reason": "no-svg"
+    },
+    {
+      "file": "arabidopsis-thaliana-60705bc0",
+      "reason": "failed"
+    },
+    {
+      "file": "yingfu-19dbf423",
+      "reason": "no-svg"
+    },
+    {
+      "file": "human-immunodeficiency-virus-60cd8e34",
+      "reason": "failed"
+    },
+    {
+      "file": "caenorhabditis-elegans-52bf676f",
+      "reason": "failed"
+    },
+    {
+      "file": "mus-musculus-85eeeb61",
+      "reason": "no-svg"
+    },
+    {
+      "file": "saccharomyces-cerevisiae-1bc7f05c",
+      "reason": "failed"
+    },
+    {
+      "file": "drosophila-melanogaster-7e26fc12",
+      "reason": "no-svg"
+    },
+    {
+      "file": "influenza-virus-8d9a57dc",
+      "reason": "no-svg"
+    },
+    {
+      "file": "candida-albicans-d8cc9cf1",
+      "reason": "failed"
+    },
+    {
+      "file": "chlorella-vulgaris-f637f7e0",
+      "reason": "failed"
+    },
+    {
+      "file": "drosophila-melanogaster-1cec3cc9",
+      "reason": "failed"
+    },
+    {
+      "file": "gallus-gallus-b605382c",
+      "reason": "failed"
+    },
+    {
+      "file": "danio-rerio-b12b3961",
+      "reason": "failed"
+    },
+    {
+      "file": "gallus-gallus-636dd4a1",
+      "reason": "no-svg"
+    },
+    {
+      "file": "ventral-nerve-cord-75de297b",
+      "reason": "no-svg"
+    },
+    {
+      "file": "penicillium-chrysogenum-12c8e243",
+      "reason": "failed"
+    },
+    {
+      "file": "human-immunodeficiency-virus-bcaf306e",
+      "reason": "no-svg"
+    },
+    {
+      "file": "aspergillus-nidulans-b61c6969",
+      "reason": "failed"
+    },
+    {
+      "file": "danio-rerio-88c2c454",
+      "reason": "no-svg"
+    },
+    {
+      "file": "ustilago-maydis-cf6f8b4e",
+      "reason": "failed"
+    },
+    {
+      "file": "sus-scrofa-domestica-df7f8593",
+      "reason": "failed"
+    },
+    {
+      "file": "sars-cov-2-998447f9",
+      "reason": "failed"
+    },
+    {
+      "file": "giardia-intestinalis-a9d7fff1",
+      "reason": "failed"
+    },
+    {
+      "file": "plasmodium-falciparum-3154baa9",
+      "reason": "failed"
+    },
+    {
+      "file": "saccharomyces-cerevisiae-68ed2e16",
+      "reason": "no-svg"
+    },
+    {
+      "file": "phaeodactylum-tricornutum-5636b90f",
+      "reason": "failed"
+    },
+    {
+      "file": "isochrysis-galbana-8aa3187e",
+      "reason": "failed"
+    },
+    {
+      "file": "caenorhabditis-elegans-fd99b24a",
+      "reason": "no-svg"
+    },
+    {
+      "file": "euglena-gracilis-6f75984d",
+      "reason": "failed"
+    },
+    {
+      "file": "nematostella-vectensis-b9254263",
+      "reason": "failed"
+    },
+    {
+      "file": "perkinsus-marinus-4ea80b9b",
+      "reason": "failed"
+    },
+    {
+      "file": "nannochloropsis-sp-d460d960",
+      "reason": "failed"
+    },
+    {
+      "file": "ostreococcus-tauri-877bd43f",
+      "reason": "no-svg"
+    },
+    {
+      "file": "yarrowia-lipolytica-e036e03d",
+      "reason": "failed"
+    },
+    {
+      "file": "tetrahymena-thermophila-52604330",
+      "reason": "failed"
+    },
+    {
+      "file": "arabidopsis-thaliana-304e550e",
+      "reason": "no-svg"
+    },
+    {
+      "file": "chlamydomonas-reinhardtii-8d6c943d",
+      "reason": "failed"
+    },
+    {
+      "file": "aspergillus-nidulans-c5bc34be",
+      "reason": "no-svg"
+    },
+    {
+      "file": "entamoeba-histolytica-f1d4a7a2",
+      "reason": "failed"
+    },
+    {
+      "file": "diplonema-papillatum-f0823bbf",
+      "reason": "failed"
+    },
+    {
+      "file": "macaca-mulatta-187e3dab",
+      "reason": "failed"
+    },
+    {
+      "file": "monosiga-brevicollis-106c2dcf",
+      "reason": "failed"
+    },
+    {
+      "file": "ostreococcus-tauri-0d6e5eff",
+      "reason": "failed"
+    },
+    {
+      "file": "paramecium-tetraurelia-58e4b8e3",
+      "reason": "no-svg"
+    },
+    {
+      "file": "micromonas-commoda-c64e7f8e",
+      "reason": "failed"
+    },
+    {
+      "file": "symbiodinium-sp-ee3f314d",
+      "reason": "failed"
+    },
+    {
+      "file": "abeoforma-whisleri-a1093a42",
+      "reason": "failed"
+    },
+    {
+      "file": "agaricus-bisporus-e6da1887",
+      "reason": "failed"
+    },
+    {
+      "file": "chlamydomonas-reinhardtii-0bcfa101",
+      "reason": "no-svg"
+    },
+    {
+      "file": "aedes-aegypti-52196997",
+      "reason": "failed"
+    },
+    {
+      "file": "entamoeba-histolytica-a86b9b7f",
+      "reason": "no-svg"
+    },
+    {
+      "file": "clytia-hemisphaerica-0d16ac2c",
+      "reason": "failed"
+    },
+    {
+      "file": "pan-troglodytes-58534ed7",
+      "reason": "failed"
+    },
+    {
+      "file": "schizosaccharomyces-pombe-d53f3bfb",
+      "reason": "failed"
+    },
+    {
+      "file": "taeniopygia-guttata-acf0957a",
+      "reason": "failed"
+    },
+    {
+      "file": "sphaeroforma-arctica-be289b8c",
+      "reason": "failed"
+    },
+    {
+      "file": "tetraselmis-striata-16f623a5",
+      "reason": "no-svg"
+    },
+    {
+      "file": "porphyra-yezoensis-225f8cd7",
+      "reason": "failed"
+    },
+    {
+      "file": "bathycoccus-prasinos-44b0c666",
+      "reason": "no-svg"
+    },
+    {
+      "file": "ciona-intestinalis-ee045761",
+      "reason": "failed"
+    },
+    {
+      "file": "exaiptasia-diaphana-4e191a1b",
+      "reason": "failed"
+    },
+    {
+      "file": "dictyostelium-discoideum-51c1087a",
+      "reason": "failed"
+    },
+    {
+      "file": "naegleria-gruberi-eb2c775c",
+      "reason": "failed"
+    },
+    {
+      "file": "microcebus-murinus-6ab623b6",
+      "reason": "no-svg"
+    },
+    {
+      "file": "perkinsus-marinus-d6dc6297",
+      "reason": "no-svg"
+    },
+    {
+      "file": "nannochloropsis-sp-ce265ccf",
+      "reason": "no-svg"
+    },
+    {
+      "file": "tetraselmis-striata-d49c3c79",
+      "reason": "failed"
+    },
+    {
+      "file": "sars-cov-2-dc4095d5",
+      "reason": "no-svg"
+    }
+  ],
+  "elapsedMs": 5165,
+  "license": "Per-image"
+}

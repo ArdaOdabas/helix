@@ -1,0 +1,116 @@
+{
+  "type": "comparison",
+  "title": "Three ways to write a change into a genome",
+  "subtitle": "All three recognise the same target through a guide RNA, but differ in what they do once the R-loop forms",
+  "columns": [
+    {
+      "title": "Nuclease",
+      "subtitle": "Cas9 cuts both strands",
+      "color": "blue"
+    },
+    {
+      "title": "Base editor",
+      "subtitle": "Chemistry on one base",
+      "color": "teal"
+    },
+    {
+      "title": "Prime editor",
+      "subtitle": "Reverse transcription",
+      "color": "purple"
+    }
+  ],
+  "rows": [
+    {
+      "label": "Effector",
+      "cells": [
+        {
+          "visual": {
+            "glyph": "cas9",
+            "variant": "wt"
+          }
+        },
+        {
+          "visual": {
+            "glyph": "base editor",
+            "variant": "cbe"
+          }
+        },
+        {
+          "visual": {
+            "glyph": "prime editor"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Guide",
+      "cells": [
+        {
+          "visual": {
+            "glyph": "sgrna"
+          },
+          "label": "sgRNA"
+        },
+        {
+          "visual": {
+            "glyph": "sgrna"
+          },
+          "label": "sgRNA"
+        },
+        {
+          "visual": {
+            "glyph": "sgrna",
+            "variant": "pegrna"
+          },
+          "label": "pegRNA",
+          "detail": "3′ extension templates the edit"
+        }
+      ]
+    },
+    {
+      "label": "Outcome",
+      "cells": [
+        {
+          "visual": {
+            "glyph": "dna repair",
+            "variant": "nhej"
+          },
+          "label": "Indel",
+          "detail": "Repair pathway decides the sequence"
+        },
+        {
+          "label": "Single-base change",
+          "detail": "C→T within a narrow window; no double-strand break"
+        },
+        {
+          "label": "Programmed insertion",
+          "detail": "Small insertions, deletions and substitutions, written from the pegRNA"
+        }
+      ]
+    }
+  ],
+  "legend": [
+    {
+      "label": "Target strand",
+      "color": "#4A72B8"
+    },
+    {
+      "label": "Displaced strand",
+      "color": "#7D93B5"
+    },
+    {
+      "label": "Guide RNA",
+      "color": "#E09B3D"
+    },
+    {
+      "label": "Newly written DNA",
+      "color": "#2E4A7D"
+    },
+    {
+      "label": "Edit / cut site",
+      "color": "#D2423F"
+    }
+  ],
+  "footnote": "Schematic; not to scale. Domain sizes and the editing window are drawn for clarity, not to proportion.",
+  "visualSize": 170
+}

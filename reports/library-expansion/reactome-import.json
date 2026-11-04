@@ -1,0 +1,266 @@
+{
+  "runs": [
+    {
+      "at": "2026-11-02T23:31:26.216Z",
+      "newSqliteAssets": 479,
+      "scanned": 2517,
+      "skipped": 5,
+      "failed": 0
+    },
+    {
+      "at": "2026-11-03T00:20:12.637Z",
+      "newSqliteAssets": 0,
+      "scanned": 2517,
+      "skipped": 2517,
+      "failed": 0
+    },
+    {
+      "at": "2026-11-03T00:30:42.593Z",
+      "newSqliteAssets": 0,
+      "scanned": 2517,
+      "skipped": 2517,
+      "failed": 0
+    },
+    {
+      "at": "2026-11-04T16:48:18.916Z",
+      "newSqliteAssets": 0,
+      "scanned": 2517,
+      "skipped": 2517,
+      "failed": 0
+    }
+  ],
+  "provider": "Reactome",
+  "discovered": 2571,
+  "eligibleDownloaded": 2517,
+  "newSqliteAssets": 0,
+  "report": {
+    "scanned": 2517,
+    "imported": 0,
+    "updated": 0,
+    "skipped": 2517,
+    "failed": 0,
+    "duplicates": 2517,
+    "rejected": 0,
+    "failures": []
+  },
+  "skipped": [
+    {
+      "file": "R-ICO-012342.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012343.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012344.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012341.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012345.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012346.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012347.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012338.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012339.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012340.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012337.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012348.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-012349.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014514.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014541.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014859.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014935.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014612.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014916.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014553.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014855.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014844.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014738.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014861.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014852.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014847.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014469.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014487.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014591.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014883.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014552.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014486.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014866.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014476.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014862.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014697.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014660.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014501.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014505.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014488.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014841.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014863.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014845.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014851.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014846.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014870.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014760.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014450.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014702.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014503.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014850.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014502.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014524.svg",
+      "reason": "Generic arrow/background"
+    },
+    {
+      "file": "R-ICO-014936.svg",
+      "reason": "Generic arrow/background"
+    }
+  ],
+  "elapsedMs": 693,
+  "license": "CC-BY-4.0"
+}

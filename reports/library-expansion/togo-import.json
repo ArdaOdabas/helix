@@ -1,0 +1,2347 @@
+{
+  "runs": [
+    {
+      "at": "2026-11-02T23:38:50.594Z",
+      "newSqliteAssets": 541,
+      "scanned": 1071,
+      "skipped": 24,
+      "failed": 506
+    },
+    {
+      "at": "2026-11-02T23:49:09.438Z",
+      "newSqliteAssets": 247,
+      "scanned": 1447,
+      "skipped": 568,
+      "failed": 632
+    },
+    {
+      "at": "2026-11-03T00:16:54.051Z",
+      "newSqliteAssets": 326,
+      "scanned": 2086,
+      "skipped": 6,
+      "failed": 939
+    },
+    {
+      "at": "2026-11-03T00:20:17.934Z",
+      "newSqliteAssets": 0,
+      "scanned": 2086,
+      "skipped": 1147,
+      "failed": 939
+    },
+    {
+      "at": "2026-11-03T00:30:47.483Z",
+      "newSqliteAssets": 0,
+      "scanned": 2086,
+      "skipped": 1147,
+      "failed": 939
+    },
+    {
+      "at": "2026-11-04T16:47:12.714Z",
+      "newSqliteAssets": 170,
+      "scanned": 2086,
+      "skipped": 1260,
+      "failed": 656
+    },
+    {
+      "at": "2026-11-04T16:48:17.451Z",
+      "newSqliteAssets": 86,
+      "scanned": 2086,
+      "skipped": 1431,
+      "failed": 569
+    }
+  ],
+  "provider": "Togo Picture Gallery",
+  "discovered": 2094,
+  "eligibleDownloaded": 2086,
+  "newSqliteAssets": 86,
+  "report": {
+    "scanned": 2086,
+    "imported": 86,
+    "updated": 0,
+    "skipped": 1431,
+    "failed": 569,
+    "duplicates": 1431,
+    "rejected": 569,
+    "failures": [
+      {
+        "file": "201405_prostate.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202310_Wild_boar.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "1ab3bae8dd49-202010_stromatolite.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201405_adrenal_medulla.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202002_female_mouse_genitourinary_system.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "201205_Rhesus_monkey.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202212_Male_flowers_in_a_cymule_of_Dioscorea_tokoro.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "201207_volvox.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202208_Japanese_silver_crucian_carp.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201708_ComputerAnalysisScreen_bug.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202212_String_Pull_Task_Before_Cooperation.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202212_Male_inflorescence_of_Dioscorea_tokoro.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201405_stomach.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202206_DNA_grey.svg",
+        "error": "Unresolved SVG reference: SVGID_00000178921451516122323660000005478163764461304193_"
+      },
+      {
+        "file": "ulmus_parvifolia_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202402_Dental_Treatment_Child.svg",
+        "error": "Unresolved SVG reference: SVGID_00000002380481766332810730000003710603243177519779_"
+      },
+      {
+        "file": "202503_1_Langdon.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202203_Microarray_8x.svg",
+        "error": "Unresolved SVG reference: SVGID_00000134963167850764322520000004224148946617364359_"
+      },
+      {
+        "file": "202008_lung_detailed.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201601_Receptor.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201104_GenomeSequencer_2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201703_tardigrade.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202010_Archelon.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202503_2_Langdon-spike-color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202007_Triceratops_horridus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_metasequoia_glyptostroboides_fallen _ leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_Ⅱ_paternal_origin_(recombinated).svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202603_ulmus_parvifolia_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_microwave-assisted_peptide_synthesis.svg",
+        "error": "Unresolved SVG reference: SVGID_00000073706863744671949980000015204151125256781981_"
+      },
+      {
+        "file": "201103_stereomicroscope.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202009_Stegosaurus_stenops.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202206_T_lymphocyte.svg",
+        "error": "Unresolved SVG reference: SVGID_00000049935529919372694020000014579043882686250650_"
+      },
+      {
+        "file": "202206_DNA_earthcolor.svg",
+        "error": "Unresolved SVG reference: SVGID_00000096036666522648252590000006451558461809548941_"
+      },
+      {
+        "file": "202209_Familial_Adenomatous_Polyposis_02_Small_Adenoma.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202304_6_Ae.tauschii_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202209_Familial_Adenomatous_Polyposis_03_Large_Adenoma.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "201102_chondrocyte.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202107_Planaria.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201606_06_cyanobacteria.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "201902_Xenopus_laevis.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202212_Male_flowers_in_a_cymule_of_Dioscorea_tokoro-mono.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202403_meiotic_prophase_Ⅰ.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202403_meiosis_II_maternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202303_Nasal_Endoscopy_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000038404278749611758940000017568132111643364013_"
+      },
+      {
+        "file": "201405_pituitary_gland_in_brain.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202209_Mitochondria_grey.svg",
+        "error": "Unresolved SVG reference: SVGID_00000165226258759219963150000006227710596001058705_"
+      },
+      {
+        "file": "202011_Nuclear_membrane.svg",
+        "error": "Unresolved SVG reference: SVGID_00000173871220972916534600000002368785321335052199_"
+      },
+      {
+        "file": "201108_CSLM.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202103_Limbic_system.svg",
+        "error": "Unresolved SVG reference: SVGID_00000173849048260816181040000012871203822939019413_"
+      },
+      {
+        "file": "202101_African_clawed_frog.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201405_retina.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202111_Supercomputer.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202208_Adenoviridae.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202203_Microarray_4x.svg",
+        "error": "Unresolved SVG reference: SVGID_00000081646204115607337800000006400693576431128223_"
+      },
+      {
+        "file": "201706_Laptop_open.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202208_Mouse_Operant_Conditioning_Feeding_Reward.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202004_Smilodon_fatalis.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202402_Tooth_Structure.svg",
+        "error": "Unresolved SVG reference: SVGID_00000158011171276671289580000017316955333363690636_"
+      },
+      {
+        "file": "201510_Mouse_brain_sagittal_section.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202012_Cell_culture_plate_size_96_wells_with_medium.svg",
+        "error": "Unresolved SVG reference: SVGID_00000109750954411551843970000004933370577988062648_"
+      },
+      {
+        "file": "202503_6_Ae.speltoides_var.ligustica.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202404_Green_Fluorescent_Protein.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202011_Eye.svg",
+        "error": "Unresolved SVG reference: SVGID_00000079476854868061733130000016007442845222876326_"
+      },
+      {
+        "file": "201207_Bacillus_subtilis.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202410_Arcte_coerula.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202303_Equus_caballus.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202001_nanopore_sequencing.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_taxodium_distichum_fallen_leaves.svg",
+        "error": "unclosed xml tag(s): svg, g"
+      },
+      {
+        "file": "202204_Sea_hare.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201107_pHmeter.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202001_sea_urchins.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202108_Rhesus_monkey.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201507_genomesequencer8_1.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201308_mouse_before_dissection.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202512_T_platycarpum.front.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202411_Physical_Therapy_Male.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202410_Grammodes_geometrica.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202208_Papillomaviridae.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "201207_torafugu.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202310_Lower_Limb_Vascular_Ultrasound_Examination_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000160179502235263545960000008111646411154097837_"
+      },
+      {
+        "file": "202403_human_anatomy_organs.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202306_Drawing_Blood_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000012446804909691164350000007756517457934411419_"
+      },
+      {
+        "file": "201708_Pseudomonas_aeruginosa.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202212_Chest_X-ray_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000078045182764086731030000016819463768914616502_"
+      },
+      {
+        "file": "202502_Mass_Spectrometer_01.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "201405_kidney.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201107_sonicator.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202407_Four_o'clock_flower_white.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201405_peripheral_nervous_system.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202608_cerasus_itosakura_f._itosakura_flower_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202606_hamamelis_mollis_flower.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202402_Dent_corn.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201812_Worker_bee.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201101_HeLa.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202101_Three_types_of_neurons.svg",
+        "error": "Unresolved SVG reference: SVGID_00000067228860057729996870000017222705047439430812_"
+      },
+      {
+        "file": "201601_golgi_body.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202212_Chest_X-ray_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000124155401443662712810000005479312883880129668_"
+      },
+      {
+        "file": "201106_desktop_electron_microscope.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201208_tetrahymena.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_4_Tr.dicoccum_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202107_Anatomy_of_an_African_clawed_frog_female_urinary_and_reproductive_system.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202308_helix-loop-helix.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201704_brain.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "202403_meiosis_Ⅰ_paternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "201308_mouse_after_dissection.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "cornus_florida_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201107_NGS_Workstation.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_A_chicken_with_a_beans_comb.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201707_medicine_tablets_oval.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202205_Japanese_quail.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202003_Oranghutan.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_2_Tr.urartu_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201304_stem_cell.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_human_anatomy_skeleton.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "201108_Xenopus_laevis.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_liquidambar_formosana_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202210_Brain_spinal-cord_anterior-horn-cells_motor-nerves_muscles.svg",
+        "error": "Unresolved SVG reference: SVGID_00000151523514517667506790000003975066548601172098_"
+      },
+      {
+        "file": "201405_pituitary_gland.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_sequoia_sempervirens_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_5_Tr.durum_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202212_Male_inflorescence_of_Dioscorea_tokoro-mono.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202105_Pill_bug.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202105_Fern_palm.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202502_Mass_Spectrometer_02.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202304_3_Tr.dicoccoides_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202408_Callambulyx_tatarinovii.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202603_Nomophila_noctuella .svg",
+        "error": "DTD, entities, and processing instructions are not supported"
+      },
+      {
+        "file": "liquidambar_formosana_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202411_Breast_cancer.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202107_Styela_clava.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202101_Motor_neuron.svg",
+        "error": "Unresolved SVG reference: SVGID_00000181807779951226450680000001415265607515426703_"
+      },
+      {
+        "file": "202503_3_Langdon-spikelet.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202002_dissected_mouse_upper_body.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_Ⅱ_paternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202402_Satelite_Cells.svg",
+        "error": "Unresolved SVG reference: SVGID_00000138551947517892665660000015003169160406652064_"
+      },
+      {
+        "file": "202012_Pleurodeles_waltl.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202003_Orangutan.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202007_Therizinosaurus_cheloniformis.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202012_Metacrinus_rotundus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202107_Culex_pipiens.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202105_Armadillidium_vulgare.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201710_SingleCell.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201704_Tiger_lily.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202012_Cell_culture_dish_(with_medium).svg",
+        "error": "Unresolved SVG reference: SVGID_00000122697277714811685830000008530992539934642853_"
+      },
+      {
+        "file": "202403_meiosis_I_paternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202210_Red-eared_slider.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202105_Aurelia_aurita.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "metasequoia_glyptostroboides_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_2_Tr.urartu_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202010_Dunkleosteus_telleri.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201904_hepatic_lobule.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "201711_CancerCell.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202503_2-2_Langdon-spike-mono.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202103_Resident_Mouse_and_Intruder_Mouse.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202503_Rhagastis_mongoliana.svg",
+        "error": "DTD, entities, and processing instructions are not supported"
+      },
+      {
+        "file": "202005_Spinosaurus_aegyptiacus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202201_Novel_Tank_Test_Higher_Anxiety_Level_in_Zebrafish.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201707_medicine_mix.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202007_alveolus.svg",
+        "error": "Error constructing the DOM: HierarchyRequestError: Only one element can be added and only after doctype"
+      },
+      {
+        "file": "202205_Male_Betta_Fish_Recognizing_Its_Opponent.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202308_Science_Communication.svg",
+        "error": "Unresolved SVG reference: SVGID_00000114783689585033889710000010248641916149803950_"
+      },
+      {
+        "file": "202203_Microarray_2x.svg",
+        "error": "Unresolved SVG reference: SVGID_00000163058813294444921830000002192778747375087282_"
+      },
+      {
+        "file": "201708_Mycobacterium_tuberculosis.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202512_T_platycarpum.side_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202207_Meeting.svg",
+        "error": "Unresolved SVG reference: SVGID_00000101102749495782269210000012637303122405082017_"
+      },
+      {
+        "file": "201306_microtube_open.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202012_Cell_culture_plate_size_24_wells_with_medium.svg",
+        "error": "Unresolved SVG reference: SVGID_00000106826894337468842240000010252526003111285683_"
+      },
+      {
+        "file": "202105_Chambered_nautilus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201106_centrifuge.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202512_T_officinale.front.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202212_MRI_Child.svg",
+        "error": "Unresolved SVG reference: SVGID_00000039829402212019052120000015384947709281070524_"
+      },
+      {
+        "file": "202411_Sagittal_Section_Of_The_Breast.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202212_MRI_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000135689848645498507110000017453993411903140257_"
+      },
+      {
+        "file": "202206_Lymphocyte.svg",
+        "error": "Unresolved SVG reference: SVGID_00000021800945494212600420000009145153727869345165_"
+      },
+      {
+        "file": "202109_Elevated_Plus_Maze_Test_Mouse_Placed_in_the_Closed_Arm.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201708_ComputerAnalysisScreen_matrix.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_bladder.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202208_Neurofibromatosis_Type1.svg",
+        "error": "Unresolved SVG reference: SVGID_00000109737555056705068710000003537957298489860267_"
+      },
+      {
+        "file": "202104_Brainstem_lateral_view.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201704_Coelacanth.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201603_antibody.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202301_Table-top_Centrifuge.svg",
+        "error": "Unresolved SVG reference: SVGID_00000025424401672357160840000010545323523299962806_"
+      },
+      {
+        "file": "201709_SNS_NG.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201701_Trachea_and_Bronchial_tree.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202403_animal_cell_3D.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "201708_genomesequencer10.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_I_maternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202007_Ankylosaurus_magniventris.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202003_Woolly_mammoth.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202208_Polyomaviridae.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "201108_Arabidopsis_thaliana.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_Purple_false_brome.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201707_mouse_3D_black.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202312_3-Tr.aestivum-ear.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202312_Upper_Gastrointestinal_Radiography_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000076599235048296325680000014533095058538904507_"
+      },
+      {
+        "file": "metasequoia_glyptostroboides_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_A_chicken_with_walnuts_comb.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201107_Low_speed_centrifuge.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201101_HEK293.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_Ⅱ_maternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202101_Protein_quaternary_structure.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202108_Common_marmoset.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201904_myotube.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "202402_Dental_Caries.svg",
+        "error": "Unresolved SVG reference: SVGID_00000180357387049189058530000002510659493275534236_"
+      },
+      {
+        "file": "202205_Male_Betta_Fish_Fighting_with_Its_Opponent.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201704_Trachea_from_behind.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201905_skeletalmuscle_tendon.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "202403_human_anatomy_skeleton_and_organs.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202210_Stria_vascularis.svg",
+        "error": "Unresolved SVG reference: SVGID_00000140720539429089872820000017444777173122164131_"
+      },
+      {
+        "file": "201601_mitochondria.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "sequoia_sempervirens_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201308_mouse_brain2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_Ⅰ_maternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202607_hamamelis_mollis_flower_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_A_chicken_with_a_rose_comb.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202301_Pipette_Stand.svg",
+        "error": "Unresolved SVG reference: SVGID_00000023256529370501723710000000069458877508962465_"
+      },
+      {
+        "file": "202109_T_Maze_Test_Mouse_Placed_in_the_Start_Arm.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202008_lung.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201304_ovum.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202012_Cell_culture_dish.svg",
+        "error": "Unresolved SVG reference: SVGID_00000037662806379696489350000006999339388342373540_"
+      },
+      {
+        "file": "202312_2-Tr.aestivum-ear.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202512_T_platycarpum.closed_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202103_Silkworm.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202512_T_officinale.front_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201704_Chromatin_structure.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202306_Thyroid_Ultrasound_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000109729291657313547160000017528803466917263262_"
+      },
+      {
+        "file": "202403_Amur_hedgehog.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201307_mouse_brain1.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202403_meiosis_II_maternal_origin_(recombinated).svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202312_4-Tr.aestivum-ear.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202402_Periodontal_Disease.svg",
+        "error": "Unresolved SVG reference: SVGID_00000145756452055401625090000003905313600937461379_"
+      },
+      {
+        "file": "202509_Liver_Cancer.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202101_Protein_primary_structure.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202209_Gram_Negative_Bacteria.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "201710_Cells.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202010_Plateosaurus_engelhardti.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202107_Multi-unit_smooth_muscle.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202502_Equine_seventh_cervical_vertebra_2.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202304_6_Ae.tauschii_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202001_axoneme.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202209_Oriental_weatherfish.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201802_Human_Female.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202103_Mid-sagittal_plane_of_the_brain.svg",
+        "error": "Unresolved SVG reference: SVGID_00000160881721088532173620000018107769057378445996_"
+      },
+      {
+        "file": "202308_helix_turn_helix.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201803_Human_Male.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202103_Pig.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202202_Anterior_view_of_ligaments_of_pelvis.svg",
+        "error": "Opening and ending tag mismatch: \"svg\" != \"i:aipgf\""
+      },
+      {
+        "file": "cornus_florida_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201109_rat.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_1_Ae.speltoides_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202111_Blue_bat_star.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201603_Upright_microscope.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202108_Ostrich.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202312_5-Tr.aestivum-ear.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201108_chromosome.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202005_Deinonychus_antirrhopus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202209_Mitochondria_red.svg",
+        "error": "Unresolved SVG reference: SVGID_00000010269649087963442150000003179563004563683480_"
+      },
+      {
+        "file": "202306_Carotid_Ultrasonography_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000072273829645695346870000005506524743002363535_"
+      },
+      {
+        "file": "202312_6-Tr.aestivum-ear.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201405_salivary_gland.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202512_T_officinale_side_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202109_Elevated_Plus_Maze_Test_Mouse_Placed_in_the_Open_Arm.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202410_Holstein_calf.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202103_Resident_Mouse_with_Aggressive_Behavior_and_Intruder_Mouse.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202402_Oral_Cavity.svg",
+        "error": "Unresolved SVG reference: SVGID_00000044161604702466444950000002044919964302297770_"
+      },
+      {
+        "file": "201304_gastrula.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202101_Three_Chambers_Test_Social_Novelty_Sniffing.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201304_fertilized_egg.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202405_Bovine_ovary_with_developing_corpus_luteum.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201405_ovary.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202208_Online_Genetic_Counseling06.svg",
+        "error": "Unresolved SVG reference: SVGID_00000031169071269675822040000004844308244501352102_"
+      },
+      {
+        "file": "202208_Mouse_Operant_Conditioning_Response_to_Light_Stimulation.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202107_Anatomy_of_an_African_clawed_frog_male_urinary_and_reproductive_system.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_II_paternal_origin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202107_Anatomy_of_an_African_clawed_frog_circulatory_and_digestive_systems.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202407_Eastern_green_stink_bug.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202208_Mouse_Operant_Conditioning_No_Stimulation.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202303_Nasal_Endoscopy_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000166660376392004864060000013254334339773688499_"
+      },
+      {
+        "file": "202312_7-Tr.aestivum-ear.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201407_light_dark_test.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202208_Online_Genetic_Counseling07.svg",
+        "error": "Unresolved SVG reference: SVGID_00000021833818568795710320000007526773288870663095_"
+      },
+      {
+        "file": "201510_Mouse_brain_coronal_section.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202607_hamamelis_mollis_flower.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202010_Hallucigenia.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_placenta.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_spleen.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201203_reagent_bottle2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202512_T_platycarpum.side.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202301_Biochemical_Test_Using_A_Centrifuge.svg",
+        "error": "Unresolved SVG reference: SVGID_00000117669709612379212120000015439384649539117223_"
+      },
+      {
+        "file": "202010_SARS-CoV-2.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202305_Electrocardiogram_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000038380449140693140720000009184003725993455747_"
+      },
+      {
+        "file": "201709_SNS_OK.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201101_Sf9.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_human_oxyhemoglobin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202404_9-Tr.aestivum-growth.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202006_Ichthyosaurus_communis.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202410_Hibiscus.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "201106_TEM.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_A_chicken_with_a_single_comb.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201309_mouse_embryo.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202107_Slipper_animalcule.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202608_acer_pycnanthum_flower_male_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201903_Ribosome.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "201308_mouse_during_dissection.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202212_MRI_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000047752048130347961480000001455502278725459600_"
+      },
+      {
+        "file": "202209_Familial_Adenomatous_Polyposis_01_Normal_Colonic_Epithelium.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202010_Spongia.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202306_Carotid_Ultrasonography_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000025436801573586109300000006413534915274185094_"
+      },
+      {
+        "file": "202303_Colonofiberscopy_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000024715553870279117990000016629395792207063694_"
+      },
+      {
+        "file": "202403_meiosis_II_paternal_origin_(recombinated).svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "201203_human.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201707_Portable_sequencer.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202210_Brain_Spinalcord_Peripheralnerve.svg",
+        "error": "Unresolved SVG reference: SVGID_00000013903647291204121750000000596384606271430016_"
+      },
+      {
+        "file": "201904_C2C12.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "202104_Brainstem_ventral_view.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202206_B_lymphocyte.svg",
+        "error": "Unresolved SVG reference: SVGID_00000168084901837000512630000016712094649074914216_"
+      },
+      {
+        "file": "202305_Stretcher_Transfer_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000090286377805875144070000015281698939345328526_"
+      },
+      {
+        "file": "201109_Ciona.svg",
+        "error": "Invalid or duplicate SVG ID"
+      },
+      {
+        "file": "202012_Cell_culture_plate_size_96_wells.svg",
+        "error": "Unresolved SVG reference: SVGID_00000165194468811059032260000012069373659437070772_"
+      },
+      {
+        "file": "202012_Dickinsonia.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202605_cedrus_deodara_hp.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202002_ammonite.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_10-Tr.aestivum-growth.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201405_marrow.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_metasequoia_glyptostroboides_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201208_spear_squid.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "ulmus_parvifolia_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202002_mouse_digestive_system.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202003_Trilobite.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202003_Platecarpus_intericus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_human_deoxyhemoglobin.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202603_cornus_florida_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202004_GC_column.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201202_phage.svg",
+        "error": "Invalid or duplicate SVG ID"
+      },
+      {
+        "file": "201603_datarecord.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202411_Polycystic_Kidney_Disease.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202009_Brachiosaurus_altithorax.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_cornus_florida_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202409_Deilephila_elpenor_larva.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201109_rice.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201109_chicken.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202105_Red-eared_slider.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202206_Ring_chromosome.svg",
+        "error": "Unresolved SVG reference: SVGID_00000112629309867604569670000001334925093753671337_"
+      },
+      {
+        "file": "202603_Chalcophora_japonica.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "201106_NMR.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201204_paramecium.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_5_Tr.durum_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201712_Laser_microdissection_system.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "201208_Hydra.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202011_Running_Wheel_Test.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202103_Human_female .svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_4_Tr.dicoccum_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201710_chloroplast.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202210_Emmer_wheat_monochrome.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202208_Online_Genetic_Counseling08.svg",
+        "error": "Unresolved SVG reference: SVGID_00000063617948346151108540000006454275858396402843_"
+      },
+      {
+        "file": "taxodium_distichum_fallen_leaves.svg",
+        "error": "unclosed xml tag(s): svg, g"
+      },
+      {
+        "file": "202411_Equus_caballus_foal.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201405_mammary_gland.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202312_Upper_Gastrointestinal_Radiography_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000172401107548217222450000016729647663203406753_"
+      },
+      {
+        "file": "201108_budding_yeast.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202110_Japanese_pine_sawyer.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202105_Triops_granarius.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202607_cornus_florida_flower_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202502_Equine_seventh_cervical_vertebra_caudal_view.detail.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202103_mRNA_vaccine.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201704_Dictyostelium_discoideum.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201308_immunoglobulin.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202503_4_Ae.speltoides_var.speltoides_spike.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "201108_silkworm.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201704_microtubule.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "201405_intestines.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_7_Tr.spelta_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202312_8-Tr.aestivum-spikelet.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201805_human_skeleton.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_7-Tr.aestivum-growth.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201304_sperm.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202005_Diplodocus_carnegii.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202305_Stretcher_Transfer_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000056418656753084781970000017689141502721187487_"
+      },
+      {
+        "file": "202008_Desert_locust_gregarious_phase_mature_adult.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201105_GenomeSequencer_6.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "sequoia_sempervirens_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201708_ComputerAnalysisScreen.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202210_Cochlear_duct.svg",
+        "error": "Unresolved SVG reference: SVGID_00000155855143118615050250000003618426650492006530_"
+      },
+      {
+        "file": "202212_String_Pull_Task_Cooperation_Success.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202306_Thyroid_Ultrasound_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000009580315185810449710000000648354996977744271_"
+      },
+      {
+        "file": "201405_uterus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201706_freezer.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201711_CancerCells.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202309_Sweet_azalea_spotted.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202402_A_feather-pecked_chicken.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201307_chicken_embryo.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201108_fission_yeast.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201107_shaker.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202607_loropetalum_chinense.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_1_Ae.speltoides_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202608_diospyros_rhombifolia_flower_female_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202404_Bed_bug.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202101_Protein_tertiary_structure.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201606_05_marmoset.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "202403_plant_cell.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_parent_cell.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202404_Rice_water_weevil.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202209_Familial_Adenomatous_Polyposis_07_Metastasis.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "201405_peripheral_blood.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202101_Three_Chambers_Test_Social_Novelty.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202008_bronchiole.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202410_Muscles_of_canine_right_forelimb_lateral.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202210_Female_inflorescence_of_Dioscorea_tokoro.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "201105_GenomeSequencer_5.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202305_Electrocardiogram_Child.svg",
+        "error": "Unresolved SVG reference: SVGID_00000069396713228552637790000016741507492292899506_"
+      },
+      {
+        "file": "202308_coiled_coil.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201108_zebrafish.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202010_Pikaia_gracilens.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202010_Orthoceras.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_3_Tr.dicoccoides_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201012_Vero.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201707_medicine_capsules_blue.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202012_Diplocaulus.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202208_Herpesviridae.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202203_Microarray_1x.svg",
+        "error": "Unresolved SVG reference: SVGID_00000034798318094167400290000013544839811559950771_"
+      },
+      {
+        "file": "202007_Tyrannosaurus_rex.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiotic_prophase_I.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202105_Tadpole_shrimp.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202408_Four_o'clock_flower_variegated_pattern.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201101_mortar.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201707_medicine_tablets_elliptical.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201904_RNA.svg",
+        "error": "missing root element"
+      },
+      {
+        "file": "202008_Desert_locust_gregarious_phase_adult.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202310_Lower_Limb_Vascular_Ultrasound_Examination_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000075877037569972874630000004672594864675982750_"
+      },
+      {
+        "file": "202312_8-Tr.aestivum-spikelet-mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201304_8_cell_stage.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_bone.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201012_CHOcells.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201101_MDCK.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202608_cerasus_itosakura_f._itosakura_flower.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202107_Hydra.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202105_Nautilus_pompilius.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202103_Resident_Mouse.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202209_Familial_Adenomatous_Polyposis_04_Carcinoma.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202301_Transthoracic_Echocardiography.svg",
+        "error": "Unresolved SVG reference: SVGID_00000138568792296771295360000012496113176108565928_"
+      },
+      {
+        "file": "201812_Queen_bee.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_pancreas.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202607_loropetalum_chinense_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201107_SEM.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202010_Archaeopteryx_lithographica.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202006_Plesiosaurus_dolichodeirus.svg",
+        "error": "Invalid or duplicate SVG ID"
+      },
+      {
+        "file": "202209_Gram_Positive_Bacteria.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202306_Drawing_Blood_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000054972806275734885810000006908737024256537273_"
+      },
+      {
+        "file": "202104_Brainstem_dorsal_view.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202501_Mass_Spectrometer.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "202304_8_Tr.aestivum_color.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202207_Online_Genetic_Counseling02.svg",
+        "error": "Unresolved SVG reference: SVGID_00000124882298000573141580000007597274317636577209_"
+      },
+      {
+        "file": "202503_5_Ae.speltoides_var.speltoides_spikelet.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202103_Cerebellum_ventral_view.svg",
+        "error": "Unresolved SVG reference: SVGID_00000060738944219174868910000010132673678735580814_"
+      },
+      {
+        "file": "202002_male_mouse_genitourinary_system.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202208_Poxvviridae.svg",
+        "error": "Unsupported SVG element: pattern"
+      },
+      {
+        "file": "201304_blastcyst.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_lung.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202105_Trachemys_scripta_elegans.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202303_CO2_Incubator_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000165922543935392311250000000044306543310609331_"
+      },
+      {
+        "file": "202105_Liverwort.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202009_Pteranodon_longiceps.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_skin.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201806_secureDB.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202207_Online_Genetic_Counseling03.svg",
+        "error": "Unresolved SVG reference: SVGID_00000023256011711082367040000002007072047175209878_"
+      },
+      {
+        "file": "202602_Acherontia_lachesis.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202407_Pacific_oyster.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202404_1-Tr.aestivum-growth.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_testis.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202011_Nuclear_pore_complex.svg",
+        "error": "Unresolved SVG reference: SVGID_00000124129073167847965130000014489115113056791973_"
+      },
+      {
+        "file": "201708_Staphylococcus_aureus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202312_9-Tr.aestivum-spikelet.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202409_Actias_aliena_larva.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202411_Chimaera_phantasma.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202212_Male_flower_of_Dioscorea_tokoro.svg",
+        "error": "Unresolved SVG reference: SVGID_00000135687217919156759990000011425243210801032857_"
+      },
+      {
+        "file": "201706_Laptop_close.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202303_Colonofiberscopy_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000121982715575877122560000001881772252144438176_"
+      },
+      {
+        "file": "202404_Argentine_ant.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202201_Novel_Tank_Test_Lower_Anxiety_Level_in_Zebrafish.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201308_B_cell.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_ulmus_parvifolia_fallen_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201208_Cyanobacteria.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201109_honey_bee.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202603_sequoia_sempervirens_leaves.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202207_Online_Genetic_Counseling01.svg",
+        "error": "Unresolved SVG reference: SVGID_00000023984328119658659770000016780865781853108905_"
+      },
+      {
+        "file": "202411_Ipomoea_nil.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202101_Three_Chambers_Test_Sociability.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202209_Familial_Adenomatous_Polyposis_06_Carcinoma_subserosal_invasion.svg",
+        "error": "Unresolved SVG reference: SVGID_00000160166493661846040060000010970798797695917493_"
+      },
+      {
+        "file": "201207_dish.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202209_Familial_Adenomatous_Polyposis_05_Carcinoma_submucosal_invasion.svg",
+        "error": "Unresolved SVG reference: SVGID_00000016062768061492602850000011201436467496747142_"
+      },
+      {
+        "file": "201405_thyroid_gland.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202212_String_Pull_Task_Cooperation_Failure.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201707_mouse_3D_white.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202003_Ichthyostega.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201012_S2_cells.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202009_Allosaurus_fragilis.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201305_dissecting_scissors.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202512_T_platycarpum.front_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202303_CO2_Incubator_Male.svg",
+        "error": "Unresolved SVG reference: SVGID_00000027583335949146067830000007185246803412927630_"
+      },
+      {
+        "file": "202108_Rabbit.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202408_Tomato_bug.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_6-Tr.aestivum-growth.svg",
+        "error": "Unsafe attribute value"
+      },
+      {
+        "file": "202107_Before_dissection_of_African_clawed_frog.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202204_Volvox.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201104_pipetman.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201108_medaka.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201208_sea_hare.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202408_Japanese_scallop.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201405_heart.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201407_rotarod_test.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202312_9-Tr.aestivum-spikelet-mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "201709_Candida_albicans.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202004_Pachycephalosaurus_wyomingensis.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202503_7_Ae.speltoides_var.ligustica-spikelet.svg",
+        "error": "SVG complexity limit exceeded"
+      },
+      {
+        "file": "202306_Breast_Ultrasound.svg",
+        "error": "Unresolved SVG reference: SVGID_00000065790775356936738080000010507020675784269735_"
+      },
+      {
+        "file": "201712_Marmoset_brain.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_7_Tr.spelta_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202108_Sheep.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "201105_cleanbench.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202207_Online_Genetic_Counseling04.svg",
+        "error": "Unresolved SVG reference: SVGID_00000065071250614484560820000004818906785099160752_"
+      },
+      {
+        "file": "202304_8_Tr.aestivum_mono.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202404_Snakehead.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202008_Desert_locust_solitary_phase_adult.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202104_Horse.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202012_Cell_culture_plate_size_6_wells.svg",
+        "error": "Unresolved SVG reference: SVGID_00000139295511195100113470000016616056115316319363_"
+      },
+      {
+        "file": "201308_platelet.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202403_meiosis_Ⅱ_maternal_origin_(recombinated).svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202512_T_officinale.closed_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201108_fruitfly.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202101_Three_Chambers_Test_Sociability_Sniffing.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202002_Edmontosaurus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201812_Homo_sapiens_neanderthalensis.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202207_Online_Genetic_Counseling05.svg",
+        "error": "Unresolved SVG reference: SVGID_00000107555290072148639220000005886394071166747793_"
+      },
+      {
+        "file": "201204_Tobacco_hornworm.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202410_Muscles_of_canine_right_forelimb_frontal.svg",
+        "error": "A positive viewBox or numeric dimensions are required"
+      },
+      {
+        "file": "202406_Bifidobacterium.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202212_Microplate_Reader.svg",
+        "error": "Unresolved SVG reference: SVGID_00000106106866121510941570000005898814470524903314_"
+      },
+      {
+        "file": "201208_Escherichia_coli.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201305_delicate_dissecting_scissors.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202606_hamamelis_mollis_flower_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202607_cornus_florida_flower.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201405_thymus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201707_DNA2mRNA.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202404_11-Tr.aestivum-growth.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202101_Protein_secondary_structure.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202304_Common_tobacco.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202603_liquidambar_formosana_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202105_Moon_jelly.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202410_Japanese_Black_Wagyu_calf.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202109_T_Maze_Test_Mouse_Placed_in_One_Arm_with_Food.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201904_Virus.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201510_Tobacco_hornworm_larvae.svg",
+        "error": "Invalid or duplicate SVG ID"
+      },
+      {
+        "file": "202503_Ricania_shantungensis.svg",
+        "error": "DTD, entities, and processing instructions are not supported"
+      },
+      {
+        "file": "202106_Axonal_transport.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202501_Filial_1_hybrid_calf.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202304_Hestina_persimilis_japonica.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202003_Dimetrodon.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201108_mouse.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "201108_nematode.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202503_Paracoelotes_luctuosus.svg",
+        "error": "DTD, entities, and processing instructions are not supported"
+      },
+      {
+        "file": "202305_Electrocardiogram_Female.svg",
+        "error": "Unresolved SVG reference: SVGID_00000123430835244598866710000007709849731999403176_"
+      },
+      {
+        "file": "202608_acer_pycnanthum_flower_male.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202306_Japanese_quail_chick.svg",
+        "error": "SVG CSS complexity limit exceeded"
+      },
+      {
+        "file": "202404_8-Tr.aestivum-growth.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "liquidambar_formosana_fallen_leaves_mono.svg",
+        "error": "Unsupported SVG element: image"
+      },
+      {
+        "file": "202012_Lystrosaurus.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202303_Morning_glory.svg",
+        "error": "SVG exceeds 6 MB limit"
+      },
+      {
+        "file": "202012_Cell_culture_plate_size_6_wells_with_medium.svg",
+        "error": "Unresolved SVG reference: SVGID_00000009581049644647906470000010618531635669849531_"
+      },
+      {
+        "file": "201707_medicine_capsules_red.svg",
+        "error": "Unsupported SVG element: image"
+      }
+    ]
+  },
+  "skipped": [],
+  "elapsedMs": 32407,
+  "license": "CC-BY-4.0"
+}

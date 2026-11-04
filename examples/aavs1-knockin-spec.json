@@ -1,0 +1,346 @@
+{
+  "title": "CRISPR-Cas9 EGFP knock-in at the AAVS1 safe-harbour locus in human iPSCs",
+  "subtitle": "Homology-directed repair integrates a promoterless EGFP reporter in frame at the endogenous locus",
+  "panelWidth": 392,
+  "panels": [
+    {
+      "letter": "a",
+      "title": "Target locus and Cas9 cut",
+      "blocks": [
+        {
+          "type": "track",
+          "title": "AAVS1 (PPP1R12C intron 1)",
+          "segments": [
+            {
+              "label": "exon 1",
+              "span": 1,
+              "fill": "#6d8099"
+            },
+            {
+              "label": "intron 1 — target site",
+              "span": 2.6,
+              "fill": "#b9c6d8"
+            },
+            {
+              "label": "exon 2",
+              "span": 1,
+              "fill": "#6d8099"
+            }
+          ],
+          "marks": [
+            {
+              "at": 0.47,
+              "label": "Cas9 blunt DSB",
+              "kind": "cut",
+              "color": "#c1683f"
+            }
+          ],
+          "caption": "A single sgRNA directs Cas9 to a unique intronic target."
+        },
+        {
+          "type": "icon",
+          "iconId": "asset-df6ed35fe232649e6e78f26486fb530f5f869cd37c9f1013c7fb9fc24f6da1bd",
+          "height": 96,
+          "caption": "Cas9 ribonucleoprotein delivered with the sgRNA",
+          "hue": "#c1683f"
+        },
+        {
+          "type": "inset",
+          "title": "Protospacer and PAM",
+          "blocks": [
+            {
+              "type": "track",
+              "barHeight": 20,
+              "segments": [
+                {
+                  "label": "protospacer (20 nt)",
+                  "span": 20,
+                  "fill": "#8ea3bd"
+                },
+                {
+                  "label": "PAM (NGG)",
+                  "span": 4,
+                  "fill": "#2f6f5e"
+                }
+              ],
+              "marks": [
+                {
+                  "afterSegment": 0,
+                  "kind": "tick",
+                  "color": "#c1683f"
+                }
+              ],
+              "caption": "Blunt cut 3 bp 5′ of the PAM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "b",
+      "title": "HDR donor template",
+      "blocks": [
+        {
+          "type": "track",
+          "title": "Donor plasmid insert",
+          "segments": [
+            {
+              "label": "5′ arm",
+              "span": 1.6,
+              "fill": "#8c7fbe"
+            },
+            {
+              "label": "EGFP",
+              "span": 1.5,
+              "fill": "#3f9d7a"
+            },
+            {
+              "label": "polyA",
+              "span": 0.5,
+              "fill": "#cdeadd"
+            },
+            {
+              "label": "3′ arm",
+              "span": 1.6,
+              "fill": "#8c7fbe"
+            }
+          ],
+          "brackets": [
+            {
+              "fromSegment": 0,
+              "toSegment": 0,
+              "label": "~800 bp homology"
+            },
+            {
+              "fromSegment": 3,
+              "toSegment": 3,
+              "label": "~800 bp homology"
+            }
+          ],
+          "caption": "Promoterless cassette; selection markers are omitted."
+        },
+        {
+          "type": "chips",
+          "columns": 1,
+          "items": [
+            {
+              "label": "Arms match the sequence flanking the cut",
+              "color": "#8c7fbe"
+            },
+            {
+              "label": "Reporter stays in frame with exon 1",
+              "color": "#3f9d7a"
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "title": "Why the arms matter",
+          "blocks": [
+            {
+              "type": "track",
+              "barHeight": 18,
+              "segmentLabels": true,
+              "segments": [
+                {
+                  "label": "homology left of cut",
+                  "span": 1,
+                  "fill": "#e2dcf4"
+                },
+                {
+                  "label": "homology right of cut",
+                  "span": 1,
+                  "fill": "#e2dcf4"
+                }
+              ],
+              "caption": "Sequence identity flanking the DSB is what directs HDR rather than NHEJ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "c",
+      "title": "Edited allele",
+      "blocks": [
+        {
+          "type": "track",
+          "title": "Knock-in allele after HDR",
+          "segments": [
+            {
+              "label": "exon 1",
+              "span": 1,
+              "fill": "#6d8099"
+            },
+            {
+              "label": "intron",
+              "span": 0.8,
+              "fill": "#b9c6d8"
+            },
+            {
+              "label": "EGFP",
+              "span": 1.5,
+              "fill": "#3f9d7a"
+            },
+            {
+              "label": "polyA",
+              "span": 0.5,
+              "fill": "#cdeadd"
+            },
+            {
+              "label": "intron",
+              "span": 0.8,
+              "fill": "#b9c6d8"
+            },
+            {
+              "label": "exon 2",
+              "span": 1,
+              "fill": "#6d8099"
+            }
+          ],
+          "brackets": [
+            {
+              "fromSegment": 2,
+              "toSegment": 3,
+              "label": "integrated reporter",
+              "color": "#3f9d7a"
+            }
+          ],
+          "caption": "The cassette sits at the cut site; both arms are restored."
+        },
+        {
+          "type": "track",
+          "title": "Unedited allele, for comparison",
+          "barHeight": 20,
+          "segmentLabels": false,
+          "segments": [
+            {
+              "label": "exon 1",
+              "span": 1,
+              "fill": "#6d8099"
+            },
+            {
+              "label": "intron 1",
+              "span": 2.6,
+              "fill": "#b9c6d8"
+            },
+            {
+              "label": "exon 2",
+              "span": 1,
+              "fill": "#6d8099"
+            }
+          ],
+          "caption": "No cassette; the locus is unchanged."
+        },
+        {
+          "type": "note",
+          "tone": "muted",
+          "text": "Junction PCR across both arms and Sanger sequencing confirm correct, single-copy integration."
+        }
+      ]
+    },
+    {
+      "letter": "d",
+      "title": "Reporter expression",
+      "blocks": [
+        {
+          "type": "icon",
+          "iconId": "asset-09c594b58cf65dabf16fb5dd01b4953accc96fbdc67b1fc8df83abaae792e57c",
+          "height": 150,
+          "caption": "Targeted iPSC clone",
+          "hue": "#3f9d7a"
+        },
+        {
+          "type": "track",
+          "title": "Expression readout",
+          "barHeight": 20,
+          "segments": [
+            {
+              "label": "EGFP⁺",
+              "span": 1,
+              "fill": "#3f9d7a"
+            },
+            {
+              "label": "EGFP⁻",
+              "span": 1.1,
+              "fill": "#d8ded9"
+            }
+          ],
+          "caption": "Fluorescence reports activity of the targeted endogenous locus."
+        },
+        {
+          "type": "inset",
+          "title": "Clonal validation",
+          "blocks": [
+            {
+              "type": "chips",
+              "columns": 1,
+              "items": [
+                {
+                  "label": "Karyotype",
+                  "color": "#b9c6d8"
+                },
+                {
+                  "label": "Off-target assessment",
+                  "color": "#b9c6d8"
+                },
+                {
+                  "label": "Copy number",
+                  "color": "#b9c6d8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "afterPanel": 0,
+      "relation": "converts",
+      "label": "design donor"
+    },
+    {
+      "afterPanel": 1,
+      "relation": "converts",
+      "label": "HDR"
+    },
+    {
+      "afterPanel": 2,
+      "relation": "produces",
+      "label": "expression"
+    }
+  ],
+  "legend": [
+    {
+      "label": "Genomic DNA",
+      "color": "#b9c6d8"
+    },
+    {
+      "label": "Exon",
+      "color": "#6d8099"
+    },
+    {
+      "label": "Homology arm",
+      "color": "#8c7fbe"
+    },
+    {
+      "label": "EGFP reporter",
+      "color": "#3f9d7a"
+    },
+    {
+      "label": "Cas9 cut site",
+      "color": "#c1683f"
+    },
+    {
+      "label": "PAM",
+      "color": "#2f6f5e"
+    }
+  ],
+  "footnotes": [
+    "Schematic; not to scale. The promoterless design relies on the endogenous promoter. Selection, single-cell cloning, off-target assessment and karyotyping are omitted for clarity.",
+    "CRISPR-Cas9 illustration by DBCLS, Bioicons, CC-BY-4.0 (creativecommons.org/licenses/by/4.0/). iPSC illustration courtesy of NIAID Visual & Medical Arts, NIH BIOART Source, Public Domain. Tracks, panels and connectors: Helix original artwork, CC0-1.0."
+  ],
+  "iconSaturation": 0.9
+}

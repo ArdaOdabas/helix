@@ -1,0 +1,10 @@
+{
+  "type": "zoom",
+  "title": "From organism to synapse",
+  "levels": [
+    {"visual": "lab mouse", "label": "Mouse model", "detail": "5xFAD", "focus": [0.82, 0.32]},
+    {"visual": "mouse brain", "label": "Hippocampus", "focus": [0.5, 0.5]},
+    {"visual": "neuron", "label": "CA1 pyramidal neuron", "focus": [0.92, 0.5]},
+    {"visual": {"glyph": "vesicle", "color": "yellow"}, "label": "Synaptic vesicle"}
+  ]
+}

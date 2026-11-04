@@ -1,0 +1,4 @@
+#!/bin/sh
+# MCP stdio server for AI assistants. Runs Helix's bundled Node runtime; launches Helix.app if needed.
+CONTENTS="$(cd "$(dirname "$0")/../.." && pwd)"
+ELECTRON_RUN_AS_NODE=1 HELIX_APP_PATH="$(dirname "$CONTENTS")" exec "$CONTENTS/MacOS/Helix" "$CONTENTS/Resources/app/mcp.mjs" "$@"

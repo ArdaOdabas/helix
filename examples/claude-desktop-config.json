@@ -1,0 +1,9 @@
+{
+  "_comment": "Helix.app ships the figure engine, so the app's own launcher is the normal connection: {\"helix\": {\"command\": \"/Applications/Helix.app/Contents/Resources/bin/helix-mcp\"}}. Use the entry below only to drive a development checkout instead; src/mcp/dev-main.ts starts the document service itself, so no terminal is needed. Do not enable both at once: the tools are identical and figures would land in whichever data directory answered.",
+  "mcpServers": {
+    "scientific_figure_editor": {
+      "command": "/opt/homebrew/opt/node@24/bin/node",
+      "args": ["/Users/ardaodabas/Desktop/scientific-figure-editor/src/mcp/dev-main.ts"]
+    }
+  }
+}

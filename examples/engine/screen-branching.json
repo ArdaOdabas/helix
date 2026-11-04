@@ -1,0 +1,23 @@
+{
+  "type": "workflow",
+  "title": "Pooled CRISPR screen with two read-out arms",
+  "subtitle": "A single transduced population is split between a viability and an imaging read-out",
+  "steps": [
+    {"id": "lib", "label": "sgRNA library", "detail": "80,000 guides", "visual": "plasmid"},
+    {"id": "cells", "label": "Cas9⁺ cells", "visual": {"glyph": "cell cluster", "color": "teal"}},
+    {"id": "trans", "label": "Transduction", "detail": "MOI 0.3, puromycin", "visual": {"glyph": "lentivirus", "color": "purple"}},
+    {"id": "via", "label": "Viability arm", "detail": "21 days of culture", "visual": "culture flask"},
+    {"id": "img", "label": "Imaging arm", "detail": "High-content microscopy", "visual": "microscopy image"},
+    {"id": "seq", "label": "Guide sequencing", "visual": "sequencer"},
+    {"id": "hits", "label": "Hit calling", "visual": "volcano plot"}
+  ],
+  "edges": [
+    {"from": "lib", "to": "trans", "label": "Package"},
+    {"from": "cells", "to": "trans"},
+    {"from": "trans", "to": "via", "label": "Split 1"},
+    {"from": "trans", "to": "img", "label": "Split 2"},
+    {"from": "via", "to": "seq"},
+    {"from": "img", "to": "hits", "label": "Segmentation"},
+    {"from": "seq", "to": "hits"}
+  ]
+}

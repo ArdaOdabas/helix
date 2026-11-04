@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "at": "2026-11-03T00:20:36.351Z",
+      "newSqliteAssets": 0,
+      "scanned": 25,
+      "skipped": 0,
+      "failed": 0
+    },
+    {
+      "at": "2026-11-03T00:30:55.281Z",
+      "newSqliteAssets": 0,
+      "scanned": 25,
+      "skipped": 25,
+      "failed": 0
+    }
+  ],
+  "provider": "SciSVG",
+  "discovered": 30,
+  "eligibleDownloaded": 25,
+  "newSqliteAssets": 0,
+  "report": {
+    "scanned": 25,
+    "imported": 0,
+    "updated": 0,
+    "skipped": 25,
+    "failed": 0,
+    "duplicates": 25,
+    "rejected": 0,
+    "failures": []
+  },
+  "skipped": [
+    {
+      "file": "assets/general-science/arrow-right.svg",
+      "reason": "Generic illustration; scientific content prioritized"
+    },
+    {
+      "file": "assets/general-science/axes.svg",
+      "reason": "Generic illustration; scientific content prioritized"
+    },
+    {
+      "file": "assets/general-science/curved-arrow.svg",
+      "reason": "Generic illustration; scientific content prioritized"
+    },
+    {
+      "file": "assets/general-science/layers.svg",
+      "reason": "Generic illustration; scientific content prioritized"
+    },
+    {
+      "file": "assets/general-science/magnifier.svg",
+      "reason": "Generic illustration; scientific content prioritized"
+    }
+  ],
+  "elapsedMs": 17,
+  "license": "CC-BY-4.0"
+}

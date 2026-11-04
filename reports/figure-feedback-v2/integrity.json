@@ -1,0 +1,47 @@
+{
+  "checked": 23510,
+  "changed": [],
+  "providers": [
+    {
+      "provider": "Bioicons",
+      "count": 1579
+    },
+    {
+      "provider": "Health Icons",
+      "count": 863
+    },
+    {
+      "provider": "Helix original local samples",
+      "count": 2
+    },
+    {
+      "provider": "Helix original test collection",
+      "count": 10
+    },
+    {
+      "provider": "NIH BioArt Source",
+      "count": 4127
+    },
+    {
+      "provider": "PhyloPic",
+      "count": 13321
+    },
+    {
+      "provider": "Reactome",
+      "count": 2365
+    },
+    {
+      "provider": "SciDraw",
+      "count": 91
+    },
+    {
+      "provider": "SciSVG",
+      "count": 25
+    },
+    {
+      "provider": "Togo Picture Gallery",
+      "count": 1114
+    }
+  ],
+  "finalAt": "2026-11-03T19:29:20.753Z"
+}

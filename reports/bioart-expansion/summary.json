@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-11-02T22:59:09.520Z",
+  "completed": true,
+  "officialEntriesDiscovered": 958,
+  "entriesChecked": 958,
+  "statusCounts": {
+    "done": 930,
+    "no-svg": 28
+  },
+  "officialSvgFilesDiscovered": 4748,
+  "manifestRecords": 4748,
+  "successfullyMappedSourceFiles": 4140,
+  "distinctMappedAssets": 4127,
+  "duplicateSourceFiles": 13,
+  "previouslyImportedNihAssets": 4,
+  "newCanonicalNihAssets": 4123,
+  "sqlite": {
+    "total": 5718,
+    "providers": [
+      {
+        "provider": "Bioicons",
+        "count": 1579
+      },
+      {
+        "provider": "Helix original local samples",
+        "count": 2
+      },
+      {
+        "provider": "Helix original test collection",
+        "count": 10
+      },
+      {
+        "provider": "NIH BioArt Source",
+        "count": 4127
+      }
+    ],
+    "nihCanonicalAssets": 4127,
+    "nihAssetsIncludingProvenance": {
+      "count": 4127
+    },
+    "licenses": [
+      {
+        "license": "CC BY 4.0",
+        "assets": 16,
+        "sourceRecords": 17
+      },
+      {
+        "license": "Public Domain",
+        "assets": 4111,
+        "sourceRecords": 4123
+      }
+    ],
+    "categories": [
+      {
+        "category": "Anatomy",
+        "assets": 96
+      },
+      {
+        "category": "Animals",
+        "assets": 221
+      },
+      {
+        "category": "Arthropods",
+        "assets": 132
+      },
+      {
+        "category": "Bacteria",
+        "assets": 126
+      },
+      {
+        "category": "Cell Scenes",
+        "assets": 75
+      },
+      {
+        "category": "Cells and Organelles",
+        "assets": 964
+      },
+      {
+        "category": "Cellular Processes",
+        "assets": 101
+      },
+      {
+        "category": "Data Visualization",
+        "assets": 139
+      },
+      {
+        "category": "Environments",
+        "assets": 15
+      },
+      {
+        "category": "Equipment",
+        "assets": 365
+      },
+      {
+        "category": "Fungi",
+        "assets": 11
+      },
+      {
+        "category": "Molecules",
+        "assets": 452
+      },
+      {
+        "category": "Other Organisms",
+        "assets": 26
+      },
+      {
+        "category": "Parasites",
+        "assets": 110
+      },
+      {
+        "category": "People",
+        "assets": 305
+      },
+      {
+        "category": "Plants",
+        "assets": 3
+      },
+      {
+        "category": "Proteins",
+        "assets": 1204
+      },
+      {
+        "category": "Shapes",
+        "assets": 561
+      },
+      {
+        "category": "Techniques",
+        "assets": 86
+      },
+      {
+        "category": "Viruses",
+        "assets": 281
+      }
+    ],
+    "userVersion": {
+      "user_version": 2
+    },
+    "quickCheck": {
+      "quick_check": "ok"
+    }
+  },
+  "rejectedSourceFiles": 608,
+  "metadataReviewFiles": 0,
+  "rejectionReasons": {
+    "Unsupported SVG CSS declaration: filter": 204,
+    "SVG exceeds 2 MB limit": 27,
+    "Unsupported SVG element: image": 320,
+    "Unsupported SVG element: pattern": 36,
+    "Unsupported SVG element: filter": 2,
+    "missing root element": 1,
+    "Unsupported SVG CSS declaration: letter-spacing": 10,
+    "Unsupported SVG stylesheet attribute": 1,
+    "Unsupported SVG element: font": 1,
+    "Unresolved SVG reference: XMLID_00000109001469873758865340000004369224535685040794_": 1,
+    "Unresolved SVG reference: SVGID_00000172421129552161630260000004081550075772001416_": 1,
+    "Unresolved SVG reference: XMLID_00000123405069787052104250000001329152387827624861_": 1,
+    "Unresolved SVG reference: XMLID_00000089554066677262508910000004912610794749699981_": 1,
+    "Unresolved SVG reference: SVGID_00000081632379590783246690000002245817376371612050_": 1,
+    "Unresolved SVG reference: XMLID_00000176733834447935460060000010664641157275037074_": 1
+  },
+  "notDownloadedEntries": [],
+  "runtimeImportFailures": 0,
+  "searchTimings": [
+    {
+      "keyword": "cell",
+      "resultsUpTo31": 31,
+      "medianMs": 2.782,
+      "p95Ms": 3.288
+    },
+    {
+      "keyword": "mitochondria",
+      "resultsUpTo31": 14,
+      "medianMs": 0.566,
+      "p95Ms": 0.638
+    },
+    {
+      "keyword": "virus",
+      "resultsUpTo31": 31,
+      "medianMs": 1.07,
+      "p95Ms": 1.091
+    },
+    {
+      "keyword": "protein",
+      "resultsUpTo31": 31,
+      "medianMs": 2.49,
+      "p95Ms": 2.642
+    },
+    {
+      "keyword": "dna",
+      "resultsUpTo31": 31,
+      "medianMs": 0.729,
+      "p95Ms": 0.759
+    }
+  ],
+  "integrity": {
+    "checkedFiles": 1600,
+    "changedOrMissing": [
+      "data/documents/5805698f-3c3d-4e15-b27d-1b3982429408.json"
+    ],
+    "newDocuments": []
+  },
+  "concurrentDocumentChange": {
+    "observedAt": "2026-11-02T22:53:48.223Z",
+    "documentId": "5805698f-3c3d-4e15-b27d-1b3982429408",
+    "baselineRevision": 9,
+    "observedRevision": 25,
+    "baselineRecordRecoverableUnchangedFromHistory": true,
+    "baselineHash": "d4e0f36b6ca8078a0a10d235750804f19de4a30db2a5b99c019e2ce04979721a",
+    "historyReconstructionHash": "d4e0f36b6ca8078a0a10d235750804f19de4a30db2a5b99c019e2ce04979721a",
+    "scope": "No document mutations were issued by expansion/audit scripts. Live UI verification explicitly blocked mutation requests. Concurrent edits were left untouched."
+  }
+}

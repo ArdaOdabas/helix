@@ -1,0 +1,46 @@
+{
+  "at": "2026-11-03T19:41:19.334Z",
+  "temporaryDataDirectory": "/var/folders/64/m8vsmynn7sn89thpw449kqtc0000gn/T/helix-element-mode-TxyVqw",
+  "documentId": "7b79843e-70f5-470f-b960-ed93c7e8e82c",
+  "realNihAssets": [
+    "asset-45371acc4fa9453c1c6058a71b50850d24002ae35480c43a211ffb832f73322f",
+    "asset-c57d0bdb1dda767089f0f21daf556309d575239ebf992366b0b0a0035fbaf4b4"
+  ],
+  "realAssetElementCounts": [
+    6,
+    21
+  ],
+  "stressFixtureEditableElements": 303,
+  "passed": [
+    "native double click",
+    "native outer membrane click",
+    "native crista/inner fold click",
+    "target-only fill",
+    "drawing-order list",
+    "shift multi-selection",
+    "atomic multi-fill single revision",
+    "undo",
+    "redo",
+    "color pickers",
+    "MCP live sync while inspector focused",
+    "reload persistence",
+    "complex nucleus native selection",
+    "SVG export",
+    "PNG export excludes highlights",
+    "Escape exits",
+    "inspector button enters",
+    "outside click exits",
+    "303-element nested clipped fixture",
+    "overlapping native painter order",
+    "hidden list selection",
+    "stroke-only native selection",
+    "hover feedback",
+    "reset overrides",
+    "object dragging",
+    "object resizing",
+    "object grouping",
+    "original asset integrity"
+  ],
+  "failed": [],
+  "browserErrors": []
+}

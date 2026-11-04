@@ -1,0 +1,280 @@
+{
+  "at": "2026-11-03T06:59:57.048Z",
+  "providers": [
+    {
+      "partialCreatorRecords": 0,
+      "key": "reactome",
+      "provider": "Reactome",
+      "discovered": 2571,
+      "downloaded": 2571,
+      "importedNewSqliteAssets": 2365,
+      "mappedSourceFiles": 2517,
+      "duplicateSourceFiles": 152,
+      "skippedScope": 54,
+      "skippedAcquisitionSize": 0,
+      "rejectedSvgFiles": 0,
+      "acquisitionFailures": 0,
+      "acquisitionFailureDetails": [],
+      "acquisitionCompleted": true,
+      "manualReviewRequired": false,
+      "licenses": [
+        {
+          "license": "CC-BY-4.0",
+          "sourceRecords": 2517,
+          "assets": 2365
+        }
+      ]
+    },
+    {
+      "partialCreatorRecords": 0,
+      "key": "togo",
+      "provider": "Togo Picture Gallery",
+      "discovered": 2094,
+      "downloaded": 2086,
+      "importedNewSqliteAssets": 1114,
+      "mappedSourceFiles": 1147,
+      "duplicateSourceFiles": 33,
+      "skippedScope": 0,
+      "skippedAcquisitionSize": 8,
+      "rejectedSvgFiles": 939,
+      "acquisitionFailures": 0,
+      "acquisitionFailureDetails": [],
+      "acquisitionCompleted": true,
+      "manualReviewRequired": false,
+      "licenses": [
+        {
+          "license": "CC-BY-4.0",
+          "sourceRecords": 1147,
+          "assets": 1118
+        }
+      ]
+    },
+    {
+      "partialCreatorRecords": 0,
+      "key": "phylopic",
+      "provider": "PhyloPic",
+      "discovered": 13354,
+      "downloaded": 13354,
+      "importedNewSqliteAssets": 13321,
+      "mappedSourceFiles": 13336,
+      "duplicateSourceFiles": 15,
+      "skippedScope": 0,
+      "skippedAcquisitionSize": 0,
+      "rejectedSvgFiles": 18,
+      "acquisitionFailures": 0,
+      "acquisitionFailureDetails": [],
+      "acquisitionCompleted": true,
+      "manualReviewRequired": false,
+      "remainingEntries": 0,
+      "licenses": [
+        {
+          "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+          "sourceRecords": 329,
+          "assets": 329
+        },
+        {
+          "license": "https://creativecommons.org/licenses/by-nc/3.0/",
+          "sourceRecords": 422,
+          "assets": 422
+        },
+        {
+          "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceRecords": 1218,
+          "assets": 1218
+        },
+        {
+          "license": "https://creativecommons.org/licenses/by/3.0/",
+          "sourceRecords": 1059,
+          "assets": 1059
+        },
+        {
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceRecords": 2537,
+          "assets": 2534
+        },
+        {
+          "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "sourceRecords": 778,
+          "assets": 778
+        },
+        {
+          "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceRecords": 6993,
+          "assets": 6981
+        }
+      ]
+    },
+    {
+      "partialCreatorRecords": 0,
+      "key": "healthicons",
+      "provider": "Health Icons",
+      "discovered": 1552,
+      "downloaded": 1552,
+      "importedNewSqliteAssets": 863,
+      "mappedSourceFiles": 870,
+      "duplicateSourceFiles": 7,
+      "skippedScope": 682,
+      "skippedAcquisitionSize": 0,
+      "rejectedSvgFiles": 0,
+      "acquisitionFailures": 0,
+      "acquisitionFailureDetails": [],
+      "acquisitionCompleted": true,
+      "manualReviewRequired": false,
+      "licenses": [
+        {
+          "license": "CC0-1.0",
+          "sourceRecords": 870,
+          "assets": 863
+        }
+      ]
+    },
+    {
+      "partialCreatorRecords": 91,
+      "key": "scidraw",
+      "provider": "SciDraw",
+      "discovered": 704,
+      "downloaded": 230,
+      "importedNewSqliteAssets": 91,
+      "mappedSourceFiles": 91,
+      "duplicateSourceFiles": 0,
+      "skippedScope": 20,
+      "skippedAcquisitionSize": 0,
+      "rejectedSvgFiles": 139,
+      "acquisitionFailures": 0,
+      "acquisitionFailureDetails": [],
+      "acquisitionCompleted": false,
+      "manualReviewRequired": true,
+      "stopReason": "An HTTP 401/403/429 response triggered the access-response listener; the earlier runner did not persist exact response details. Acquisition stopped automatically; no further SciDraw requests were made.",
+      "remainingEntries": 454,
+      "licenses": [
+        {
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceRecords": 91,
+          "assets": 91
+        }
+      ]
+    },
+    {
+      "partialCreatorRecords": 0,
+      "key": "scisvg",
+      "provider": "SciSVG",
+      "discovered": 30,
+      "downloaded": 30,
+      "importedNewSqliteAssets": 25,
+      "mappedSourceFiles": 25,
+      "duplicateSourceFiles": 0,
+      "skippedScope": 5,
+      "skippedAcquisitionSize": 0,
+      "rejectedSvgFiles": 0,
+      "acquisitionFailures": 0,
+      "acquisitionFailureDetails": [],
+      "acquisitionCompleted": true,
+      "manualReviewRequired": false,
+      "licenses": [
+        {
+          "license": "CC-BY-4.0",
+          "sourceRecords": 25,
+          "assets": 25
+        }
+      ]
+    }
+  ],
+  "sqlite": {
+    "total": 23497,
+    "providers": [
+      {
+        "provider": "Bioicons",
+        "count": 1579
+      },
+      {
+        "provider": "Health Icons",
+        "count": 863
+      },
+      {
+        "provider": "Helix original local samples",
+        "count": 2
+      },
+      {
+        "provider": "Helix original test collection",
+        "count": 10
+      },
+      {
+        "provider": "NIH BioArt Source",
+        "count": 4127
+      },
+      {
+        "provider": "PhyloPic",
+        "count": 13321
+      },
+      {
+        "provider": "Reactome",
+        "count": 2365
+      },
+      {
+        "provider": "SciDraw",
+        "count": 91
+      },
+      {
+        "provider": "SciSVG",
+        "count": 25
+      },
+      {
+        "provider": "Togo Picture Gallery",
+        "count": 1114
+      }
+    ],
+    "quickCheck": {
+      "quick_check": "ok"
+    },
+    "version": {
+      "user_version": 2
+    }
+  },
+  "uniqueNonTestVectorStructures": 20286,
+  "classifiedScientificVectorStructures": 19175,
+  "qualityRows": [
+    {
+      "quality": "A",
+      "count": 1903
+    },
+    {
+      "quality": "B",
+      "count": 6535
+    },
+    {
+      "quality": "C",
+      "count": 15059
+    }
+  ],
+  "qualityUniqueNonTestStructures": [
+    {
+      "quality": "A",
+      "count": 952
+    },
+    {
+      "quality": "B",
+      "count": 5105
+    },
+    {
+      "quality": "C",
+      "count": 14229
+    }
+  ],
+  "structuralDuplicatesRetainedFromExistingLibrary": 3199,
+  "newDuplicateSourceFiles": 207,
+  "unsupportedSvgFiles": 1096,
+  "integrity": {
+    "existingFiles": 5724,
+    "changedFiles": [],
+    "changedAssetRows": [],
+    "changedDetailsRows": []
+  },
+  "newDocuments": [
+    "1a8ce91d-7309-443d-b11e-31f20899990c.json",
+    "384e1a3d-fc52-4345-8e89-65397648394c.json",
+    "3b0298d8-e7ee-4beb-bf70-bb9485ce8d98.json",
+    "6f74af9c-0a92-4273-bb3f-c9ef40bb8ac2.json"
+  ],
+  "unsupportedAtAcquisition": 8,
+  "totalUnsupportedIncludingSizeSkips": 1104
+}

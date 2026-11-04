@@ -1,0 +1,304 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "number",
+      "const": 1
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "licenseReference": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1000
+    },
+    "attribution": {
+      "type": "string",
+      "maxLength": 1000
+    },
+    "defaults": {
+      "type": "object",
+      "properties": {
+        "officialCategories": {
+          "maxItems": 100,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 300
+          }
+        },
+        "officialSubcategories": {
+          "maxItems": 100,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 300
+          }
+        },
+        "collection": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "credit": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "doi": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "creationDate": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "submissionDate": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "modificationDate": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "author": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "authorReference": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "sourceUrl": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "licenseUrl": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "licenseNotice": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "repositoryRevision": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "upstreamPath": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "provider": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "license": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "licenseReference": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "subcategory": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "keywords": {
+          "maxItems": 500,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 2000
+          }
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "category": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "tags": {
+          "maxItems": 500,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 2000
+          }
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 20000
+        },
+        "providerId": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "attribution": {
+          "type": "string",
+          "maxLength": 1000
+        }
+      },
+      "additionalProperties": false
+    },
+    "assets": {
+      "default": {},
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "officialCategories": {
+            "maxItems": 100,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 300
+            }
+          },
+          "officialSubcategories": {
+            "maxItems": 100,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 300
+            }
+          },
+          "collection": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "credit": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "doi": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "creationDate": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "submissionDate": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "modificationDate": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "author": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "authorReference": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "sourceUrl": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "licenseUrl": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "licenseNotice": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "repositoryRevision": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "upstreamPath": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "provider": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "license": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "licenseReference": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "subcategory": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "keywords": {
+            "maxItems": 500,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 2000
+            }
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "name": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "category": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "tags": {
+            "maxItems": 500,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 2000
+            }
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 20000
+          },
+          "providerId": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "attribution": {
+            "type": "string",
+            "maxLength": 1000
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "version",
+    "provider",
+    "license",
+    "licenseReference",
+    "assets"
+  ],
+  "additionalProperties": false
+}

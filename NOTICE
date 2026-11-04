@@ -1,0 +1,84 @@
+Helix — scientific figure editor
+Third-party content notice
+
+================================================================================
+1. Source code
+================================================================================
+
+All source code in this repository is original work, released under the MIT
+licence in LICENSE. No BioRender code, internal API, schema or scientific asset
+is included, and none was used as a source for the procedural illustrations in
+`src/engine/glyphs/`, which are drawn by code in this repository.
+
+Runtime and build dependencies are declared in package.json and are obtained
+from npm under their own licences.
+
+================================================================================
+2. The scientific illustration library is NOT distributed here
+================================================================================
+
+The editor ships with a library of roughly 24,000 illustrations when built as an
+application, but that library is NOT part of this repository. `.gitignore`
+excludes:
+
+    data/              the imported catalogue, assets and thumbnails
+    vendor/            upstream checkouts such as Bioicons
+    build/             packaged application output
+
+Users obtain the illustrations themselves by running the import and acquisition
+scripts, which download from each provider directly. Every asset therefore
+reaches the user under that provider's own licence, and the catalogue records
+the licence, author and source URL for each one.
+
+That matters because the library is a mixture of licences, including some that
+are not compatible with a permissive repository licence:
+
+    CC0 / Public Domain       ~13,300
+    CC-BY (3.0 / 4.0)          ~9,500
+    CC-BY-SA (3.0 / 4.0)       ~1,250   share-alike obligations on adaptations
+    CC-BY-NC, CC-BY-NC-SA        ~750   non-commercial use only
+
+The non-commercial and share-alike assets come almost entirely from PhyloPic.
+
+Providers and their terms:
+
+  * NIH BIOART Source — U.S. National Institutes of Health, NIAID Visual &
+    Medical Arts. Public domain; NIH asks that use does not imply endorsement.
+    https://bioart.niaid.nih.gov/
+  * Bioicons — https://bioicons.com/ — per-icon licences (CC0, CC-BY-3.0,
+    CC-BY-4.0, CC-BY-SA, MIT, BSD-3-Clause). Includes Servier Medical Art
+    (CC-BY-3.0) and DBCLS illustrations (CC-BY-4.0).
+  * Reactome — https://reactome.org/ — CC-BY-4.0.
+  * Togo Picture Gallery — DBCLS, https://togotv.dbcls.jp/ — CC-BY-4.0.
+  * SciDraw — https://scidraw.io/ — CC-BY-4.0 or CC0 per illustration.
+  * Health Icons — https://healthicons.org/ — CC0.
+  * SciSVG — CC-BY-4.0.
+  * PhyloPic — https://www.phylopic.org/ — mixed, including CC-BY-SA and
+    CC-BY-NC. Check the licence of any silhouette before commercial use.
+
+Full licence texts for the Bioicons families are kept in
+`reports/bioicons/licenses/`.
+
+================================================================================
+3. Images committed in this repository
+================================================================================
+
+A small number of example and verification images are committed, under
+`examples/` and `reports/`. Those that were composed from library illustrations
+carry their credits printed in the figure itself; for example
+`examples/aavs1-knockin-compose_layout.png` credits a CRISPR-Cas9 illustration
+by DBCLS (Bioicons, CC-BY-4.0) and an iPSC illustration from NIH BIOART Source
+(public domain).
+
+The SVG files committed under `examples/` and `samples/` contain no third-party
+illustrations: they are original artwork and original importer fixtures.
+
+================================================================================
+4. Attribution produced by the tool
+================================================================================
+
+When a figure uses library illustrations, `generate_figure` writes a
+`<name>.credits.txt` file beside the exported SVG and PNG listing each
+illustration with its author, provider and licence, and the exported SVG embeds
+the same information as metadata. Keep that attribution with any figure you
+publish; CC-BY and CC-BY-SA require it.

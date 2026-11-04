@@ -1,0 +1,36 @@
+{
+  "temporaryDataDirectory": "/var/folders/64/m8vsmynn7sn89thpw449kqtc0000gn/T/helix-authentic-bioart-sEwSdh",
+  "passed": 2,
+  "failed": 0,
+  "incrementalImport": true,
+  "cases": [
+    {
+      "title": "Generic Immune Cell",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/173",
+      "license": "Public Domain",
+      "editableElements": 6,
+      "atomicEdit": true,
+      "independentFillAndStroke": true,
+      "persistence": true,
+      "geometryPreserved": true,
+      "export": true,
+      "unrelatedElementsUnchanged": true,
+      "undoRedo": true,
+      "sourceUnchanged": true
+    },
+    {
+      "title": "Chorionic Terminal Villus",
+      "sourceUrl": "https://bioart.niaid.nih.gov/bioart/702",
+      "license": "CC BY 4.0",
+      "editableElements": 1138,
+      "atomicEdit": true,
+      "independentFillAndStroke": true,
+      "persistence": true,
+      "geometryPreserved": true,
+      "export": true,
+      "unrelatedElementsUnchanged": true,
+      "undoRedo": true,
+      "sourceUnchanged": true
+    }
+  ]
+}

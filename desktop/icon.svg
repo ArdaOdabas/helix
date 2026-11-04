@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#346350"/>
+      <stop offset="1" stop-color="#1d3a2e"/>
+    </linearGradient>
+    <linearGradient id="strandA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9e6c3"/>
+      <stop offset="1" stop-color="#8fc49a"/>
+    </linearGradient>
+    <linearGradient id="strandB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3d9a6"/>
+      <stop offset="1" stop-color="#e2ad62"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="4"/>
+  <g stroke-linecap="round" stroke-width="20" stroke="#ffffff" stroke-opacity="0.42">
+    <line x1="336" y1="452" x2="688" y2="452"/>
+    <line x1="330" y1="512" x2="694" y2="512"/>
+    <line x1="336" y1="572" x2="688" y2="572"/>
+  </g>
+  <path d="M 300 200 C 300 360, 724 352, 724 512 C 724 672, 300 664, 300 824" fill="none" stroke="url(#strandB)" stroke-width="54" stroke-linecap="round"/>
+  <path d="M 724 200 C 724 360, 300 352, 300 512 C 300 672, 724 664, 724 824" fill="none" stroke="url(#strandA)" stroke-width="54" stroke-linecap="round"/>
+</svg>

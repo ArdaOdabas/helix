@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "title": "Naive pluripotency to an 8-cell-like state",
+  "panels": [
+    {
+      "id": "pathway",
+      "title": "CELL STATE TRANSITION"
+    }
+  ],
+  "entities": [
+    {
+      "id": "naive",
+      "panelId": "pathway",
+      "label": "Human naive pluripotent\nstem cells",
+      "iconId": "mammalian-cell",
+      "count": 1
+    },
+    {
+      "id": "eight-cell",
+      "panelId": "pathway",
+      "label": "8-cell-like cells",
+      "iconId": "mammalian-cell",
+      "count": 8
+    },
+    {
+      "id": "tprx1",
+      "panelId": "pathway",
+      "label": "TPRX1 expression",
+      "iconId": "protein",
+      "count": 1
+    }
+  ],
+  "relationships": [
+    {
+      "from": "naive",
+      "to": "eight-cell",
+      "label": "PRBJN treatment"
+    },
+    {
+      "from": "eight-cell",
+      "to": "tprx1",
+      "label": ""
+    }
+  ],
+  "labels": [
+    {
+      "panelId": "pathway",
+      "text": "Schematic cell-state model; not an embryo."
+    }
+  ],
+  "layout": {
+    "direction": "vertical",
+    "gap": 220,
+    "padding": 70
+  },
+  "style": {
+    "fill": "#4e8d79"
+  },
+  "caption": "User-specified illustrative pathway. PRBJN composition, timing, and mechanistic claims are not inferred. Eight cells are symbolic, not a claim of embryo identity."
+}

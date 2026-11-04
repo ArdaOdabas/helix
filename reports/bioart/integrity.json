@@ -1,0 +1,32 @@
+{
+  "preservedDocuments": 3,
+  "preservedAssets": 1591,
+  "authorizedChangedDocument": "22e4ffb0-cc28-4226-b024-2056d9916923",
+  "prbjnUnchanged": true,
+  "bioiconsNotReimported": true,
+  "rawGeometryVerified": 4,
+  "licenses": [
+    {
+      "license": "Public Domain",
+      "count": 4
+    }
+  ],
+  "categories": [
+    {
+      "category": "Cells and Organelles",
+      "count": 3,
+      "subcategories": [
+        "Cells",
+        "Immune Cells",
+        "Mitochondria",
+        "Nucleus",
+        "Organelles"
+      ]
+    },
+    {
+      "category": "Proteins",
+      "count": 1,
+      "subcategories": []
+    }
+  ]
+}
