@@ -1,23 +1,103 @@
-# Helix — scientific figure editor
+<div align="center">
 
-An independent local scientific illustration editor with editable SVG objects, a shared document command engine, a separate licensed-asset importer, and an MCP server using the official TypeScript SDK. No BioRender code, internal API, schema, or scientific asset is included. Six original schematic icons and local original importer fixtures are included.
+# Helix
 
-**Current verification status:** see [AI composer and visual feedback](reports/figure-feedback/README.md), [interactive SVG editing](reports/element-mode/README.md) and [library expansion](reports/library-expansion/README.md). Production builds and browser/MCP tests have been run successfully. The older implementation-status document is historical.
+**A scientific figure studio that draws the figure for you.**
+Describe the biology; the engine owns every coordinate, illustration, arrow and label.
 
-## Generating complete figures (figure engine)
+</div>
 
-`generate_figure` produces a finished, publication-style illustration from a structured description —
-no coordinates. You state the steps, molecules, interactions or conditions; the engine draws the
-illustrations, lays out the panels, routes and labels the arrows, harmonises colour and sizes the
-artboard. Six layouts: `workflow` (protocols, incl. branching DAGs), `pathway` (membrane, cascade,
-nucleus), `comparison`, `cycle`, `zoom` (organism → molecule) and `panels` (multi-panel figures).
+![A three-column comparison figure of Cas9, a base editor and a prime editor, generated from a specification](docs/images/figure-crispr.png)
 
-Illustrations come from 76 parametric procedural glyphs drawn under one lighting model (cells,
-receptors, DNA, CRISPR/base/prime editors, lab equipment, UMAP/heatmap/blot read-outs) plus the 23k-illustration licensed
-library for organisms, organs and tissues, re-ranked and measured so everything scales consistently.
-Output is a preview image for the assistant to inspect, high-resolution SVG/PNG files, and an editable
-Helix document with one object per element. Companion tools: `find_visual` (preview what a name
-resolves to) and `list_figure_vocabulary` (full vocabulary and example specs).
+<div align="center"><sub>Produced from a single JSON description. No coordinates were written by hand.</sub></div>
+
+---
+
+## The idea
+
+Making a figure by hand means fighting an illustration tool. Making one with an AI assistant usually
+means the assistant writing SVG coordinates, which produces exactly the crude, misaligned drawings
+you were trying to avoid — it cannot know how wide its own label will render or where an arrow
+should stop.
+
+Helix inverts that. You state **what is in the figure**; the engine measures every piece of text,
+sizes each panel to its contents, routes the connectors around whatever is in the way, harmonises
+the colour and lays out the artboard. The result is a finished vector figure, and every illustration,
+label and arrow in it remains a separate editable object.
+
+## Six layouts
+
+| | |
+|---|---|
+| `workflow` | Protocols and pipelines, including branching ones |
+| `pathway` | Signalling mechanisms: membrane, cytoplasmic cascade, nucleus |
+| `comparison` | Healthy versus disease, wild type versus knockout |
+| `cycle` | Cell cycle, viral life cycle |
+| `zoom` | Organism → organ → cell → molecule |
+| `panels` | Multi-panel figures, lettered a, b, c |
+
+![An experimental workflow and a receptor signalling pathway, both generated](docs/images/figure-workflow.png)
+
+![A beta-adrenergic signalling pathway with membrane, cascade and nucleus](docs/images/figure-pathway.png)
+
+## Where the drawings come from
+
+**76 procedural glyphs** are drawn by code under one lighting model, so a figure reads as one set
+rather than a collage. Each is parametric: colour, variant, modification badges, a label written
+inside. Cells, organelles, membrane receptors, nucleic acids, the CRISPR/base-editor/prime-editor
+family, lab equipment, and data read-outs such as UMAP, heatmaps, blots and survival curves.
+
+![The procedural glyph library](docs/images/glyphs.png)
+
+**A licensed illustration library** supplies what procedural code should not invent — organisms,
+organs, tissues, specialised cell types — drawn from NIH BioArt, Bioicons/Servier, Reactome, Togo
+and SciDraw. A plain name takes the library's illustration when the match is unambiguous and the
+asset is genuinely detailed, and the procedural glyph otherwise, so you never get a three-shape
+silhouette where a real drawing exists.
+
+The library is **not** distributed with this repository; the import scripts fetch it from each
+provider under that provider's own licence. See [NOTICE](NOTICE).
+
+## Everything stays editable
+
+![The Helix editor with the asset library, canvas and layer list](docs/images/editor.png)
+
+A generated figure opens in the editor as individual objects. Move them, recolour an illustration
+path by path in Element Mode, add your own, and export vector SVG or high-resolution PNG. Edits made
+by hand and edits made through the MCP tools go through the same document engine, so an assistant
+and a person can work on the same figure.
+
+## Multi-panel figures
+
+![A four-panel graphical abstract combining a workflow, a pathway, a comparison and a zoom](docs/images/figure-panels.png)
+
+## Quick start
+
+Requires **Node.js 24**.
+
+```sh
+git clone https://github.com/ArdaOdabas/helix.git
+cd helix
+npm install
+npm test
+npm run dev
+```
+
+Then open <http://127.0.0.1:5173>. To build the standalone macOS application, see
+[docs/DESKTOP.md](docs/DESKTOP.md). To connect an AI assistant, see
+[MCP setup](#mcp-setup). The engine itself is described in
+[docs/FIGURE-ENGINE.md](docs/FIGURE-ENGINE.md).
+
+---
+
+## Driving the engine from an assistant
+
+`generate_figure` takes the specification and returns a preview image for the assistant to inspect,
+high-resolution SVG and PNG files, and an editable Helix document with one object per element.
+`replaceDocumentId` updates a previous figure in place, which is how an assistant iterates: write a
+spec, look at the result, fix the wording or the colours, call again. Companion tools: `find_visual`
+previews what a name resolves to, `list_figure_vocabulary` returns every layout, glyph, colour and
+example spec.
 
 See [docs/FIGURE-ENGINE.md](docs/FIGURE-ENGINE.md) and the specs in
 [examples/engine/](examples/engine/). Helix.app ships the engine, so connecting the app

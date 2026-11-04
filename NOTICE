@@ -63,8 +63,28 @@ Full licence texts for the Bioicons families are kept in
 3. Images committed in this repository
 ================================================================================
 
-A small number of example and verification images are committed, under
-`examples/` and `reports/`. Those that were composed from library illustrations
+Images are committed under `docs/images/`, `examples/` and `reports/`.
+
+The screenshots and figures used in README.md carry these third-party
+illustrations, all redistributed under the licences shown:
+
+  docs/images/figure-workflow.png
+      Person, by Austin J. Athman — NIH BIOART Source — public domain
+      Syringe, by Ryan Kissinger — NIH BIOART Source — public domain
+  docs/images/figure-panels.png
+      Lab Mouse, by Ryan Kissinger — NIH BIOART Source — public domain
+      liver, by Servier — Bioicons — CC-BY-3.0
+  docs/images/editor.png
+      A screenshot of the editor displaying the Bioicons import verification
+      document; each illustration in it is labelled on screen with its author
+      and licence (Servier CC-BY-3.0, DBCLS CC-BY-4.0, and others).
+
+docs/images/figure-crispr.png, docs/images/figure-pathway.png and
+docs/images/glyphs.png contain no third-party illustrations: every element in
+them is drawn by the procedural engine in this repository.
+
+Further example and verification images are committed under `examples/` and
+`reports/`. Those that were composed from library illustrations
 carry their credits printed in the figure itself; for example
 `examples/aavs1-knockin-compose_layout.png` credits a CRISPR-Cas9 illustration
 by DBCLS (Bioicons, CC-BY-4.0) and an iPSC illustration from NIH BIOART Source
